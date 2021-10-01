@@ -39,7 +39,7 @@
         .full_first_page {
             justify-content: center;
             align-items: center;
-            padding-top: 40vh;
+            padding-top: 34vh;
         }
         
         .all_ul_tag_and_phone_number {
@@ -48,9 +48,17 @@
         }
         
         .icons {
-            justify-content: flex-end;
-            display: flex;
-            margin-top: 150px;
+            text-decoration: none;
+            color: #6c757d;
+            transition: 0.5s;
+        }
+        
+        .icons:hover {
+            color: rgb(206, 25, 55);
+            transition: 0.5s;
+            /* justify-content: flex-start; */
+            /* display: flex; */
+            /* margin-top: 150px; */
         }
         
         .logo a {
