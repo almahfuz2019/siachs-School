@@ -20,21 +20,22 @@
 <body class="container-fluid">
     <!-- first_page start -->
     <div class=" first_page_background img-fluid text-light container-fluid bg-dark ">
-        <!-- navbar start -->
-        <nav class="navbar navbar-expand-lg text-center full_navbar ">
-            <div class="container-fluid ">
-
-                <button class="navbar-toggler text-dark bg-white " type="button " data-bs-toggle="collapse " data-bs-target="#navbarNav " aria-controls="navbarNav " aria-expanded="false " aria-label="Toggle navigation ">
-                <span class="navbar-toggler-icon "></span>
-              </button>
-                <div class="collapse navbar-collapse all_ul_tag_and_phone_number " id="navbarNav ">
+        <!-- new navbar start -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark ">
+            <div class="container-fluid all_ul_tag_and_phone_number">
+                <a class="navbar-brand" href="#">
                     <div class="logo ">
                         <a class="text-light fw-bold " href="# ">
                             <h3 class="fw-bolder"><span class="text-primary">SIA</span><span class="my_own_color">CHS</span></h3>
                         </a>
                     </div>
-                    <div class="all_ul_tag ">
-                        <ul class="navbar-nav ">
+                </a>
+                <button class="navbar-toggler text-primary bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon text-light"></span>
+              </button>
+                <div class="collapse navbar-collapse " id="navbarNav">
+                    <div class="all_ul_tag mx-auto text-center">
+                        <ul class="navbar-nav">
                             <li class="nav-item ">
                                 <a class="nav-link active text-light Navbar_hover" aria-current="page " href="# "><span class="navbar_first_charecter">H</span>ome</a>
                             </li>
@@ -44,6 +45,19 @@
                             <li class="nav-item ">
                                 <a class="nav-link text-light Navbar_hover" href="# "><span class="navbar_first_charecter">I</span>nfo</a>
                             </li>
+                            <!-- dropdown start -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link text-light dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <span class="navbar_first_charecter">I</span>nfo
+                                </a>
+                                <ul class="dropdown-menu text-center bg-dark" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item  text-light" href="#">Action</a></li>
+                                    <li><a class="dropdown-item text-light" href="#">Another action</a></li>
+
+
+                                </ul>
+                            </li>
+                            <!-- dropdown end -->
                             <li class="nav-item ">
                                 <a class="nav-link text-light Navbar_hover" href="fasility.html "><span class="navbar_first_charecter">F</span>asility</a>
                             </li>
@@ -67,11 +81,11 @@
                     <div class="phone_number ">
                         <a class="nav-link text-light Navbar_hover" href="# "><span class="navbar_first_charecter">+880</span>1787878743</a>
                     </div>
-
                 </div>
             </div>
         </nav>
-        <!-- navbar end -->
+        <!-- new navbar end -->
+
         <div class="full_first_page text-light text-center ">
             <h1>SHAISTANGANJ ISLAMI ACADEMY & HIGH SCHOOL</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, natus.</p>
@@ -462,6 +476,7 @@
     </div>
     <br>
     <br>
+    <hr><br><br>
     <!-- seven page end -->
     <!-- eoght page start -->
     <div class="container-fluid px-5 ">

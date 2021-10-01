@@ -9,7 +9,7 @@
         }
         
         .Navbar_hover:hover .navbar_first_charecter {
-            color: orangered;
+            color: rgb(206, 25, 55);
             transition: 0.5s;
         }
         
