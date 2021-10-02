@@ -1,93 +1,104 @@
-        body {
-            margin: 0;
-            padding: 0;
-        }
-        
-        .navbar_first_charecter {
-            font-weight: 600;
-            transition: 0.5s;
-        }
-        
-        .Navbar_hover:hover .navbar_first_charecter {
-            color: rgb(206, 25, 55);
-            transition: 0.5s;
-        }
-        
-        .first_page_background {
-            /* background-color: rgb(41, 38, 36); */
-            background-image: url("images/background1.png");
-            height: 100vh;
-            /* width: 100%; */
-            background-repeat: no-repeat;
-        }
-        
-        .read_more_btn {
-            border-radius: 6px;
-            border: none;
-            background-color: rgb(206, 25, 55);
-            padding: 10px 30px;
-            transition: 0.5s;
-        }
-        
-        .read_more_btn:hover {
-            background-color: rgba(206, 25, 55, 0.877);
-            transition: 0.5s;
-        }
-        
-        .full_navbar {}
-        
-        .full_first_page {
-            justify-content: center;
-            align-items: center;
-            padding-top: 34vh;
-        }
-        
-        .all_ul_tag_and_phone_number {
-            justify-content: space-between;
-            align-items: flex-end
-        }
-        
-        .icons {
-            text-decoration: none;
-            color: #6c757d;
-            transition: 0.5s;
-        }
-        
-        .icons:hover {
-            color: rgb(206, 25, 55);
-            transition: 0.5s;
-            /* justify-content: flex-start; */
-            /* display: flex; */
-            /* margin-top: 150px; */
-        }
-        
-        .logo a {
-            text-decoration: none;
-        }
-        /* second page */
-        
-        .my_own_color {
-            color: rgb(209, 21, 84);
-        }
-        
-        .gardiuan_comment {
-            border-radius: 50%;
-            border: 2.5px solid rgb(209, 21, 84);
-        }
-        
-        .gardiuan_name {
-            font-weight: 500;
-        }
-        
-        .demo {
-            color: rgb(209, 21, 84);
-        }
-        
-        .principal_space {
-            margin: 0% 22%;
-        }
-        
-        .foter {
-            text-decoration: none;
-            font-weight: 700;
-        }
+                body {
+                    /* margin: 12px;
+                    padding: 0px; */
+                }
+                
+                .navbar_first_charecter {
+                    font-weight: 600;
+                    transition: 0.5s;
+                }
+                
+                .Navbar_hover:hover .navbar_first_charecter {
+                    color: rgb(206, 25, 55);
+                    transition: 0.5s;
+                }
+                
+                .first_page_background {
+                    /* background-color: rgb(41, 38, 36); */
+                    height: 100vh;
+                    /* width: 100%; */
+                    background-repeat: no-repeat;
+                }
+                
+                .read_more_btn {
+                    border-radius: 6px;
+                    border: none;
+                    background-color: rgb(206, 25, 55);
+                    padding: 10px 30px;
+                    transition: 0.5s;
+                }
+                
+                .read_more_btn:hover {
+                    background-color: rgba(206, 25, 55, 0.877);
+                    transition: 0.5s;
+                }
+                
+                .full_navbar {}
+                
+                .full_first_page {
+                    justify-content: center;
+                    align-items: center;
+                    padding-top: 34vh;
+                }
+                
+                .all_ul_tag_and_phone_number {
+                    justify-content: space-between;
+                    align-items: flex-end
+                }
+                
+                .icons {
+                    text-decoration: none;
+                    color: #6c757d;
+                    transition: 0.5s;
+                }
+                
+                .principal_img {
+                    border-radius: 50%;
+                    padding: 6px;
+                }
+                
+                .icons:hover {
+                    color: rgb(206, 25, 55);
+                    transition: 0.5s;
+                    /* justify-content: flex-start; */
+                    /* display: flex; */
+                    /* margin-top: 150px; */
+                }
+                
+                .logo a {
+                    text-decoration: none;
+                }
+                /* second page */
+                
+                .my_own_color {
+                    color: rgb(209, 21, 84);
+                }
+                
+                .class_name_bold {
+                    font-weight: 500;
+                }
+                
+                .gardiuan_comment {
+                    border-radius: 50%;
+                    border: 2.5px solid rgb(209, 21, 84);
+                    padding: 10px;
+                }
+                
+                .gardiuan_name {
+                    font-weight: 500;
+                }
+                
+                .demo {
+                    color: rgb(209, 21, 84);
+                }
+                
+                .principal_space {
+                    margin: 0% 22%;
+                }
+                
+                .foter {
+                    text-decoration: none;
+                    font-weight: 700;
+                }
+                
+                .gellary_small_img {}
