@@ -5,37 +5,266 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/result.css">
 
     <title>Hello, world!</title>
 </head>
 
 <body>
+
+    <!-- new navbar start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark ">
+        <div class="container-fluid all_ul_tag_and_phone_number">
+            <a class="navbar-brand" href="#">
+                <div class="logo ">
+                    <a class="text-light fw-bold " href="# ">
+                        <h3 class="fw-bolder"><span class="text-primary">SIA</span><span class="my_own_color">CHS</span></h3>
+                    </a>
+                </div>
+            </a>
+            <button class="navbar-toggler text-primary bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon text-light"></span>
+          </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <div class="all_ul_tag mx-auto text-center">
+                    <ul class="navbar-nav">
+                        <li class="nav-item ">
+                            <a class="nav-link active text-light Navbar_hover" aria-current="page " href="# "><span class="navbar_first_charecter">H</span>ome</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link text-light Navbar_hover" href="# "><span class="navbar_first_charecter">A</span>bout</a>
+                        </li>
+
+                        <!-- dropdown start -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-light dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="text-light Navbar_hover">I</span>nfo
+                            </a>
+                            <ul class="dropdown-menu text-center bg-dark" aria-labelledby="navbarDropdown">
+                                <li><a class="nav-link text-light Navbar_hover" href="# "><span class="navbar_first_charecter">S</span>tudent's</a></li>
+                                <li><a class="nav-link text-light Navbar_hover" href="# "><span class="navbar_first_charecter">T</span>eacher's</a></li>
+                                <li><a class="nav-link text-light Navbar_hover" href="# "><span class="navbar_first_charecter">S</span>taf's</a></li>
+
+
+                            </ul>
+                        </li>
+                        <!-- dropdown end -->
+                        <li class="nav-item ">
+                            <a class="nav-link text-light Navbar_hover" href="fasility.html "><span class="navbar_first_charecter">F</span>asility</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link text-light Navbar_hover" href="# "><span class="navbar_first_charecter">G</span>ellary</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link text-light Navbar_hover" href="admision.html "><span class="navbar_first_charecter">A</span>dmision</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link text-light Navbar_hover" href="result.html "><span class="navbar_first_charecter">R</span>esult</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link text-light Navbar_hover" href="# "><span class="navbar_first_charecter">N</span>otic</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link text-light Navbar_hover" href="# "><span class="navbar_first_charecter">C</span>ontact</a>
+                        </li>
+
+
+
+                    </ul>
+                </div>
+                <div class="phone_number ">
+                    <a class="nav-link text-light text-center Navbar_hover" href="tel:01787878743"><span class="navbar_first_charecter">+880</span>1787878743</a>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- new navbar end -->
     <div class="container ">
-        <h1 class="text-center fw-bold h1-tag my-5" id="help">Get In Touch</h1>
+        <h1 class="text-center my-5"><span class="text-primary fw-bolder">RES</span><span class="my_own_color fw-bolder">ULT</span></h1>
         <div class="form py-5 register-form bg-dark">
             <div class="note ">
             </div>
             <div class="form-content mx-5" id="contact">
-                <div class="row">
-                    <div class="col-md-6">
+                <div class="row gy-4">
+
+                    <div class="col-md-12">
                         <div class="form-group my-3">
-                            <input type="text" class="form-control" placeholder="Your Name *" value="" />
+
+                            <div class="input-group">
+                                <span class="input-group-text class_name_bold bg-dark text-light">First and last name</span>
+                                <input placeholder="Enter your first name" type="text" aria-label="First name" class="form-control">
+                                <input placeholder="Enter your last name" type="text" aria-label="Last name" class="form-control">
+                            </div>
                         </div>
-                        <div class="form-group my-3">
-                            <input type="text" class="form-control" placeholder="Phone Number *" value="" />
-                        </div>
+
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-12">
                         <div class="form-group my-3">
-                            <input type="text" class="form-control" placeholder="Your Password *" value="" />
+
+                            <div class="input-group">
+                                <span class="input-group-text class_name_bold bg-dark text-light">Father's name</span>
+                                <input placeholder="First Name" type="text" aria-label="First name" class="form-control">
+
+                            </div>
                         </div>
-                        <div class="form-group my-3">
-                            <input type="text" class="form-control" placeholder="Confirm Password *" value="" />
-                        </div>
+
                     </div>
+                    <div class="col-md-12">
+                        <div class="form-group my-3">
+
+                            <div class="input-group">
+                                <span class="input-group-text class_name_bold bg-dark text-light">Mother's name</span>
+                                <input placeholder="Enter your mother's name" type="text" aria-label="First name" class="form-control">
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group my-3">
+
+                            <div class="input-group">
+                                <span class="input-group-text class_name_bold bg-dark text-light">Present address</span>
+                                <input placeholder="Enter your present address" type="text" aria-label="First name" class="form-control">
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group my-3">
+
+                            <div class="input-group">
+                                <span class="input-group-text class_name_bold bg-dark text-light">Permanent address</span>
+                                <input placeholder="Enter your present address" type="text" aria-label="First name" class="form-control">
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group my-3">
+
+                            <div class="input-group">
+                                <span class="input-group-text class_name_bold bg-dark text-light">Previous class</span>
+
+                                <select class="form-select bg-light" id="inputGroupSelect01">
+                                    <option selected>Choose your previous class...</option>
+                                  
+                                    <option value="1">5</option>
+                                    <option value="1">6</option>
+                                    <option value="1">7</option>
+                                    <option value="1">8</option>
+                                    
+                                
+                             
+                                  
+                                  </select>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group my-3">
+
+                            <div class="input-group">
+                                <span class="input-group-text class_name_bold bg-dark text-light">Find your class</span>
+
+                                <select class="form-select bg-light" id="inputGroupSelect01">
+                                    <option selected>Choose your your class...</option>
+                             
+                                    <option value="1">6</option>
+                                    <option value="1">7</option>
+                                    <option value="1">8</option>
+                                    <option value="1">9</option>
+                                 
+                                  </select>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group my-3">
+                            <div class="col-md-12">
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text class_name_bold bg-dark text-light">Certificate</span>
+                                    <input type="file" class="form-control" id="inputGroupFile01">
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group my-3">
+                            <div class="col-md-12">
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text class_name_bold bg-dark text-light">Marksheet</span>
+                                    <input type="file" class="form-control" id="inputGroupFile01">
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group my-3">
+                            <div class="col-md-12">
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text class_name_bold bg-dark text-light">Your picture</span>
+                                    <input type="file" class="form-control" id="inputGroupFile01">
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group my-3">
+
+                            <div class="input-group">
+                                <span class="input-group-text class_name_bold bg-dark text-light">Email id (optional)</span>
+                                <input placeholder="First Name" type="text" aria-label="First name" class="form-control">
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group my-3">
+
+                            <div class="input-group">
+                                <span class="input-group-text class_name_bold bg-dark text-light">Phone number</span>
+                                <input placeholder="Enter your phone number" type="text" aria-label="First name" class="form-control">
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group my-3">
+
+                            <div class="input-group">
+                                <span class="input-group-text class_name_bold bg-dark text-light">Gardiuan phone number</span>
+                                <input placeholder="First Name" type="text" aria-label="First name" class="form-control">
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+
+
+                    <!-- s -->
+
+                    <!-- s -->
                 </div>
                 <div class="text-center mt-4"><button type="button" class="btn btn-light btn3 px-5 py-2  fw-bold">Submit</button></div>
                 <br>
@@ -43,6 +272,55 @@
         </div>
     </div>
     <br>
+    <!--nine page start  -->
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container-fluid bg-dark ">
+        <div class="px-3 text-light pt-5 ">
+            <div class="row ">
+
+                <div class="col-md-3 ">
+                    <h2 class="fw-bolder"><span class="text-primary">SS</span><span class="my_own_color">DIX</span></h2>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+                <div class="col-md-3 ">
+                    <h4>MEMU</h4>
+                    <div>
+
+                        <a class="foter text-muted " href=" ">about me lorem</a><br>
+                        <a class="foter text-muted " href=" ">about me lorem</a><br>
+                        <a class="foter text-muted " href=" ">about me lorem</a><br>
+                        <a class="foter text-muted " href=" ">about me lorem</a><br>
+                        <a class="foter text-muted " href=" ">about me</a><br>
+                        <a class="foter text-muted " href=" ">about medfsdg sf</a><br>
+                    </div>
+                </div>
+                <div class="col-md-3 ">
+                    <h4>MEMU</h4>
+                    <a class="foter text-muted " href=" ">about me lorem</a><br>
+                    <a class="foter text-muted " href=" ">about me lorem</a><br>
+                    <a class="foter text-muted " href=" ">about me lorem</a><br>
+                    <a class="foter text-muted " href=" ">about me lorem</a><br>
+                    <a class="foter text-muted " href=" ">about me</a><br>
+                    <a class="foter text-muted " href=" ">about medfsdg sf</a><br></div>
+                <div class="col-md-3 ">
+                    <h4>MEMU</h4>
+                    <a class="foter text-muted " href=" ">about me lorem</a><br>
+                    <a class="foter text-muted " href=" ">about me lorem</a><br>
+                    <a class="foter text-muted " href=" ">about me lorem</a><br>
+                    <a class="foter text-muted " href=" ">about me lorem</a><br>
+                    <a class="foter text-muted " href=" ">about me</a><br>
+                    <a class="foter text-muted " href=" ">about medfsdg sf</a><br></div>
+
+                <p class="text-center mt-5 text-muted ">© 2021 resulave. All rights reserved</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!--nine page end  -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

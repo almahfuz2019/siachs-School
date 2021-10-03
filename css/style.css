@@ -23,7 +23,7 @@
                 .read_more_btn {
                     border-radius: 6px;
                     border: none;
-                    background-color: rgb(206, 25, 55);
+                    background-color: rgb(209, 21, 84);
                     padding: 10px 30px;
                     transition: 0.5s;
                 }
@@ -72,6 +72,10 @@
                 
                 .my_own_color {
                     color: rgb(209, 21, 84);
+                }
+                
+                .my_own-bg_color {
+                    background-color: rgb(209, 21, 84);
                 }
                 
                 .class_name_bold {

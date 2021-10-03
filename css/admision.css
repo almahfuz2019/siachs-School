@@ -37,3 +37,7 @@
     text-decoration: none;
     font-weight: 700;
 }
+
+.class_name_bold {
+    font-weight: 500;
+}
