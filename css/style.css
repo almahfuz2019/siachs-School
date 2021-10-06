@@ -79,7 +79,7 @@
                 }
                 
                 .class_name_bold {
-                    font-weight: 500;
+                    font-weight: 500 !important;
                 }
                 
                 .gardiuan_comment {

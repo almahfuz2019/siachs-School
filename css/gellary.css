@@ -1,0 +1,43 @@
+.navbar_first_charecter {
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.Navbar_hover:hover .navbar_first_charecter {
+    color: rgb(206, 25, 55);
+    transition: 0.5s;
+}
+
+.all_ul_tag_and_phone_number {
+    justify-content: space-between;
+    align-items: flex-end
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.my_own_color {
+    color: rgb(209, 21, 84);
+}
+
+.class_name_bold {
+    font-weight: 500;
+}
+
+.icons:hover {
+    color: rgb(206, 25, 55);
+    transition: 0.5s;
+    /* justify-content: flex-start; */
+    /* display: flex; */
+    /* margin-top: 150px; */
+}
+
+.foter {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.class_name_bold {
+    font-weight: 500;
+}
