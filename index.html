@@ -20,14 +20,19 @@
 <body class="container-fluid my-2">
 
     <!-- first_page start -->
-    <div class=" first_page_background img-fluid text-light container-fluid bg-dark ">
+    <div style="background-image: url('images/welpaper.png');" class="first_page_background img-fluid text-light container-fluid ">
+
+
         <!-- new navbar start -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark ">
+        <nav class="navbar container-fluid navbar-expand-lg navbar-light bg-dark ">
             <div class="container-fluid all_ul_tag_and_phone_number">
                 <a class="navbar-brand" href="index.html">
                     <div class="logo ">
                         <a class="text-light fw-bold " href="">
-                            <h3 class="fw-bolder"><span class="text-primary">SIA</span><span class="my_own_color">CHS</span></h3>
+                            <h4 class="fw-bolder"><span class="text-primary">SIA</span><span class="my_own_color">CHS</span>
+                            </h4>
+
+
                         </a>
                     </div>
                 </a>
@@ -52,8 +57,8 @@
                                 </a>
                                 <ul class="dropdown-menu text-center bg-dark" aria-labelledby="navbarDropdown">
                                     <li><a class="nav-link text-light Navbar_hover" href="# "><span class="navbar_first_charecter">S</span>tudent's</a></li>
-                                    <li><a class="nav-link text-light Navbar_hover" href="# "><span class="navbar_first_charecter">T</span>eacher's</a></li>
-                                    <li><a class="nav-link text-light Navbar_hover" href="# "><span class="navbar_first_charecter">S</span>taf's</a></li>
+                                    <li><a class="nav-link text-light Navbar_hover" href="#teachers"><span class="navbar_first_charecter">T</span>eacher's</a></li>
+                                    <li><a class="nav-link text-light Navbar_hover" href="# "><span class="navbar_first_charecter">S</span>taff's</a></li>
 
 
                                 </ul>
@@ -63,16 +68,16 @@
                                 <a class="nav-link text-light Navbar_hover" href="fasility.html "><span class="navbar_first_charecter">F</span>asility</a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link text-light Navbar_hover" href="gellary.html"><span class="navbar_first_charecter">G</span>ellary</a>
+                                <a class="nav-link text-light Navbar_hover" href="gellary.html"><span class="navbar_first_charecter">G</span>allery</a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link text-light Navbar_hover" href="#"><span class="navbar_first_charecter">A</span>dmision</a>
+                                <a class="nav-link text-light Navbar_hover" href="#"><span class="navbar_first_charecter">A</span>dmission</a>
                             </li>
                             <li class="nav-item ">
                                 <a class="nav-link text-light Navbar_hover" href="result.html "><span class="navbar_first_charecter">R</span>esult</a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link text-light Navbar_hover" href="# "><span class="navbar_first_charecter">N</span>otic</a>
+                                <a class="nav-link text-light Navbar_hover" href="# "><span class="navbar_first_charecter">N</span>otice</a>
                             </li>
                             <li class="nav-item ">
                                 <li class="nav-item ">
@@ -112,7 +117,37 @@
 
                 </div>
             </div>
-            <button class="read_more_btn text-light ">Read More</button>
+            <!-- model start-->
+            <!-- Button trigger modal -->
+
+            <button class="read_more_btn text-light btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+
+
+            <!-- Modal -->
+            <div class="modal fade text-dark" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">SHAISTANGANJ ISLAMI ACADEMY & HIGH SCHOOL</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-dark">
+                            We teach student using advanced learning materials and ensure a congenial learning materials and ensure a congenial environment for connective Practice, regular test, systematic and most importantly science based activities in the classrooms targeting
+                            Academic calendar published for each year under the guidance of Minstry of Education, Habiganj Education Board. As a result this institution has been establishing its superiority both in curricular and co-curricular activities.
+                            This institution has been able to acquire appraisal in the field of inter school & college debate, cultural competition, essay competition and education co-curricular activities. With the combining effects of students, teachers,
+                            guidance and most importantly for the skilled management of the Governing Body. We are determined to shape it as the best educational institution of Habiganj as well as Bangladesh Maintaining consistency in the acquired result
+                            and reputation. Our only expectation is to get the cordial co-operation of all to administer the institution and improve the standard of education.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- model end-->
+
 
         </div>
 
@@ -148,74 +183,98 @@
         <h3 class="fw-bolder"><span class="text-primary">Ev</span><span class="my_own_color">ent</span></h3>
 
     </div>
-    <div class="second_page_cards container-fluid ">
-        <div class="card-group  text-center ">
-            <div class="row g-5">
-                <div class="card my-5 col-md-4 col-sm-6">
-                    <img src="images/background1.png " class="card-img-top img-fluid " alt="... ">
-                    <div class="card-body ">
-                        <h5 class="card-title fw-bold ">Card title</h5>
-                        <p class="card-text my_own_color fw-bold ">This is a wider card with</p>
-                    </div>
-                    <div class="card-footer ">
-                        <small class="text-muted ">Last updated 3 mins ago</small>
-                    </div>
+    <!-- demo model start -->
+    <div class="row row-cols-1  row-cols-md-3 g-4">
+
+        <div class="col">
+            <div class="card h-100">
+                <img src="images/e1.jpg" class="card-img-top img-fluid " alt="... ">
+                <div class="card-body">
+                    <h6 class="card-title fw-bold  my_own_color ">INTERNATIONAL MOTHER LANGUAGE DAY</h6>
+
                 </div>
-                <div class="card my-5 col-md-4 col-sm-6">
-                    <img src="images/background1.png" class="card-img-top img-fluid " alt="... ">
-                    <div class="card-body ">
-                        <h5 class="card-title fw-bold ">Card title</h5>
-                        <p class="card-text my_own_color fw-bold ">This is a wider card with</p>
-                    </div>
-                    <div class="card-footer ">
-                        <small class="text-muted ">Last updated 3 mins ago</small>
-                    </div>
-                </div>
-                <div class="card my-5 col-md-4 col-sm-6">
-                    <img src="images/background1.png " class="card-img-top img-fluid " alt="... ">
-                    <div class="card-body ">
-                        <h5 class="card-title fw-bold ">Card title</h5>
-                        <p class="card-text my_own_color fw-bold ">This is a wider card with</p>
-                    </div>
-                    <div class="card-footer ">
-                        <small class="text-muted ">Last updated 3 mins ago</small>
-                    </div>
-                </div>
-                <div class="card my-5 col-md-4 col-sm-6">
-                    <img src="images/background1.png" class="card-img-top img-fluid " alt="... ">
-                    <div class="card-body ">
-                        <h5 class="card-title fw-bold ">Card title</h5>
-                        <p class="card-text my_own_color fw-bold ">This is a wider card with</p>
-                    </div>
-                    <div class="card-footer ">
-                        <small class="text-muted ">Last updated 3 mins ago</small>
-                    </div>
-                </div>
-                <div class="card my-5 col-md-4 col-sm-6">
-                    <img src="images/background1.png" class="card-img-top img-fluid " alt="... ">
-                    <div class="card-body ">
-                        <h5 class="card-title fw-bold ">Card title</h5>
-                        <p class="card-text my_own_color fw-bold ">This is a wider card with</p>
-                    </div>
-                    <div class="card-footer ">
-                        <small class="text-muted ">Last updated 3 mins ago</small>
-                    </div>
-                </div>
-                <div class="card my-5 col-md-4 col-sm-6">
-                    <img src="images/background1.png" class="card-img-top img-fluid " alt="... ">
-                    <div class="card-body ">
-                        <h5 class="card-title fw-bold ">Card title</h5>
-                        <p class="card-text my_own_color fw-bold ">This is a wider card with</p>
-                    </div>
-                    <div class="card-footer ">
-                        <small class="text-muted ">Last updated 3 mins ago</small>
-                    </div>
+                <p class="mx-2">International Mother Language Day has been observed annually since 2000 to promote...
+
+                </p>
+                <details class="">
+
+                    <summary class="text-danger"></summary>
+
+                    <p class="m-2">International Mother Language Day has been observed annually since 2000 to promote peace and multilingualism around the world and to protect all mother languages. It is observed on February 21 to recognize the 1952 Bengali Language
+                        Movement in Bangladesh. The day was proclaimed by the General Conference of the United Nations Educational, Scientific and Cultural Organization (UNESCO) in November 1999 (30C/62). In its resolution A/RES/61/266, the United Nations
+                        General Assembly called on its member states "to promote the preservation and protection of all languages used by people of the world" on 16 May 2009. In the resolution, the General Assembly proclaimed 2008 as the International
+                        Year of Languages to promote unity in diversity and international understanding through multilingualism and multiculturalism. The resolution was suggested by Rafiqul Islam, a Bengali living in Vancouver, Canada. He wrote a letter
+                        to Kofi Annan on 9 January 1998 asking him to take a step to saving the world's languages from extinction by declaring an International Mother Language Day. Rafiq proposed the date as 21 February to commemorate the 1952 killings
+                        in Dhaka during the Language Movement. Languages are the most powerful instruments of preserving and developing our tangible and intangible heritage. All moves to promote the dissemination of mother tongues will serve not only
+                        to encourage linguistic diversity and multilingual education but also to develop fuller awareness of linguistic and cultural traditions throughout the world and to inspire solidarity based on understanding, tolerance and dialogue.</p>
+                </details>
+
+                <div class="card-footer ">
+                    <small class="text-muted ">date: 10-03-2021</small>
                 </div>
 
             </div>
+
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="images/eb1.jpg" class="card-img-top img-fluid " alt="... ">
+                <div class="card-body">
+                    <h6 class="card-title fw-bold  my_own_color ">SCIENCE FAIR</h6>
+
+                </div>
+                <p class="mx-2">Students of Class VI to Class X are preparing themselves for the upcoming science fair which....
+
+                </p>
+                <details class="">
+
+                    <summary class="text-danger"></summary>
+
+                    <p class="m-2">Students of Class VI to Class X are preparing themselves for the upcoming science fair which will be held on 2nd March, 2017. Science fair of primary section will be held on 30th March.</p>
+                </details>
+
+                <div class="card-footer ">
+                    <small class="text-muted ">date: 01-06-2021</small>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="images/eb3.jpg" class="card-img-top img-fluid " alt="... ">
+                <div class="card-body">
+                    <h6 class="card-title fw-bold  my_own_color ">PROGRESS ASSESSMENT TEST</h6>
+
+                </div>
+                <p class="mx-2">Progress Assessment Test of Class VI to class X and First year final examination will .....
+
+                </p>
+                <details class="">
+
+                    <summary class="text-danger"></summary>
+
+                    <p class="m-2">Progress Assessment Test of Class VI to class X and First year final examination will be started from 19th March , 2017 Result of Progress Assessment Test will be published on 24th April. First Term examination of class I to class
+                        V will be held from 17th April.</p>
+                </details>
+
+                <div class="card-footer ">
+                    <small class="text-muted ">date: 12-06-2021</small>
+                </div>
+
+            </div>
+
         </div>
 
+
+
     </div>
+    <br>
+    <br>
+    <br>
+    <!-- demo model end -->
+
+
     <!-- second page end -->
 
     <!-- thied page start -->
@@ -272,37 +331,30 @@
     <br>
     <br>
     <div class="full_fourth_page container">
+        <h3 class="fw-bolder"><span class="text-primary blockquote-footer">Gel</span><span class="my_own_color">lary</span></h3>
         <div class="row g-2">
-            <div class="col-md-6 ">
 
-
-                <h3 class="fw-bolder"><span class="text-primary blockquote-footer">Gel</span><span class="my_own_color">lary</span></h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur excepturi nobis quisquam atque autem. Minima magni aliquam repellendus cumque nulla non cum reprehenderit, facilis exercitationem quibusdam perferendis soluta minus
-                    nemo labore cupiditate. Autem aliquid labore dolore obcaecati eos, cum excepturi nostrum qui, porro error repellendus iusto nobis ullam maiores quidem. nemo labore cupiditate. Autem aliquid labore dolore obcaecati eos, cum excepturi
-                    nemo labore cupiditate. Autem aliquid labore dolore obcaecati eos, cum excepturi nostrum qui, porro error repellendus iusto nobis ullam maiores quidem. nemo labore</p>
-
-            </div>
-            <div class="col-md-6 ">
+            <div class="col-12">
                 <img class="img-fluid rounded" src="images/background.jpg " alt=" ">
                 <div class="row gx-2 mt-3">
 
 
-                    <div class="col-md-2 gellary_small_img rounded"> <img class="img-fluid" src="images/s.jpg" alt="">
+                    <div class="col-2 gellary_small_img rounded"> <img class="img-fluid" src="images/s.jpg" alt="">
                     </div>
-                    <div class="col-md-2 gellary_small_img rounded"> <img class="img-fluid" src="images/s.jpg" alt="">
+                    <div class="col-2 gellary_small_img rounded"> <img class="img-fluid" src="images/s.jpg" alt="">
                     </div>
-                    <div class="col-md-2 gellary_small_img rounded"> <img class="img-fluid" src="images/s.jpg" alt="">
+                    <div class="col-2 gellary_small_img rounded"> <img class="img-fluid" src="images/s.jpg" alt="">
                     </div>
-                    <div class="col-md-2 gellary_small_img rounded"> <img class="img-fluid" src="images/s.jpg" alt="">
+                    <div class="col-2 gellary_small_img rounded"> <img class="img-fluid" src="images/s.jpg" alt="">
                     </div>
-                    <div class="col-md-2 gellary_small_img rounded"> <img class="img-fluid" src="images/s.jpg" alt="">
+                    <div class="col-2 gellary_small_img rounded"> <img class="img-fluid" src="images/s.jpg" alt="">
                     </div>
-                    <div class="col-md-2 gellary_small_img rounded"> <img class="img-fluid" src="images/s.jpg" alt="">
+                    <div class="col-2 gellary_small_img rounded"> <img class="img-fluid" src="images/s.jpg" alt="">
                     </div>
 
                 </div>
                 <div class="text-center mt-4 ">
-                    <button class="read_more_btn text-light mb-2">Read More</button>
+                    <a href="gellary.html"> <button class="read_more_btn text-light mb-2">More Images</button></a>
                 </div>
             </div>
 
@@ -334,7 +386,7 @@
     <br>
     <br>
 
-    <hr class="mx-5 ">
+    <hr id="teachers" class="mx-5 ">
     <div class="container">
         <br>
 
@@ -346,7 +398,349 @@
                     <div class="col-md-6 ">
                         <div class="row gx-4 ">
                             <div class="col-md-12 ">
-                                <img class="gardiuan_comment img-fluid shadow" src="images/p2-modified.png  " alt=" ">
+                                <img class="gardiuan_comment img-fluid shadow" src="images/user-1.png " alt=" ">
+                            </div>
+                            <p></p>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6 ">
+                        <h5 class="demo fw-bolder">MAHMUD HASAN</h5>
+                        <p class="text-muted ">M.A, L.L.B, B.ED <br>Mathmatics & Physics</p>
+                        <div class="col-md-12 text-muted ">
+                            <h5>
+                                <a class="icons" href="https://www.facebook.com/groups/853515681398192/?ref=share"> <i class=" fab fa-facebook-f p- "></i></a>
+                                <a class="icons" href="mailto:siahs2010@gmail.com"> <i class="fas fa-envelope p-1"></i></a>
+                                <a class="icons" href="tel:01787878743"> <i class=" fas fa-mobile-alt p-1 "></i></a>
+
+                                <!-- model start -->
+                                <!-- Button trigger modal -->
+
+                                <a data-bs-toggle="modal" data-bs-target="#example" class="icons" href="tel:01787878743"> <i class="fas fa-user-graduate p-1 "></i></a>
+
+                                <!-- Modal -->
+                                <div class="modal fade modal-dialog-scrollable  p-3" id="example" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title text-center" id="exampleModalLabel ">Abdullah Al Mahfuz</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+
+
+                                                <img class="img-fluid gardiuan_comment img-fluid shadow " src="images/user-1.png" alt="">
+                                                <br>
+                                                <br>
+
+                                                <div class="main_text text-center container mt- mb-2 ">
+
+                                                    <h3 class="fw-bolder"><span class="text-primary">Abou</span><span class="my_own_color">tme</span></h3>
+
+                                                </div>
+                                                <br>
+
+
+
+                                                <!-- table -->
+                                                <table class="table table-dark table-hover h6 text-start">
+
+
+
+                                                    <tbody>
+                                                        <tr>
+                                                            <th scope="row">
+                                                                Name
+                                                            </th>
+                                                            <td>
+
+                                                                <p style="font-weight: 300" ;> MAHMUD HASAN</p>
+                                                            </td>
+
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope=" row ">
+                                                                DATE OF JOINING
+                                                            </th>
+                                                            <th>
+                                                                <p style="font-weight: 300; ">2010-01-02</p>
+                                                            </th>
+
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row ">
+                                                                DATE OF BIRTH
+                                                            </th>
+                                                            <td>
+                                                                <p style="font-weight: 300; "> 1968-01-03</p>
+                                                            </td>
+
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row ">
+                                                                NATIONAL ID NO
+                                                            </th>
+                                                            <td>
+                                                                <p style="font-weight: 300; ">9113547442436</p>
+                                                            </td>
+
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row ">
+                                                                QUALIFICATION
+                                                            </th>
+                                                            <td>
+                                                                <p style="font-weight: 300; ">M.A, L.L.B, B.ED</p>
+                                                            </td>
+
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row ">
+                                                                EXPERIENCE
+                                                            </th>
+                                                            <td>
+                                                                <p style="font-weight: 300; ">12 YEARS</p>
+                                                            </td>
+
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row ">
+                                                                INTEREST
+                                                            </th>
+                                                            <td>
+                                                                <p style="font-weight: 300; ">MATHMATICS & PHYSICS</p>
+                                                            </td>
+
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row ">
+                                                                PRESENT ADDRESS
+                                                            </th>
+                                                            <td>
+                                                                <p style="font-weight: 300; "> HOUSE# 70, ROAD# 3, BLOCK# E, SHAHJALAL UPOSHAHAR, SYLHET</p>
+                                                            </td>
+
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row ">
+                                                                PERMANENT ADDRESS
+                                                            </th>
+                                                            <td>
+                                                                <p style="font-weight: 300; "> VILL: SOUTH DOULATPUR, POST: HIRAGONJ BAZAR, P.S: NOBIGONJ, DIST: HOBIGONJ</p>
+                                                            </td>
+
+                                                        </tr>
+
+
+
+                                                    </tbody>
+
+                                                </table>
+                                                <h5>
+                                                    <a class="icons" href="https://www.facebook.com/groups/853515681398192/?ref=share"> <i class=" fab fa-facebook-f p- "></i></a>
+                                                    <a class="icons" href="mailto:siahs2010@gmail.com"> <i class="fas fa-envelope p-1"></i></a>
+                                                    <a class="icons" href="tel:01787878743"> <i class=" fas fa-mobile-alt p-1 "></i></a>
+                                                </h5>
+                                                <!-- <p>MD. LUTHFUR RAHMAN CHOWDHURY</p>
+                                                        <p>Head Master</p>
+                                                        <p>Mobile : 01716968999</p>
+                                                        <p>Email : luthfur967@gmail.com</p> -->
+
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- model end -->
+
+
+                            </h5>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="row ">
+                    <div class="col-md-6 ">
+                        <div class="row gx-4 ">
+                            <div class="col-md-12 ">
+                                <img class="gardiuan_comment img-fluid shadow" src="images/ti.png" alt=" ">
+                            </div>
+                            <p></p>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6 ">
+                        <h4 class="demo fw-bolder ">Al Mansur</h4>
+                        <p class="text-muted ">B.A(HONAR'S),MA <br>Senior Teacher <br>English Depertment</p>
+                        <div class="col-md-12 text-muted ">
+                            <h5>
+                                <a class="icons" href="https://www.facebook.com/groups/853515681398192/?ref=share"> <i class=" fab fa-facebook-f p- "></i></a>
+                                <a class="icons" href="mailto:siahs2010@gmail.com"> <i class="fas fa-envelope p-1"></i></a>
+                                <a class="icons" href="tel:01787878743"> <i class=" fas fa-mobile-alt p-1 "></i></a>
+
+                                <!-- model start -->
+                                <!-- Button trigger modal -->
+
+                                <a data-bs-toggle="modal" data-bs-target="#exampleModal11" class="icons" href="tel:01787878743">
+                                    <i class="fas fa-user-graduate p-1 ">
+                                        
+                                    </i></a>
+
+                                <!-- Modal -->
+                                <div class="modal fade modal-dialog-scrollable  p-3" id="exampleModal11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title text-center" id="exampleModalLabel ">Abdullah Al Mahfuz</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+
+
+                                                <img class="img-fluid gardiuan_comment img-fluid shadow" src="images/ti.png" alt="">
+                                                <br>
+                                                <br>
+
+                                                <div class="main_text text-center container mt- mb-2 ">
+
+                                                    <h3 class="fw-bolder"><span class="text-primary">Abou</span><span class="my_own_color">t me</span></h3>
+
+                                                </div>
+                                                <br>
+
+
+
+                                                <!-- table -->
+                                                <table class="table table-dark table-hover h6 text-start">
+
+
+
+                                                    <tbody>
+                                                        <tr>
+                                                            <th scope="row">
+                                                                Name
+                                                            </th>
+                                                            <td>
+
+                                                                <p style="font-weight: 300" ;> MD. LUTHFUR RAHMAN CHOWDHUR</p>
+                                                            </td>
+
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope=" row ">
+                                                                DATE OF JOINING
+                                                            </th>
+                                                            <th>
+                                                                <p style="font-weight: 300; ">2010-01-01</p>
+                                                            </th>
+
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row ">
+                                                                DATE OF BIRTH
+                                                            </th>
+                                                            <td>
+                                                                <p style="font-weight: 300; ">1971-09-11</p>
+                                                            </td>
+
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row ">
+                                                                NATIONAL ID NO
+                                                            </th>
+                                                            <td>
+                                                                <p style="font-weight: 300; ">9113547442436</p>
+                                                            </td>
+
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row ">
+                                                                QUALIFICATION
+                                                            </th>
+                                                            <td>
+                                                                <p style="font-weight: 300; ">B.A, B.ED, M.ED</p>
+                                                            </td>
+
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row ">
+                                                                EXPERIENCE
+                                                            </th>
+                                                            <td>
+                                                                <p style="font-weight: 300; ">NINE YEARS AS A HEAD TEACHER IN MUSLIMABAD IDEAL HIGH SCHOOL</p>
+                                                            </td>
+
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row ">
+                                                                INTEREST
+                                                            </th>
+                                                            <td>
+                                                                <p style="font-weight: 300; ">ENGLISH</p>
+                                                            </td>
+
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row ">
+                                                                PRESENT ADDRESS
+                                                            </th>
+                                                            <td>
+                                                                <p style="font-weight: 300; ">ROAD NO-22, BLOCK- D, HOUSE NO- 20, SHAHJALAL UPOSHAHAR, SYLHET</p>
+                                                            </td>
+
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row ">
+                                                                PERMANENT ADDRESS
+                                                            </th>
+                                                            <td>
+                                                                <p style="font-weight: 300; ">VILL: NIZ GHILACHARA, P.O: JUDHISTIRPUR, UPAZILA: FENCHUGONJ, DIST: SYLHET</p>
+                                                            </td>
+
+                                                        </tr>
+
+
+
+                                                    </tbody>
+
+                                                </table>
+                                                <h5>
+                                                    <a class="icons" href="https://www.facebook.com/groups/853515681398192/?ref=share"> <i class=" fab fa-facebook-f p- "></i></a>
+                                                    <a class="icons" href="mailto:siahs2010@gmail.com"> <i class="fas fa-envelope p-1"></i></a>
+                                                    <a class="icons" href="tel:01787878743"> <i class=" fas fa-mobile-alt p-1 "></i></a>
+                                                </h5>
+                                                <!-- <p>MD. LUTHFUR RAHMAN CHOWDHURY</p>
+                                                        <p>Head Master</p>
+                                                        <p>Mobile : 01716968999</p>
+                                                        <p>Email : luthfur967@gmail.com</p> -->
+
+
+                                            </div>
+                                            <div class="modal-footer ">
+                                                <button type="button " class="btn btn-secondary " data-bs-dismiss="modal ">Close</button>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- model end -->
+
+
+                            </h5>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="row ">
+                    <div class="col-md-6 ">
+                        <div class="row gx-4 ">
+                            <div class="col-md-12 ">
+                                <img class="gardiuan_comment img-fluid shadow" src="images/t3 (2).jpg " alt=" ">
                             </div>
                             <p></p>
 
@@ -517,7 +911,7 @@
                     <div class="col-md-6 ">
                         <div class="row gx-4 ">
                             <div class="col-md-12 ">
-                                <img class="gardiuan_comment img-fluid shadow" src="images/p2-modified.png  " alt=" ">
+                                <img class="gardiuan_comment img-fluid shadow" src="images/t6-modified.png " alt=" ">
                             </div>
                             <p></p>
 
@@ -688,7 +1082,7 @@
                     <div class="col-md-6 ">
                         <div class="row gx-4 ">
                             <div class="col-md-12 ">
-                                <img class="gardiuan_comment img-fluid shadow" src="images/p2-modified.png  " alt=" ">
+                                <img class="gardiuan_comment img-fluid shadow" src="images/t4-modified.png" alt=" ">
                             </div>
                             <p></p>
 
@@ -859,349 +1253,7 @@
                     <div class="col-md-6 ">
                         <div class="row gx-4 ">
                             <div class="col-md-12 ">
-                                <img class="gardiuan_comment img-fluid shadow" src="images/p2-modified.png  " alt=" ">
-                            </div>
-                            <p></p>
-
-                        </div>
-                    </div>
-                    <div class="col-md-6 ">
-                        <h4 class="demo fw-bolder ">Al Mansur</h4>
-                        <p class="text-muted ">B.A(HONAR'S),MA <br>Senior Teacher <br>English Depertment</p>
-                        <div class="col-md-12 text-muted ">
-                            <h5>
-                                <a class="icons" href="https://www.facebook.com/groups/853515681398192/?ref=share"> <i class=" fab fa-facebook-f p- "></i></a>
-                                <a class="icons" href="mailto:siahs2010@gmail.com"> <i class="fas fa-envelope p-1"></i></a>
-                                <a class="icons" href="tel:01787878743"> <i class=" fas fa-mobile-alt p-1 "></i></a>
-
-                                <!-- model start -->
-                                <!-- Button trigger modal -->
-
-                                <a data-bs-toggle="modal" data-bs-target="#exampleModal" class="icons" href="tel:01787878743"> <i class="fas fa-user-graduate p-1 "></i></a>
-
-                                <!-- Modal -->
-                                <div class="modal fade modal-dialog-scrollable  p-3" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                    <div class="modal-dialog">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title text-center" id="exampleModalLabel ">Abdullah Al Mahfuz</h5>
-                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                            </div>
-                                            <div class="modal-body">
-
-
-                                                <img class="img-fluid gardiuan_comment img-fluid shadow" src="images/p2-modified.png" alt="">
-                                                <br>
-                                                <br>
-
-                                                <div class="main_text text-center container mt- mb-2 ">
-
-                                                    <h3 class="fw-bolder"><span class="text-primary">Abou</span><span class="my_own_color">t me</span></h3>
-
-                                                </div>
-                                                <br>
-
-
-
-                                                <!-- table -->
-                                                <table class="table table-dark table-hover h6 text-start">
-
-
-
-                                                    <tbody>
-                                                        <tr>
-                                                            <th scope="row">
-                                                                Name
-                                                            </th>
-                                                            <td>
-
-                                                                <p style="font-weight: 300" ;> MD. LUTHFUR RAHMAN CHOWDHUR</p>
-                                                            </td>
-
-                                                        </tr>
-                                                        <tr>
-                                                            <th scope=" row ">
-                                                                DATE OF JOINING
-                                                            </th>
-                                                            <th>
-                                                                <p style="font-weight: 300; ">2010-01-01</p>
-                                                            </th>
-
-                                                        </tr>
-                                                        <tr>
-                                                            <th scope="row ">
-                                                                DATE OF BIRTH
-                                                            </th>
-                                                            <td>
-                                                                <p style="font-weight: 300; ">1971-09-11</p>
-                                                            </td>
-
-                                                        </tr>
-                                                        <tr>
-                                                            <th scope="row ">
-                                                                NATIONAL ID NO
-                                                            </th>
-                                                            <td>
-                                                                <p style="font-weight: 300; ">9113547442436</p>
-                                                            </td>
-
-                                                        </tr>
-                                                        <tr>
-                                                            <th scope="row ">
-                                                                QUALIFICATION
-                                                            </th>
-                                                            <td>
-                                                                <p style="font-weight: 300; ">B.A, B.ED, M.ED</p>
-                                                            </td>
-
-                                                        </tr>
-                                                        <tr>
-                                                            <th scope="row ">
-                                                                EXPERIENCE
-                                                            </th>
-                                                            <td>
-                                                                <p style="font-weight: 300; ">NINE YEARS AS A HEAD TEACHER IN MUSLIMABAD IDEAL HIGH SCHOOL</p>
-                                                            </td>
-
-                                                        </tr>
-                                                        <tr>
-                                                            <th scope="row ">
-                                                                INTEREST
-                                                            </th>
-                                                            <td>
-                                                                <p style="font-weight: 300; ">ENGLISH</p>
-                                                            </td>
-
-                                                        </tr>
-                                                        <tr>
-                                                            <th scope="row ">
-                                                                PRESENT ADDRESS
-                                                            </th>
-                                                            <td>
-                                                                <p style="font-weight: 300; ">ROAD NO-22, BLOCK- D, HOUSE NO- 20, SHAHJALAL UPOSHAHAR, SYLHET</p>
-                                                            </td>
-
-                                                        </tr>
-                                                        <tr>
-                                                            <th scope="row ">
-                                                                PERMANENT ADDRESS
-                                                            </th>
-                                                            <td>
-                                                                <p style="font-weight: 300; ">VILL: NIZ GHILACHARA, P.O: JUDHISTIRPUR, UPAZILA: FENCHUGONJ, DIST: SYLHET</p>
-                                                            </td>
-
-                                                        </tr>
-
-
-
-                                                    </tbody>
-
-                                                </table>
-                                                <h5>
-                                                    <a class="icons" href="https://www.facebook.com/groups/853515681398192/?ref=share"> <i class=" fab fa-facebook-f p- "></i></a>
-                                                    <a class="icons" href="mailto:siahs2010@gmail.com"> <i class="fas fa-envelope p-1"></i></a>
-                                                    <a class="icons" href="tel:01787878743"> <i class=" fas fa-mobile-alt p-1 "></i></a>
-                                                </h5>
-                                                <!-- <p>MD. LUTHFUR RAHMAN CHOWDHURY</p>
-                                                        <p>Head Master</p>
-                                                        <p>Mobile : 01716968999</p>
-                                                        <p>Email : luthfur967@gmail.com</p> -->
-
-
-                                            </div>
-                                            <div class="modal-footer ">
-                                                <button type="button " class="btn btn-secondary " data-bs-dismiss="modal ">Close</button>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- model end -->
-
-
-                            </h5>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 text-center">
-                <div class="row ">
-                    <div class="col-md-6 ">
-                        <div class="row gx-4 ">
-                            <div class="col-md-12 ">
-                                <img class="gardiuan_comment img-fluid shadow" src="images/p2-modified.png  " alt=" ">
-                            </div>
-                            <p></p>
-
-                        </div>
-                    </div>
-                    <div class="col-md-6 ">
-                        <h4 class="demo fw-bolder ">Al Mansur</h4>
-                        <p class="text-muted ">B.A(HONAR'S),MA <br>Senior Teacher <br>English Depertment</p>
-                        <div class="col-md-12 text-muted ">
-                            <h5>
-                                <a class="icons" href="https://www.facebook.com/groups/853515681398192/?ref=share"> <i class=" fab fa-facebook-f p- "></i></a>
-                                <a class="icons" href="mailto:siahs2010@gmail.com"> <i class="fas fa-envelope p-1"></i></a>
-                                <a class="icons" href="tel:01787878743"> <i class=" fas fa-mobile-alt p-1 "></i></a>
-
-                                <!-- model start -->
-                                <!-- Button trigger modal -->
-
-                                <a data-bs-toggle="modal" data-bs-target="#exampleModal" class="icons" href="tel:01787878743"> <i class="fas fa-user-graduate p-1 "></i></a>
-
-                                <!-- Modal -->
-                                <div class="modal fade modal-dialog-scrollable  p-3" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                    <div class="modal-dialog">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title text-center" id="exampleModalLabel ">Abdullah Al Mahfuz</h5>
-                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                            </div>
-                                            <div class="modal-body">
-
-
-                                                <img class="img-fluid gardiuan_comment img-fluid shadow" src="images/p2-modified.png" alt="">
-                                                <br>
-                                                <br>
-
-                                                <div class="main_text text-center container mt- mb-2 ">
-
-                                                    <h3 class="fw-bolder"><span class="text-primary">Abou</span><span class="my_own_color">t me</span></h3>
-
-                                                </div>
-                                                <br>
-
-
-
-                                                <!-- table -->
-                                                <table class="table table-dark table-hover h6 text-start">
-
-
-
-                                                    <tbody>
-                                                        <tr>
-                                                            <th scope="row">
-                                                                Name
-                                                            </th>
-                                                            <td>
-
-                                                                <p style="font-weight: 300" ;> MD. LUTHFUR RAHMAN CHOWDHUR</p>
-                                                            </td>
-
-                                                        </tr>
-                                                        <tr>
-                                                            <th scope=" row ">
-                                                                DATE OF JOINING
-                                                            </th>
-                                                            <th>
-                                                                <p style="font-weight: 300; ">2010-01-01</p>
-                                                            </th>
-
-                                                        </tr>
-                                                        <tr>
-                                                            <th scope="row ">
-                                                                DATE OF BIRTH
-                                                            </th>
-                                                            <td>
-                                                                <p style="font-weight: 300; ">1971-09-11</p>
-                                                            </td>
-
-                                                        </tr>
-                                                        <tr>
-                                                            <th scope="row ">
-                                                                NATIONAL ID NO
-                                                            </th>
-                                                            <td>
-                                                                <p style="font-weight: 300; ">9113547442436</p>
-                                                            </td>
-
-                                                        </tr>
-                                                        <tr>
-                                                            <th scope="row ">
-                                                                QUALIFICATION
-                                                            </th>
-                                                            <td>
-                                                                <p style="font-weight: 300; ">B.A, B.ED, M.ED</p>
-                                                            </td>
-
-                                                        </tr>
-                                                        <tr>
-                                                            <th scope="row ">
-                                                                EXPERIENCE
-                                                            </th>
-                                                            <td>
-                                                                <p style="font-weight: 300; ">NINE YEARS AS A HEAD TEACHER IN MUSLIMABAD IDEAL HIGH SCHOOL</p>
-                                                            </td>
-
-                                                        </tr>
-                                                        <tr>
-                                                            <th scope="row ">
-                                                                INTEREST
-                                                            </th>
-                                                            <td>
-                                                                <p style="font-weight: 300; ">ENGLISH</p>
-                                                            </td>
-
-                                                        </tr>
-                                                        <tr>
-                                                            <th scope="row ">
-                                                                PRESENT ADDRESS
-                                                            </th>
-                                                            <td>
-                                                                <p style="font-weight: 300; ">ROAD NO-22, BLOCK- D, HOUSE NO- 20, SHAHJALAL UPOSHAHAR, SYLHET</p>
-                                                            </td>
-
-                                                        </tr>
-                                                        <tr>
-                                                            <th scope="row ">
-                                                                PERMANENT ADDRESS
-                                                            </th>
-                                                            <td>
-                                                                <p style="font-weight: 300; ">VILL: NIZ GHILACHARA, P.O: JUDHISTIRPUR, UPAZILA: FENCHUGONJ, DIST: SYLHET</p>
-                                                            </td>
-
-                                                        </tr>
-
-
-
-                                                    </tbody>
-
-                                                </table>
-                                                <h5>
-                                                    <a class="icons" href="https://www.facebook.com/groups/853515681398192/?ref=share"> <i class=" fab fa-facebook-f p- "></i></a>
-                                                    <a class="icons" href="mailto:siahs2010@gmail.com"> <i class="fas fa-envelope p-1"></i></a>
-                                                    <a class="icons" href="tel:01787878743"> <i class=" fas fa-mobile-alt p-1 "></i></a>
-                                                </h5>
-                                                <!-- <p>MD. LUTHFUR RAHMAN CHOWDHURY</p>
-                                                        <p>Head Master</p>
-                                                        <p>Mobile : 01716968999</p>
-                                                        <p>Email : luthfur967@gmail.com</p> -->
-
-
-                                            </div>
-                                            <div class="modal-footer ">
-                                                <button type="button " class="btn btn-secondary " data-bs-dismiss="modal ">Close</button>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- model end -->
-
-
-                            </h5>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 text-center">
-                <div class="row ">
-                    <div class="col-md-6 ">
-                        <div class="row gx-4 ">
-                            <div class="col-md-12 ">
-                                <img class="gardiuan_comment img-fluid shadow" src="images/p2-modified.png  " alt=" ">
+                                <img class="gardiuan_comment img-fluid shadow" src="images/t6-modified.png " alt=" ">
                             </div>
                             <p></p>
 
@@ -1740,6 +1792,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM " crossorigin="anonymous "></script>
 
 </body>
+
+</html>
 
 </html>
 

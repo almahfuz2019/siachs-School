@@ -41,3 +41,7 @@
 .class_name_bold {
     font-weight: 500;
 }
+
+.gallery_img:hover {
+    transition: 0.8s;
+}
