@@ -3,15 +3,15 @@ function mainimage1() {
 }
 
 function mainimage2() {
-    const mainimg = document.getElementById("main_img").src = "images/d.jpg";
+    const mainimg1 = document.getElementById("main_img").src = "images/d.jpg";
 }
 
 function mainimage3() {
-    const mainimg = document.getElementById("main_img").src = "images/f2.jpg";
+    const mainimg2 = document.getElementById("main_img").src = "images/f2.jpg";
 }
 
 function mainimage4() {
-    const mainimg = document.getElementById("main_img").src = "images/s.jpg";
+    const mainimg3 = document.getElementById("main_img").src = "images/s.jpg";
 }
 //event end
 //dark mode
