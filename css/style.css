@@ -33,7 +33,9 @@
                     transition: 0.5s;
                 }
                 
-                .full_navbar {}
+                .full_navbar {
+                    align-items: center;
+                }
                 
                 .full_first_page {
                     justify-content: center;
@@ -50,8 +52,25 @@
                     text-decoration: none;
                     color: #6c757d;
                     transition: 0.5s;
-                    background-color: #f8f9fa;
                     border-radius: 6px;
+                }
+                
+                #sun_light {
+                    display: none;
+                }
+                
+                #night_light {}
+                
+                #all_class {
+                    background-color: #f8f9fa;
+                }
+                
+                #total_students {
+                    background-color: #f8f9fa;
+                }
+                
+                .navbar-nav {
+                    align-items: center;
                 }
                 
                 .principal_img {

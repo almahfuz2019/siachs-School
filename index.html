@@ -24,7 +24,7 @@
 
 
         <!-- new navbar start -->
-        <nav class="navbar container-fluid navbar-expand-lg navbar-light bg-dark ">
+        <nav class="navbar container-fluid navbar-expand-lg navbar-light bg-dark navbar_hight ">
             <div class="container-fluid all_ul_tag_and_phone_number">
                 <a class="navbar-brand" href="index.html">
                     <div class="logo ">
@@ -35,10 +35,11 @@
 
                         </a>
                     </div>
+
                 </a>
                 <button class="navbar-toggler text-primary bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon text-light"></span>
-              </button>
+                    </button>
                 <div class="collapse navbar-collapse " id="navbarNav">
                     <div class="all_ul_tag mx-auto text-center">
                         <ul class="navbar-nav">
@@ -87,6 +88,8 @@
 
 
 
+                            <div class="darkmode"> <i onclick="dark_mode()" id="night_light" class="night fas fa-moon"></i>
+                                <i onclick="day_mode()" id="sun_light" class="sun fas fa-sun"></i></div>
                         </ul>
                     </div>
                     <div class="phone_number ">
@@ -120,7 +123,8 @@
             <!-- model start-->
             <!-- Button trigger modal -->
 
-            <button class="read_more_btn text-light btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+            <button onclick="dark_mode()" class="read_more_btn text-light btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+
 
 
             <!-- Modal -->
@@ -187,22 +191,22 @@
     <div class="row row-cols-1  row-cols-md-3 g-4">
 
         <div class="col">
-            <div class="card h-100">
-                <img src="images/e1.jpg" class="card-img-top img-fluid " alt="... ">
-                <div class="card-body">
-                    <h6 class="card-title fw-bold  my_own_color ">INTERNATIONAL MOTHER LANGUAGE DAY</h6>
+            <div class="card h-100" id="card1">
+                <img src=" images/e1.jpg " class="card-img-top img-fluid " alt="... ">
+                <div class="card-body ">
+                    <h6 class="card-title fw-bold my_own_color ">INTERNATIONAL MOTHER LANGUAGE DAY</h6>
 
                 </div>
-                <p class="mx-2">International Mother Language Day has been observed annually since 2000 to promote...
+                <p class="mx-2 ">International Mother Language Day has been observed annually since 2000 to promote...
 
                 </p>
-                <details class="">
+                <details class=" ">
 
-                    <summary class="text-danger"></summary>
+                    <summary class="text-danger "></summary>
 
-                    <p class="m-2">International Mother Language Day has been observed annually since 2000 to promote peace and multilingualism around the world and to protect all mother languages. It is observed on February 21 to recognize the 1952 Bengali Language
+                    <p class="m-2 ">International Mother Language Day has been observed annually since 2000 to promote peace and multilingualism around the world and to protect all mother languages. It is observed on February 21 to recognize the 1952 Bengali Language
                         Movement in Bangladesh. The day was proclaimed by the General Conference of the United Nations Educational, Scientific and Cultural Organization (UNESCO) in November 1999 (30C/62). In its resolution A/RES/61/266, the United Nations
-                        General Assembly called on its member states "to promote the preservation and protection of all languages used by people of the world" on 16 May 2009. In the resolution, the General Assembly proclaimed 2008 as the International
+                        General Assembly called on its member states "to promote the preservation and protection of all languages used by people of the world " on 16 May 2009. In the resolution, the General Assembly proclaimed 2008 as the International
                         Year of Languages to promote unity in diversity and international understanding through multilingualism and multiculturalism. The resolution was suggested by Rafiqul Islam, a Bengali living in Vancouver, Canada. He wrote a letter
                         to Kofi Annan on 9 January 1998 asking him to take a step to saving the world's languages from extinction by declaring an International Mother Language Day. Rafiq proposed the date as 21 February to commemorate the 1952 killings
                         in Dhaka during the Language Movement. Languages are the most powerful instruments of preserving and developing our tangible and intangible heritage. All moves to promote the dissemination of mother tongues will serve not only
@@ -216,21 +220,21 @@
             </div>
 
         </div>
-        <div class="col">
-            <div class="card h-100">
-                <img src="images/eb1.jpg" class="card-img-top img-fluid " alt="... ">
-                <div class="card-body">
-                    <h6 class="card-title fw-bold  my_own_color ">SCIENCE FAIR</h6>
+        <div class="col ">
+            <div class="card h-100" id="card2">
+                <img src="images/eb1.jpg " class="card-img-top img-fluid " alt="... ">
+                <div class="card-body ">
+                    <h6 class="card-title fw-bold my_own_color ">SCIENCE FAIR</h6>
 
                 </div>
-                <p class="mx-2">Students of Class VI to Class X are preparing themselves for the upcoming science fair which....
+                <p class="mx-2 ">Students of Class VI to Class X are preparing themselves for the upcoming science fair which....
 
                 </p>
-                <details class="">
+                <details class=" ">
 
-                    <summary class="text-danger"></summary>
+                    <summary class="text-danger "></summary>
 
-                    <p class="m-2">Students of Class VI to Class X are preparing themselves for the upcoming science fair which will be held on 2nd March, 2017. Science fair of primary section will be held on 30th March.</p>
+                    <p class="m-2 ">Students of Class VI to Class X are preparing themselves for the upcoming science fair which will be held on 2nd March, 2017. Science fair of primary section will be held on 30th March.</p>
                 </details>
 
                 <div class="card-footer ">
@@ -240,21 +244,21 @@
             </div>
 
         </div>
-        <div class="col">
-            <div class="card h-100">
-                <img src="images/eb3.jpg" class="card-img-top img-fluid " alt="... ">
-                <div class="card-body">
-                    <h6 class="card-title fw-bold  my_own_color ">PROGRESS ASSESSMENT TEST</h6>
+        <div class="col ">
+            <div class="card h-100 " id="card3">
+                <img src="images/eb3.jpg " class="card-img-top img-fluid " alt="... ">
+                <div class="card-body ">
+                    <h6 class="card-title fw-bold my_own_color ">PROGRESS ASSESSMENT TEST</h6>
 
                 </div>
-                <p class="mx-2">Progress Assessment Test of Class VI to class X and First year final examination will .....
+                <p class="mx-2 ">Progress Assessment Test of Class VI to class X and First year final examination will .....
 
                 </p>
-                <details class="">
+                <details class=" ">
 
-                    <summary class="text-danger"></summary>
+                    <summary class="text-danger "></summary>
 
-                    <p class="m-2">Progress Assessment Test of Class VI to class X and First year final examination will be started from 19th March , 2017 Result of Progress Assessment Test will be published on 24th April. First Term examination of class I to class
+                    <p class="m-2 ">Progress Assessment Test of Class VI to class X and First year final examination will be started from 19th March , 2017 Result of Progress Assessment Test will be published on 24th April. First Term examination of class I to class
                         V will be held from 17th April.</p>
                 </details>
 
@@ -278,43 +282,43 @@
     <!-- second page end -->
 
     <!-- thied page start -->
-    <div class="third_full_page bg-light container-fluid ">
+    <div class="third_full_page  container-fluid " id="all_class">
         <br>
         <div class="main_text text-center mt-5 mb-5 ">
 
-            <h3 class="fw-bolder"><span class="text-primary">Student</span><span class="my_own_color"> Statistics</span></h3>
-            <p class="text-muted">Class wise Students</p>
+            <h3 class="fw-bolder "><span class="text-primary ">Student</span><span class="my_own_color "> Statistics</span></h3>
+            <p class="text-muted ">Class wise Students</p>
         </div>
-        <div class="row g-4 m-3">
-            <div class="col-md-4 col-sm-6  text-center my-3  ">
+        <div class="row g-4 m-3 " id="student_class">
+            <div class="col-md-4 col-sm-6 text-center my-3 ">
                 <h1 class="text-primary fw-bold ">39</h1>
-                <h4 class=" text-muted"><span class="class_name_bold">Class-6</span></h4>
-                <p class="text-muted">Total student's 120 in class-6. <br>Boye's 70 & Girl's 50</p>
+                <h4 class=" text-muted "><span class="class_name_bold ">Class-6</span></h4>
+                <p class="text-muted ">Total student's 120 in class-6. <br>Boye's 70 & Girl's 50</p>
             </div>
-            <div class="col-md-4 col-sm-6  text-center my-3 ">
+            <div class="col-md-4 col-sm-6 text-center my-3 ">
                 <h1 class="text-primary fw-bold ">89</h1>
-                <h3 class=" text-muted class_name_bold">class-7</h3>
-                <p class="text-muted">Total student's 120 in class-7. <br>Boye's 70 & Girl's 50</p>
+                <h3 class=" text-muted class_name_bold ">class-7</h3>
+                <p class="text-muted ">Total student's 120 in class-7. <br>Boye's 70 & Girl's 50</p>
             </div>
             <div class="col-md-4 col-sm-6 text-center my-3 ">
                 <h1 class="text-primary fw-bold ">67</h1>
-                <h3 class=" text-muted class_name_bold">class-8</h3>
-                <p class="text-muted">Total student's 120 in class-6. <br>Boye's 70 & Girl's 50</p>
+                <h3 class=" text-muted class_name_bold ">class-8</h3>
+                <p class="text-muted ">Total student's 120 in class-6. <br>Boye's 70 & Girl's 50</p>
             </div>
-            <div class="col-md-4 col-sm-6 text-center my-3  ">
+            <div class="col-md-4 col-sm-6 text-center my-3 ">
                 <h1 class="text-primary fw-bold ">77</h1>
-                <h3 class=" text-muted class_name_bold">class-9</h3>
-                <p class="text-muted">Total student's 120 in class-6. <br>Boye's 70 & Girl's 50</p>
+                <h3 class=" text-muted class_name_bold ">class-9</h3>
+                <p class="text-muted ">Total student's 120 in class-6. <br>Boye's 70 & Girl's 50</p>
             </div>
             <div class="col-md-4 col-sm-6 text-center my-3 ">
                 <h1 class="text-primary fw-bold ">70</h1>
-                <h3 class=" text-muted class_name_bold">class-10</h3>
-                <p class="text-muted">Total student's 120 in class-6. <br>Boye's 70 & Girl's 50</p>
+                <h3 class=" text-muted class_name_bold ">class-10</h3>
+                <p class="text-muted ">Total student's 120 in class-6. <br>Boye's 70 & Girl's 50</p>
             </div>
             <div class="col-md-4 col-sm-6 text-center my-3 ">
                 <h1 class="text-primary fw-bold ">00</h1>
-                <h3 class=" text-muted class_name_bold">class-11</h3>
-                <p class="text-muted">Up comming.. <br>Boye's 00 & Girl's 00</p>
+                <h3 class=" text-muted class_name_bold ">class-11</h3>
+                <p class="text-muted ">Up comming.. <br>Boye's 00 & Girl's 00</p>
             </div>
 
         </div>
@@ -330,50 +334,50 @@
     <br>
     <br>
     <br>
-    <div class="full_fourth_page container">
-        <h3 class="fw-bolder"><span class="text-primary blockquote-footer">Gel</span><span class="my_own_color">lary</span></h3>
-        <div class="row g-2">
+    <div class="full_fourth_page container ">
+        <h3 class="fw-bolder "><span class="text-primary blockquote-footer ">Gel</span><span class="my_own_color ">lary</span></h3>
+        <div class="row g-2 ">
 
-            <div class="col-12">
-                <img class="img-fluid rounded" src="images/background.jpg " alt=" ">
-                <div class="row gx-2 mt-3">
+            <div class="col-12 ">
+                <img onclick="mainimage() " id="main_img " class="img-fluid rounded " src="images/welpaper.png " alt=" ">
+                <div class="row gx-2 mt-3 ">
 
 
-                    <div class="col-2 gellary_small_img rounded"> <img class="img-fluid" src="images/s.jpg" alt="">
+                    <div class="col-2 gellary_small_img rounded "> <img onclick="mainimage1() " class="img-fluid " src="images/e1.jpg " alt=" ">
                     </div>
-                    <div class="col-2 gellary_small_img rounded"> <img class="img-fluid" src="images/s.jpg" alt="">
+                    <div class="col-2 gellary_small_img rounded "> <img onclick="mainimage2() " class="img-fluid " src="images/d.jpg " alt=" ">
                     </div>
-                    <div class="col-2 gellary_small_img rounded"> <img class="img-fluid" src="images/s.jpg" alt="">
+                    <div class="col-2 gellary_small_img rounded "> <img onclick="mainimage3() " class="img-fluid " src="images/f2.jpg " alt=" ">
                     </div>
-                    <div class="col-2 gellary_small_img rounded"> <img class="img-fluid" src="images/s.jpg" alt="">
+                    <div class="col-2 gellary_small_img rounded "> <img onclick="mainimage4() " class="img-fluid " src="images/h.jpg " alt=" ">
                     </div>
-                    <div class="col-2 gellary_small_img rounded"> <img class="img-fluid" src="images/s.jpg" alt="">
+                    <div class="col-2 gellary_small_img rounded "> <img class="img-fluid " src="images/g7.jpg " alt=" ">
                     </div>
-                    <div class="col-2 gellary_small_img rounded"> <img class="img-fluid" src="images/s.jpg" alt="">
+                    <div class="col-2 gellary_small_img rounded "> <img class="img-fluid " src="images/eb1.jpg " alt=" ">
                     </div>
 
                 </div>
                 <div class="text-center mt-4 ">
-                    <a href="gellary.html"> <button class="read_more_btn text-light mb-2">More Images</button></a>
+                    <a href="gellary.html "> <button class="read_more_btn text-light mb-2 ">More Images</button></a>
                 </div>
             </div>
 
         </div>
         <br><br>
         <br>
-        <div class="row text-center bg-light p-3">
+        <div class="row text-center p-3 " id="total_students">
             <div class="col-md-4 col-sm-6 ">
-                <h1 class="my_own_color fw-bold">4536</h1>
-                <p class="class_name_bold text-muted">Present student </p>
+                <h1 class="my_own_color fw-bold ">4536</h1>
+                <p class="class_name_bold text-muted ">Present student </p>
             </div>
 
             <div class="col-md-4 col-sm-6 ">
-                <h1 class="my_own_color fw-bold">4536</h1>
-                <p class="class_name_bold text-muted">Total student</p>
+                <h1 class="my_own_color fw-bold ">4536</h1>
+                <p class="class_name_bold text-muted ">Total student</p>
             </div>
             <div class="col-md-4 col-sm-6 ">
-                <h1 class="my_own_color fw-bold">4536</h1>
-                <p class="class_name_bold text-muted">Graduate </p>
+                <h1 class="my_own_color fw-bold ">4536</h1>
+                <p class="class_name_bold text-muted ">Graduate </p>
             </div>
         </div>
     </div>
@@ -386,56 +390,56 @@
     <br>
     <br>
 
-    <hr id="teachers" class="mx-5 ">
-    <div class="container">
+    <hr id="teachers " class="mx-5 ">
+    <div class="container ">
         <br>
 
-        <h3 class="fw-bolder text-center mt-5 mb-5"><span class="text-primary">Our Teacher's</span><span class="my_own_color"> Information</span></h3>
+        <h3 class="fw-bolder text-center mt-5 mb-5 "><span class="text-primary ">Our Teacher's</span><span class="my_own_color "> Information</span></h3>
         <div class="row g-5 ">
 
-            <div class="col-md-4 text-center">
+            <div class="col-md-4 text-center ">
                 <div class="row ">
                     <div class="col-md-6 ">
                         <div class="row gx-4 ">
                             <div class="col-md-12 ">
-                                <img class="gardiuan_comment img-fluid shadow" src="images/user-1.png " alt=" ">
+                                <img class="gardiuan_comment img-fluid shadow " src="images/user-1.png " alt=" ">
                             </div>
                             <p></p>
 
                         </div>
                     </div>
                     <div class="col-md-6 ">
-                        <h5 class="demo fw-bolder">MAHMUD HASAN</h5>
+                        <h5 class="demo fw-bolder ">MAHMUD HASAN</h5>
                         <p class="text-muted ">M.A, L.L.B, B.ED <br>Mathmatics & Physics</p>
                         <div class="col-md-12 text-muted ">
                             <h5>
-                                <a class="icons" href="https://www.facebook.com/groups/853515681398192/?ref=share"> <i class=" fab fa-facebook-f p- "></i></a>
-                                <a class="icons" href="mailto:siahs2010@gmail.com"> <i class="fas fa-envelope p-1"></i></a>
-                                <a class="icons" href="tel:01787878743"> <i class=" fas fa-mobile-alt p-1 "></i></a>
+                                <a class="icons " href="https://www.facebook.com/groups/853515681398192/?ref=share "> <i class=" fab fa-facebook-f p- "></i></a>
+                                <a class="icons " href="mailto:siahs2010@gmail.com "> <i class="fas fa-envelope p-1 "></i></a>
+                                <a class="icons " href="tel:01787878743 "> <i class=" fas fa-mobile-alt p-1 "></i></a>
 
                                 <!-- model start -->
                                 <!-- Button trigger modal -->
 
-                                <a data-bs-toggle="modal" data-bs-target="#example" class="icons" href="tel:01787878743"> <i class="fas fa-user-graduate p-1 "></i></a>
+                                <a data-bs-toggle="modal " data-bs-target="#example " class="icons " href="tel:01787878743 "> <i class="fas fa-user-graduate p-1 "></i></a>
 
                                 <!-- Modal -->
-                                <div class="modal fade modal-dialog-scrollable  p-3" id="example" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                    <div class="modal-dialog">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title text-center" id="exampleModalLabel ">Abdullah Al Mahfuz</h5>
-                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <div class="modal fade modal-dialog-scrollable p-3 " id="example " tabindex="-1 " aria-labelledby="exampleModalLabel " aria-hidden="true ">
+                                    <div class="modal-dialog ">
+                                        <div class="modal-content ">
+                                            <div class="modal-header ">
+                                                <h5 class="modal-title text-center " id="exampleModalLabel ">Abdullah Al Mahfuz</h5>
+                                                <button type="button " class="btn-close " data-bs-dismiss="modal " aria-label="Close "></button>
                                             </div>
-                                            <div class="modal-body">
+                                            <div class="modal-body ">
 
 
-                                                <img class="img-fluid gardiuan_comment img-fluid shadow " src="images/user-1.png" alt="">
+                                                <img class="img-fluid gardiuan_comment img-fluid shadow " src="images/user-1.png " alt=" ">
                                                 <br>
                                                 <br>
 
                                                 <div class="main_text text-center container mt- mb-2 ">
 
-                                                    <h3 class="fw-bolder"><span class="text-primary">Abou</span><span class="my_own_color">tme</span></h3>
+                                                    <h3 class="fw-bolder "><span class="text-primary ">Abou</span><span class="my_own_color ">tme</span></h3>
 
                                                 </div>
                                                 <br>
@@ -443,18 +447,18 @@
 
 
                                                 <!-- table -->
-                                                <table class="table table-dark table-hover h6 text-start">
+                                                <table class="table table-dark table-hover h6 text-start ">
 
 
 
                                                     <tbody>
                                                         <tr>
-                                                            <th scope="row">
+                                                            <th scope="row ">
                                                                 Name
                                                             </th>
                                                             <td>
 
-                                                                <p style="font-weight: 300" ;> MAHMUD HASAN</p>
+                                                                <p style="font-weight: 300 " ;> MAHMUD HASAN</p>
                                                             </td>
 
                                                         </tr>
@@ -537,9 +541,9 @@
 
                                                 </table>
                                                 <h5>
-                                                    <a class="icons" href="https://www.facebook.com/groups/853515681398192/?ref=share"> <i class=" fab fa-facebook-f p- "></i></a>
-                                                    <a class="icons" href="mailto:siahs2010@gmail.com"> <i class="fas fa-envelope p-1"></i></a>
-                                                    <a class="icons" href="tel:01787878743"> <i class=" fas fa-mobile-alt p-1 "></i></a>
+                                                    <a class="icons " href="https://www.facebook.com/groups/853515681398192/?ref=share "> <i class=" fab fa-facebook-f p- "></i></a>
+                                                    <a class="icons " href="mailto:siahs2010@gmail.com "> <i class="fas fa-envelope p-1 "></i></a>
+                                                    <a class="icons " href="tel:01787878743 "> <i class=" fas fa-mobile-alt p-1 "></i></a>
                                                 </h5>
                                                 <!-- <p>MD. LUTHFUR RAHMAN CHOWDHURY</p>
                                                         <p>Head Master</p>
@@ -561,12 +565,12 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 text-center">
+            <div class="col-md-4 text-center ">
                 <div class="row ">
                     <div class="col-md-6 ">
                         <div class="row gx-4 ">
                             <div class="col-md-12 ">
-                                <img class="gardiuan_comment img-fluid shadow" src="images/ti.png" alt=" ">
+                                <img class="gardiuan_comment img-fluid shadow " src="images/ti.png " alt=" ">
                             </div>
                             <p></p>
 
@@ -577,36 +581,36 @@
                         <p class="text-muted ">B.A(HONAR'S),MA <br>Senior Teacher <br>English Depertment</p>
                         <div class="col-md-12 text-muted ">
                             <h5>
-                                <a class="icons" href="https://www.facebook.com/groups/853515681398192/?ref=share"> <i class=" fab fa-facebook-f p- "></i></a>
-                                <a class="icons" href="mailto:siahs2010@gmail.com"> <i class="fas fa-envelope p-1"></i></a>
-                                <a class="icons" href="tel:01787878743"> <i class=" fas fa-mobile-alt p-1 "></i></a>
+                                <a class="icons " href="https://www.facebook.com/groups/853515681398192/?ref=share "> <i class=" fab fa-facebook-f p- "></i></a>
+                                <a class="icons " href="mailto:siahs2010@gmail.com "> <i class="fas fa-envelope p-1 "></i></a>
+                                <a class="icons " href="tel:01787878743 "> <i class=" fas fa-mobile-alt p-1 "></i></a>
 
                                 <!-- model start -->
                                 <!-- Button trigger modal -->
 
-                                <a data-bs-toggle="modal" data-bs-target="#exampleModal11" class="icons" href="tel:01787878743">
+                                <a data-bs-toggle="modal " data-bs-target="#exampleModal11 " class="icons " href="tel:01787878743 ">
                                     <i class="fas fa-user-graduate p-1 ">
                                         
                                     </i></a>
 
                                 <!-- Modal -->
-                                <div class="modal fade modal-dialog-scrollable  p-3" id="exampleModal11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                    <div class="modal-dialog">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title text-center" id="exampleModalLabel ">Abdullah Al Mahfuz</h5>
-                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <div class="modal fade modal-dialog-scrollable p-3 " id="exampleModal11 " tabindex="-1 " aria-labelledby="exampleModalLabel " aria-hidden="true ">
+                                    <div class="modal-dialog ">
+                                        <div class="modal-content ">
+                                            <div class="modal-header ">
+                                                <h5 class="modal-title text-center " id="exampleModalLabel ">Abdullah Al Mahfuz</h5>
+                                                <button type="button " class="btn-close " data-bs-dismiss="modal " aria-label="Close "></button>
                                             </div>
-                                            <div class="modal-body">
+                                            <div class="modal-body ">
 
 
-                                                <img class="img-fluid gardiuan_comment img-fluid shadow" src="images/ti.png" alt="">
+                                                <img class="img-fluid gardiuan_comment img-fluid shadow " src="images/ti.png " alt=" ">
                                                 <br>
                                                 <br>
 
                                                 <div class="main_text text-center container mt- mb-2 ">
 
-                                                    <h3 class="fw-bolder"><span class="text-primary">Abou</span><span class="my_own_color">t me</span></h3>
+                                                    <h3 class="fw-bolder "><span class="text-primary ">Abou</span><span class="my_own_color ">t me</span></h3>
 
                                                 </div>
                                                 <br>
@@ -614,18 +618,18 @@
 
 
                                                 <!-- table -->
-                                                <table class="table table-dark table-hover h6 text-start">
+                                                <table class="table table-dark table-hover h6 text-start ">
 
 
 
                                                     <tbody>
                                                         <tr>
-                                                            <th scope="row">
+                                                            <th scope="row ">
                                                                 Name
                                                             </th>
                                                             <td>
 
-                                                                <p style="font-weight: 300" ;> MD. LUTHFUR RAHMAN CHOWDHUR</p>
+                                                                <p style="font-weight: 300 " ;> MD. LUTHFUR RAHMAN CHOWDHUR</p>
                                                             </td>
 
                                                         </tr>
@@ -708,9 +712,9 @@
 
                                                 </table>
                                                 <h5>
-                                                    <a class="icons" href="https://www.facebook.com/groups/853515681398192/?ref=share"> <i class=" fab fa-facebook-f p- "></i></a>
-                                                    <a class="icons" href="mailto:siahs2010@gmail.com"> <i class="fas fa-envelope p-1"></i></a>
-                                                    <a class="icons" href="tel:01787878743"> <i class=" fas fa-mobile-alt p-1 "></i></a>
+                                                    <a class="icons " href="https://www.facebook.com/groups/853515681398192/?ref=share "> <i class=" fab fa-facebook-f p- "></i></a>
+                                                    <a class="icons " href="mailto:siahs2010@gmail.com "> <i class="fas fa-envelope p-1 "></i></a>
+                                                    <a class="icons " href="tel:01787878743 "> <i class=" fas fa-mobile-alt p-1 "></i></a>
                                                 </h5>
                                                 <!-- <p>MD. LUTHFUR RAHMAN CHOWDHURY</p>
                                                         <p>Head Master</p>
@@ -735,12 +739,12 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 text-center">
+            <div class="col-md-4 text-center ">
                 <div class="row ">
                     <div class="col-md-6 ">
                         <div class="row gx-4 ">
                             <div class="col-md-12 ">
-                                <img class="gardiuan_comment img-fluid shadow" src="images/t3 (2).jpg " alt=" ">
+                                <img class="gardiuan_comment img-fluid shadow " src="images/t3 (2).jpg " alt=" ">
                             </div>
                             <p></p>
 
@@ -751,33 +755,33 @@
                         <p class="text-muted ">B.A(HONAR'S),MA <br>Senior Teacher <br>English Depertment</p>
                         <div class="col-md-12 text-muted ">
                             <h5>
-                                <a class="icons" href="https://www.facebook.com/groups/853515681398192/?ref=share"> <i class=" fab fa-facebook-f p- "></i></a>
-                                <a class="icons" href="mailto:siahs2010@gmail.com"> <i class="fas fa-envelope p-1"></i></a>
-                                <a class="icons" href="tel:01787878743"> <i class=" fas fa-mobile-alt p-1 "></i></a>
+                                <a class="icons " href="https://www.facebook.com/groups/853515681398192/?ref=share "> <i class=" fab fa-facebook-f p- "></i></a>
+                                <a class="icons " href="mailto:siahs2010@gmail.com "> <i class="fas fa-envelope p-1 "></i></a>
+                                <a class="icons " href="tel:01787878743 "> <i class=" fas fa-mobile-alt p-1 "></i></a>
 
                                 <!-- model start -->
                                 <!-- Button trigger modal -->
 
-                                <a data-bs-toggle="modal" data-bs-target="#exampleModal" class="icons" href="tel:01787878743"> <i class="fas fa-user-graduate p-1 "></i></a>
+                                <a data-bs-toggle="modal " data-bs-target="#exampleModal " class="icons " href="tel:01787878743 "> <i class="fas fa-user-graduate p-1 "></i></a>
 
                                 <!-- Modal -->
-                                <div class="modal fade modal-dialog-scrollable  p-3" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                    <div class="modal-dialog">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title text-center" id="exampleModalLabel ">Abdullah Al Mahfuz</h5>
-                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <div class="modal fade modal-dialog-scrollable p-3 " id="exampleModal " tabindex="-1 " aria-labelledby="exampleModalLabel " aria-hidden="true ">
+                                    <div class="modal-dialog ">
+                                        <div class="modal-content ">
+                                            <div class="modal-header ">
+                                                <h5 class="modal-title text-center " id="exampleModalLabel ">Abdullah Al Mahfuz</h5>
+                                                <button type="button " class="btn-close " data-bs-dismiss="modal " aria-label="Close "></button>
                                             </div>
-                                            <div class="modal-body">
+                                            <div class="modal-body ">
 
 
-                                                <img class="img-fluid gardiuan_comment img-fluid shadow" src="images/p2-modified.png" alt="">
+                                                <img class="img-fluid gardiuan_comment img-fluid shadow " src="images/p2-modified.png " alt=" ">
                                                 <br>
                                                 <br>
 
                                                 <div class="main_text text-center container mt- mb-2 ">
 
-                                                    <h3 class="fw-bolder"><span class="text-primary">Abou</span><span class="my_own_color">t me</span></h3>
+                                                    <h3 class="fw-bolder "><span class="text-primary ">Abou</span><span class="my_own_color ">t me</span></h3>
 
                                                 </div>
                                                 <br>
@@ -785,18 +789,18 @@
 
 
                                                 <!-- table -->
-                                                <table class="table table-dark table-hover h6 text-start">
+                                                <table class="table table-dark table-hover h6 text-start ">
 
 
 
                                                     <tbody>
                                                         <tr>
-                                                            <th scope="row">
+                                                            <th scope="row ">
                                                                 Name
                                                             </th>
                                                             <td>
 
-                                                                <p style="font-weight: 300" ;> MD. LUTHFUR RAHMAN CHOWDHUR</p>
+                                                                <p style="font-weight: 300 " ;> MD. LUTHFUR RAHMAN CHOWDHUR</p>
                                                             </td>
 
                                                         </tr>
@@ -879,9 +883,9 @@
 
                                                 </table>
                                                 <h5>
-                                                    <a class="icons" href="https://www.facebook.com/groups/853515681398192/?ref=share"> <i class=" fab fa-facebook-f p- "></i></a>
-                                                    <a class="icons" href="mailto:siahs2010@gmail.com"> <i class="fas fa-envelope p-1"></i></a>
-                                                    <a class="icons" href="tel:01787878743"> <i class=" fas fa-mobile-alt p-1 "></i></a>
+                                                    <a class="icons " href="https://www.facebook.com/groups/853515681398192/?ref=share "> <i class=" fab fa-facebook-f p- "></i></a>
+                                                    <a class="icons " href="mailto:siahs2010@gmail.com "> <i class="fas fa-envelope p-1 "></i></a>
+                                                    <a class="icons " href="tel:01787878743 "> <i class=" fas fa-mobile-alt p-1 "></i></a>
                                                 </h5>
                                                 <!-- <p>MD. LUTHFUR RAHMAN CHOWDHURY</p>
                                                         <p>Head Master</p>
@@ -906,12 +910,12 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 text-center">
+            <div class="col-md-4 text-center ">
                 <div class="row ">
                     <div class="col-md-6 ">
                         <div class="row gx-4 ">
                             <div class="col-md-12 ">
-                                <img class="gardiuan_comment img-fluid shadow" src="images/t6-modified.png " alt=" ">
+                                <img class="gardiuan_comment img-fluid shadow " src="images/t6-modified.png " alt=" ">
                             </div>
                             <p></p>
 
@@ -922,33 +926,33 @@
                         <p class="text-muted ">B.A(HONAR'S),MA <br>Senior Teacher <br>English Depertment</p>
                         <div class="col-md-12 text-muted ">
                             <h5>
-                                <a class="icons" href="https://www.facebook.com/groups/853515681398192/?ref=share"> <i class=" fab fa-facebook-f p- "></i></a>
-                                <a class="icons" href="mailto:siahs2010@gmail.com"> <i class="fas fa-envelope p-1"></i></a>
-                                <a class="icons" href="tel:01787878743"> <i class=" fas fa-mobile-alt p-1 "></i></a>
+                                <a class="icons " href="https://www.facebook.com/groups/853515681398192/?ref=share "> <i class=" fab fa-facebook-f p- "></i></a>
+                                <a class="icons " href="mailto:siahs2010@gmail.com "> <i class="fas fa-envelope p-1 "></i></a>
+                                <a class="icons " href="tel:01787878743 "> <i class=" fas fa-mobile-alt p-1 "></i></a>
 
                                 <!-- model start -->
                                 <!-- Button trigger modal -->
 
-                                <a data-bs-toggle="modal" data-bs-target="#exampleModal" class="icons" href="tel:01787878743"> <i class="fas fa-user-graduate p-1 "></i></a>
+                                <a data-bs-toggle="modal " data-bs-target="#exampleModal " class="icons " href="tel:01787878743 "> <i class="fas fa-user-graduate p-1 "></i></a>
 
                                 <!-- Modal -->
-                                <div class="modal fade modal-dialog-scrollable  p-3" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                    <div class="modal-dialog">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title text-center" id="exampleModalLabel ">Abdullah Al Mahfuz</h5>
-                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <div class="modal fade modal-dialog-scrollable p-3 " id="exampleModal " tabindex="-1 " aria-labelledby="exampleModalLabel " aria-hidden="true ">
+                                    <div class="modal-dialog ">
+                                        <div class="modal-content ">
+                                            <div class="modal-header ">
+                                                <h5 class="modal-title text-center " id="exampleModalLabel ">Abdullah Al Mahfuz</h5>
+                                                <button type="button " class="btn-close " data-bs-dismiss="modal " aria-label="Close "></button>
                                             </div>
-                                            <div class="modal-body">
+                                            <div class="modal-body ">
 
 
-                                                <img class="img-fluid gardiuan_comment img-fluid shadow" src="images/p2-modified.png" alt="">
+                                                <img class="img-fluid gardiuan_comment img-fluid shadow " src="images/p2-modified.png " alt=" ">
                                                 <br>
                                                 <br>
 
                                                 <div class="main_text text-center container mt- mb-2 ">
 
-                                                    <h3 class="fw-bolder"><span class="text-primary">Abou</span><span class="my_own_color">t me</span></h3>
+                                                    <h3 class="fw-bolder "><span class="text-primary ">Abou</span><span class="my_own_color ">t me</span></h3>
 
                                                 </div>
                                                 <br>
@@ -956,18 +960,18 @@
 
 
                                                 <!-- table -->
-                                                <table class="table table-dark table-hover h6 text-start">
+                                                <table class="table table-dark table-hover h6 text-start ">
 
 
 
                                                     <tbody>
                                                         <tr>
-                                                            <th scope="row">
+                                                            <th scope="row ">
                                                                 Name
                                                             </th>
                                                             <td>
 
-                                                                <p style="font-weight: 300" ;> MD. LUTHFUR RAHMAN CHOWDHUR</p>
+                                                                <p style="font-weight: 300 " ;> MD. LUTHFUR RAHMAN CHOWDHUR</p>
                                                             </td>
 
                                                         </tr>
@@ -1050,9 +1054,9 @@
 
                                                 </table>
                                                 <h5>
-                                                    <a class="icons" href="https://www.facebook.com/groups/853515681398192/?ref=share"> <i class=" fab fa-facebook-f p- "></i></a>
-                                                    <a class="icons" href="mailto:siahs2010@gmail.com"> <i class="fas fa-envelope p-1"></i></a>
-                                                    <a class="icons" href="tel:01787878743"> <i class=" fas fa-mobile-alt p-1 "></i></a>
+                                                    <a class="icons " href="https://www.facebook.com/groups/853515681398192/?ref=share "> <i class=" fab fa-facebook-f p- "></i></a>
+                                                    <a class="icons " href="mailto:siahs2010@gmail.com "> <i class="fas fa-envelope p-1 "></i></a>
+                                                    <a class="icons " href="tel:01787878743 "> <i class=" fas fa-mobile-alt p-1 "></i></a>
                                                 </h5>
                                                 <!-- <p>MD. LUTHFUR RAHMAN CHOWDHURY</p>
                                                         <p>Head Master</p>
@@ -1077,12 +1081,12 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 text-center">
+            <div class="col-md-4 text-center ">
                 <div class="row ">
                     <div class="col-md-6 ">
                         <div class="row gx-4 ">
                             <div class="col-md-12 ">
-                                <img class="gardiuan_comment img-fluid shadow" src="images/t4-modified.png" alt=" ">
+                                <img class="gardiuan_comment img-fluid shadow " src="images/t4-modified.png " alt=" ">
                             </div>
                             <p></p>
 
@@ -1093,33 +1097,33 @@
                         <p class="text-muted ">B.A(HONAR'S),MA <br>Senior Teacher <br>English Depertment</p>
                         <div class="col-md-12 text-muted ">
                             <h5>
-                                <a class="icons" href="https://www.facebook.com/groups/853515681398192/?ref=share"> <i class=" fab fa-facebook-f p- "></i></a>
-                                <a class="icons" href="mailto:siahs2010@gmail.com"> <i class="fas fa-envelope p-1"></i></a>
-                                <a class="icons" href="tel:01787878743"> <i class=" fas fa-mobile-alt p-1 "></i></a>
+                                <a class="icons " href="https://www.facebook.com/groups/853515681398192/?ref=share "> <i class=" fab fa-facebook-f p- "></i></a>
+                                <a class="icons " href="mailto:siahs2010@gmail.com "> <i class="fas fa-envelope p-1 "></i></a>
+                                <a class="icons " href="tel:01787878743 "> <i class=" fas fa-mobile-alt p-1 "></i></a>
 
                                 <!-- model start -->
                                 <!-- Button trigger modal -->
 
-                                <a data-bs-toggle="modal" data-bs-target="#exampleModal" class="icons" href="tel:01787878743"> <i class="fas fa-user-graduate p-1 "></i></a>
+                                <a data-bs-toggle="modal " data-bs-target="#exampleModal " class="icons " href="tel:01787878743 "> <i class="fas fa-user-graduate p-1 "></i></a>
 
                                 <!-- Modal -->
-                                <div class="modal fade modal-dialog-scrollable  p-3" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                    <div class="modal-dialog">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title text-center" id="exampleModalLabel ">Abdullah Al Mahfuz</h5>
-                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <div class="modal fade modal-dialog-scrollable p-3 " id="exampleModal " tabindex="-1 " aria-labelledby="exampleModalLabel " aria-hidden="true ">
+                                    <div class="modal-dialog ">
+                                        <div class="modal-content ">
+                                            <div class="modal-header ">
+                                                <h5 class="modal-title text-center " id="exampleModalLabel ">Abdullah Al Mahfuz</h5>
+                                                <button type="button " class="btn-close " data-bs-dismiss="modal " aria-label="Close "></button>
                                             </div>
-                                            <div class="modal-body">
+                                            <div class="modal-body ">
 
 
-                                                <img class="img-fluid gardiuan_comment img-fluid shadow" src="images/p2-modified.png" alt="">
+                                                <img class="img-fluid gardiuan_comment img-fluid shadow " src="images/p2-modified.png " alt=" ">
                                                 <br>
                                                 <br>
 
                                                 <div class="main_text text-center container mt- mb-2 ">
 
-                                                    <h3 class="fw-bolder"><span class="text-primary">Abou</span><span class="my_own_color">t me</span></h3>
+                                                    <h3 class="fw-bolder "><span class="text-primary ">Abou</span><span class="my_own_color ">t me</span></h3>
 
                                                 </div>
                                                 <br>
@@ -1127,18 +1131,18 @@
 
 
                                                 <!-- table -->
-                                                <table class="table table-dark table-hover h6 text-start">
+                                                <table class="table table-dark table-hover h6 text-start ">
 
 
 
                                                     <tbody>
                                                         <tr>
-                                                            <th scope="row">
+                                                            <th scope="row ">
                                                                 Name
                                                             </th>
                                                             <td>
 
-                                                                <p style="font-weight: 300" ;> MD. LUTHFUR RAHMAN CHOWDHUR</p>
+                                                                <p style="font-weight: 300 " ;> MD. LUTHFUR RAHMAN CHOWDHUR</p>
                                                             </td>
 
                                                         </tr>
@@ -1221,9 +1225,9 @@
 
                                                 </table>
                                                 <h5>
-                                                    <a class="icons" href="https://www.facebook.com/groups/853515681398192/?ref=share"> <i class=" fab fa-facebook-f p- "></i></a>
-                                                    <a class="icons" href="mailto:siahs2010@gmail.com"> <i class="fas fa-envelope p-1"></i></a>
-                                                    <a class="icons" href="tel:01787878743"> <i class=" fas fa-mobile-alt p-1 "></i></a>
+                                                    <a class="icons " href="https://www.facebook.com/groups/853515681398192/?ref=share "> <i class=" fab fa-facebook-f p- "></i></a>
+                                                    <a class="icons " href="mailto:siahs2010@gmail.com "> <i class="fas fa-envelope p-1 "></i></a>
+                                                    <a class="icons " href="tel:01787878743 "> <i class=" fas fa-mobile-alt p-1 "></i></a>
                                                 </h5>
                                                 <!-- <p>MD. LUTHFUR RAHMAN CHOWDHURY</p>
                                                         <p>Head Master</p>
@@ -1248,12 +1252,12 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 text-center">
+            <div class="col-md-4 text-center ">
                 <div class="row ">
                     <div class="col-md-6 ">
                         <div class="row gx-4 ">
                             <div class="col-md-12 ">
-                                <img class="gardiuan_comment img-fluid shadow" src="images/t6-modified.png " alt=" ">
+                                <img class="gardiuan_comment img-fluid shadow " src="images/t6-modified.png " alt=" ">
                             </div>
                             <p></p>
 
@@ -1264,33 +1268,33 @@
                         <p class="text-muted ">B.A(HONAR'S),MA <br>Senior Teacher <br>English Depertment</p>
                         <div class="col-md-12 text-muted ">
                             <h5>
-                                <a class="icons" href="https://www.facebook.com/groups/853515681398192/?ref=share"> <i class=" fab fa-facebook-f p- "></i></a>
-                                <a class="icons" href="mailto:siahs2010@gmail.com"> <i class="fas fa-envelope p-1"></i></a>
-                                <a class="icons" href="tel:01787878743"> <i class=" fas fa-mobile-alt p-1 "></i></a>
+                                <a class="icons " href="https://www.facebook.com/groups/853515681398192/?ref=share "> <i class=" fab fa-facebook-f p- "></i></a>
+                                <a class="icons " href="mailto:siahs2010@gmail.com "> <i class="fas fa-envelope p-1 "></i></a>
+                                <a class="icons " href="tel:01787878743 "> <i class=" fas fa-mobile-alt p-1 "></i></a>
 
                                 <!-- model start -->
                                 <!-- Button trigger modal -->
 
-                                <a data-bs-toggle="modal" data-bs-target="#exampleModal" class="icons" href="tel:01787878743"> <i class="fas fa-user-graduate p-1 "></i></a>
+                                <a data-bs-toggle="modal " data-bs-target="#exampleModal " class="icons " href="tel:01787878743 "> <i class="fas fa-user-graduate p-1 "></i></a>
 
                                 <!-- Modal -->
-                                <div class="modal fade modal-dialog-scrollable  p-3" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                    <div class="modal-dialog">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title text-center" id="exampleModalLabel ">Abdullah Al Mahfuz</h5>
-                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <div class="modal fade modal-dialog-scrollable p-3 " id="exampleModal " tabindex="-1 " aria-labelledby="exampleModalLabel " aria-hidden="true ">
+                                    <div class="modal-dialog ">
+                                        <div class="modal-content ">
+                                            <div class="modal-header ">
+                                                <h5 class="modal-title text-center " id="exampleModalLabel ">Abdullah Al Mahfuz</h5>
+                                                <button type="button " class="btn-close " data-bs-dismiss="modal " aria-label="Close "></button>
                                             </div>
-                                            <div class="modal-body">
+                                            <div class="modal-body ">
 
 
-                                                <img class="img-fluid gardiuan_comment img-fluid shadow" src="images/p2-modified.png" alt="">
+                                                <img class="img-fluid gardiuan_comment img-fluid shadow " src="images/p2-modified.png " alt=" ">
                                                 <br>
                                                 <br>
 
                                                 <div class="main_text text-center container mt- mb-2 ">
 
-                                                    <h3 class="fw-bolder"><span class="text-primary">Abou</span><span class="my_own_color">t me</span></h3>
+                                                    <h3 class="fw-bolder "><span class="text-primary ">Abou</span><span class="my_own_color ">t me</span></h3>
 
                                                 </div>
                                                 <br>
@@ -1298,18 +1302,18 @@
 
 
                                                 <!-- table -->
-                                                <table class="table table-dark table-hover h6 text-start">
+                                                <table class="table table-dark table-hover h6 text-start ">
 
 
 
                                                     <tbody>
                                                         <tr>
-                                                            <th scope="row">
+                                                            <th scope="row ">
                                                                 Name
                                                             </th>
                                                             <td>
 
-                                                                <p style="font-weight: 300" ;> MD. LUTHFUR RAHMAN CHOWDHUR</p>
+                                                                <p style="font-weight: 300 " ;> MD. LUTHFUR RAHMAN CHOWDHUR</p>
                                                             </td>
 
                                                         </tr>
@@ -1392,9 +1396,9 @@
 
                                                 </table>
                                                 <h5>
-                                                    <a class="icons" href="https://www.facebook.com/groups/853515681398192/?ref=share"> <i class=" fab fa-facebook-f p- "></i></a>
-                                                    <a class="icons" href="mailto:siahs2010@gmail.com"> <i class="fas fa-envelope p-1"></i></a>
-                                                    <a class="icons" href="tel:01787878743"> <i class=" fas fa-mobile-alt p-1 "></i></a>
+                                                    <a class="icons " href="https://www.facebook.com/groups/853515681398192/?ref=share "> <i class=" fab fa-facebook-f p- "></i></a>
+                                                    <a class="icons " href="mailto:siahs2010@gmail.com "> <i class="fas fa-envelope p-1 "></i></a>
+                                                    <a class="icons " href="tel:01787878743 "> <i class=" fas fa-mobile-alt p-1 "></i></a>
                                                 </h5>
                                                 <!-- <p>MD. LUTHFUR RAHMAN CHOWDHURY</p>
                                                         <p>Head Master</p>
@@ -1452,23 +1456,23 @@
                 <p class="gardiuan_name my-2 ">Hasan Khan<br><span class="text-muted ">Education Minister</span></p>
                 <!-- model satrt -->
                 <!-- Button trigger modal -->
-                <button type="button " class="btn text-center read_more_btn text-light mb-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                <button type="button " class="btn text-center read_more_btn text-light mb-2 " data-bs-toggle="modal " data-bs-target="#staticBackdrop ">
                     
                     Read More
 
                 </button>
 
                 <!-- Modal -->
-                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-scrollable">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <p class="gardiuan_name my-2 my-2">Angelena Joly</p>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal fade " id="staticBackdrop " data-bs-backdrop="static " data-bs-keyboard="false " tabindex="-1 " aria-labelledby="staticBackdropLabel " aria-hidden="true ">
+                    <div class="modal-dialog modal-dialog-scrollable ">
+                        <div class="modal-content ">
+                            <div class="modal-header ">
+                                <p class="gardiuan_name my-2 my-2 ">Angelena Joly</p>
+                                <button type="button " class="btn-close " data-bs-dismiss="modal " aria-label="Close "></button>
                             </div>
-                            <div class="modal-body"> <img class="gardiuan_comment img-fluid shadow " src="images/p2-modified.png " alt=" ">
-                                <p class="gardiuan_name my-2 my-2 ">Angelena Joly<br><span class="text-muted">Actor</span></p>
-                                <hr> <span class="h4">L</span> orem, ipsum dolor sit amet consectetur adipisicing elit. Ab doloribus maiores repudiandae nobis praesentium temporibus quos corporis deserunt illum, accusantium minima ex inventore quod accusamus
+                            <div class="modal-body "> <img class="gardiuan_comment img-fluid shadow " src="images/p2-modified.png " alt=" ">
+                                <p class="gardiuan_name my-2 my-2 ">Angelena Joly<br><span class="text-muted ">Actor</span></p>
+                                <hr> <span class="h4 ">L</span> orem, ipsum dolor sit amet consectetur adipisicing elit. Ab doloribus maiores repudiandae nobis praesentium temporibus quos corporis deserunt illum, accusantium minima ex inventore quod accusamus
                                 sunt architecto suscipit explicabo! Adipisci sint maiores officiis porro ipsam. Perspiciatis, vel adipisci praesentium ipsa sit ipsam fuga harum ut debitis illum nam placeat accusantium laboriosam atque sunt pariatur ea
                                 quam optio, maiores officiis illo. Tempora vero excepturi quasi, aperiam enim iste atque, in tempore pariatur quae consequuntur sunt! Asperiores unde nostrum deleniti molestias sed, numquam placeat voluptatum quos beatae
                                 incidunt. Quisquam ex odit ipsa enim atque dicta. Accusantium, voluptatem sapiente, voluptates, vitae beatae omnis consectetur mollitia magnam sequi facilis esse quisquam illo. Voluptate eius quibusdam quo ab sint deleniti
@@ -1476,9 +1480,9 @@
                                 ullam! Doloribus eaque atque mollitia officia magnam porro minus nisi, facilis nostrum blanditiis beatae recusandae incidunt nam iste? Ipsum, maxime labore animi quod neque fugit aspernatur eius earum et iusto enim, voluptas
                                 quos necessitatibus facilis deserunt officia reprehenderit maiores architecto! Asperiores, iste, doloribus eius commodi labore ipsum illum quia at suscipit natus sit aliquam aut.
                             </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Understood</button>
+                            <div class="modal-footer ">
+                                <button type="button " class="btn btn-secondary " data-bs-dismiss="modal ">Close</button>
+                                <button type="button " class="btn btn-primary ">Understood</button>
                             </div>
                         </div>
                     </div>
@@ -1492,23 +1496,23 @@
 
                 <!-- model satrt -->
                 <!-- Button trigger modal -->
-                <button type="button " class="btn text-center read_more_btn text-light mb-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                <button type="button " class="btn text-center read_more_btn text-light mb-2 " data-bs-toggle="modal " data-bs-target="#staticBackdrop ">
                     
                     Read More
 
                 </button>
 
                 <!-- Modal -->
-                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-scrollable">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <p class="gardiuan_name my-2 my-2">Angelena Joly</p>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal fade " id="staticBackdrop " data-bs-backdrop="static " data-bs-keyboard="false " tabindex="-1 " aria-labelledby="staticBackdropLabel " aria-hidden="true ">
+                    <div class="modal-dialog modal-dialog-scrollable ">
+                        <div class="modal-content ">
+                            <div class="modal-header ">
+                                <p class="gardiuan_name my-2 my-2 ">Angelena Joly</p>
+                                <button type="button " class="btn-close " data-bs-dismiss="modal " aria-label="Close "></button>
                             </div>
-                            <div class="modal-body"> <img class="gardiuan_comment img-fluid shadow " src="images/p2-modified.png " alt=" ">
-                                <p class="gardiuan_name my-2 my-2 ">Angelena Joly<br><span class="text-muted">Actor</span></p>
-                                <hr> <span class="h4">L</span> orem, ipsum dolor sit amet consectetur adipisicing elit. Ab doloribus maiores repudiandae nobis praesentium temporibus quos corporis deserunt illum, accusantium minima ex inventore quod accusamus
+                            <div class="modal-body "> <img class="gardiuan_comment img-fluid shadow " src="images/p2-modified.png " alt=" ">
+                                <p class="gardiuan_name my-2 my-2 ">Angelena Joly<br><span class="text-muted ">Actor</span></p>
+                                <hr> <span class="h4 ">L</span> orem, ipsum dolor sit amet consectetur adipisicing elit. Ab doloribus maiores repudiandae nobis praesentium temporibus quos corporis deserunt illum, accusantium minima ex inventore quod accusamus
                                 sunt architecto suscipit explicabo! Adipisci sint maiores officiis porro ipsam. Perspiciatis, vel adipisci praesentium ipsa sit ipsam fuga harum ut debitis illum nam placeat accusantium laboriosam atque sunt pariatur ea
                                 quam optio, maiores officiis illo. Tempora vero excepturi quasi, aperiam enim iste atque, in tempore pariatur quae consequuntur sunt! Asperiores unde nostrum deleniti molestias sed, numquam placeat voluptatum quos beatae
                                 incidunt. Quisquam ex odit ipsa enim atque dicta. Accusantium, voluptatem sapiente, voluptates, vitae beatae omnis consectetur mollitia magnam sequi facilis esse quisquam illo. Voluptate eius quibusdam quo ab sint deleniti
@@ -1516,9 +1520,9 @@
                                 ullam! Doloribus eaque atque mollitia officia magnam porro minus nisi, facilis nostrum blanditiis beatae recusandae incidunt nam iste? Ipsum, maxime labore animi quod neque fugit aspernatur eius earum et iusto enim, voluptas
                                 quos necessitatibus facilis deserunt officia reprehenderit maiores architecto! Asperiores, iste, doloribus eius commodi labore ipsum illum quia at suscipit natus sit aliquam aut.
                             </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Understood</button>
+                            <div class="modal-footer ">
+                                <button type="button " class="btn btn-secondary " data-bs-dismiss="modal ">Close</button>
+                                <button type="button " class="btn btn-primary ">Understood</button>
                             </div>
                         </div>
                     </div>
@@ -1531,23 +1535,23 @@
                 <p class="gardiuan_name my-2 ">Maya Jacy<br><span class="text-muted ">Rechercer</span></p>
                 <!-- model satrt -->
                 <!-- Button trigger modal -->
-                <button type="button " class="btn text-center read_more_btn text-light mb-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                <button type="button " class="btn text-center read_more_btn text-light mb-2 " data-bs-toggle="modal " data-bs-target="#staticBackdrop ">
                     
                     Read More
 
                 </button>
 
                 <!-- Modal -->
-                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-scrollable">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <p class="gardiuan_name my-2 my-2">Angelena Joly</p>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal fade " id="staticBackdrop " data-bs-backdrop="static " data-bs-keyboard="false " tabindex="-1 " aria-labelledby="staticBackdropLabel " aria-hidden="true ">
+                    <div class="modal-dialog modal-dialog-scrollable ">
+                        <div class="modal-content ">
+                            <div class="modal-header ">
+                                <p class="gardiuan_name my-2 my-2 ">Angelena Joly</p>
+                                <button type="button " class="btn-close " data-bs-dismiss="modal " aria-label="Close "></button>
                             </div>
-                            <div class="modal-body"> <img class="gardiuan_comment img-fluid shadow " src="images/p2-modified.png " alt=" ">
-                                <p class="gardiuan_name my-2 my-2 ">Angelena Joly<br><span class="text-muted">Actor</span></p>
-                                <hr> <span class="h4">L</span> orem, ipsum dolor sit amet consectetur adipisicing elit. Ab doloribus maiores repudiandae nobis praesentium temporibus quos corporis deserunt illum, accusantium minima ex inventore quod accusamus
+                            <div class="modal-body "> <img class="gardiuan_comment img-fluid shadow " src="images/p2-modified.png " alt=" ">
+                                <p class="gardiuan_name my-2 my-2 ">Angelena Joly<br><span class="text-muted ">Actor</span></p>
+                                <hr> <span class="h4 ">L</span> orem, ipsum dolor sit amet consectetur adipisicing elit. Ab doloribus maiores repudiandae nobis praesentium temporibus quos corporis deserunt illum, accusantium minima ex inventore quod accusamus
                                 sunt architecto suscipit explicabo! Adipisci sint maiores officiis porro ipsam. Perspiciatis, vel adipisci praesentium ipsa sit ipsam fuga harum ut debitis illum nam placeat accusantium laboriosam atque sunt pariatur ea
                                 quam optio, maiores officiis illo. Tempora vero excepturi quasi, aperiam enim iste atque, in tempore pariatur quae consequuntur sunt! Asperiores unde nostrum deleniti molestias sed, numquam placeat voluptatum quos beatae
                                 incidunt. Quisquam ex odit ipsa enim atque dicta. Accusantium, voluptatem sapiente, voluptates, vitae beatae omnis consectetur mollitia magnam sequi facilis esse quisquam illo. Voluptate eius quibusdam quo ab sint deleniti
@@ -1555,9 +1559,9 @@
                                 ullam! Doloribus eaque atque mollitia officia magnam porro minus nisi, facilis nostrum blanditiis beatae recusandae incidunt nam iste? Ipsum, maxime labore animi quod neque fugit aspernatur eius earum et iusto enim, voluptas
                                 quos necessitatibus facilis deserunt officia reprehenderit maiores architecto! Asperiores, iste, doloribus eius commodi labore ipsum illum quia at suscipit natus sit aliquam aut.
                             </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Understood</button>
+                            <div class="modal-footer ">
+                                <button type="button " class="btn btn-secondary " data-bs-dismiss="modal ">Close</button>
+                                <button type="button " class="btn btn-primary ">Understood</button>
                             </div>
                         </div>
                     </div>
@@ -1571,23 +1575,23 @@
                 <p class="gardiuan_name my-2 ">Imran Ahmad<br><span class="text-muted ">Teacher</span></p>
                 <!-- model satrt -->
                 <!-- Button trigger modal -->
-                <button type="button " class="btn text-center read_more_btn text-light mb-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                <button type="button " class="btn text-center read_more_btn text-light mb-2 " data-bs-toggle="modal " data-bs-target="#staticBackdrop ">
                     
                     Read More
 
                 </button>
 
                 <!-- Modal -->
-                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-scrollable">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <p class="gardiuan_name my-2 my-2">Angelena Joly</p>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal fade " id="staticBackdrop " data-bs-backdrop="static " data-bs-keyboard="false " tabindex="-1 " aria-labelledby="staticBackdropLabel " aria-hidden="true ">
+                    <div class="modal-dialog modal-dialog-scrollable ">
+                        <div class="modal-content ">
+                            <div class="modal-header ">
+                                <p class="gardiuan_name my-2 my-2 ">Angelena Joly</p>
+                                <button type="button " class="btn-close " data-bs-dismiss="modal " aria-label="Close "></button>
                             </div>
-                            <div class="modal-body"> <img class="gardiuan_comment img-fluid shadow " src="images/p2-modified.png " alt=" ">
-                                <p class="gardiuan_name my-2 my-2 ">Angelena Joly<br><span class="text-muted">Actor</span></p>
-                                <hr> <span class="h4">L</span> orem, ipsum dolor sit amet consectetur adipisicing elit. Ab doloribus maiores repudiandae nobis praesentium temporibus quos corporis deserunt illum, accusantium minima ex inventore quod accusamus
+                            <div class="modal-body "> <img class="gardiuan_comment img-fluid shadow " src="images/p2-modified.png " alt=" ">
+                                <p class="gardiuan_name my-2 my-2 ">Angelena Joly<br><span class="text-muted ">Actor</span></p>
+                                <hr> <span class="h4 ">L</span> orem, ipsum dolor sit amet consectetur adipisicing elit. Ab doloribus maiores repudiandae nobis praesentium temporibus quos corporis deserunt illum, accusantium minima ex inventore quod accusamus
                                 sunt architecto suscipit explicabo! Adipisci sint maiores officiis porro ipsam. Perspiciatis, vel adipisci praesentium ipsa sit ipsam fuga harum ut debitis illum nam placeat accusantium laboriosam atque sunt pariatur ea
                                 quam optio, maiores officiis illo. Tempora vero excepturi quasi, aperiam enim iste atque, in tempore pariatur quae consequuntur sunt! Asperiores unde nostrum deleniti molestias sed, numquam placeat voluptatum quos beatae
                                 incidunt. Quisquam ex odit ipsa enim atque dicta. Accusantium, voluptatem sapiente, voluptates, vitae beatae omnis consectetur mollitia magnam sequi facilis esse quisquam illo. Voluptate eius quibusdam quo ab sint deleniti
@@ -1595,9 +1599,9 @@
                                 ullam! Doloribus eaque atque mollitia officia magnam porro minus nisi, facilis nostrum blanditiis beatae recusandae incidunt nam iste? Ipsum, maxime labore animi quod neque fugit aspernatur eius earum et iusto enim, voluptas
                                 quos necessitatibus facilis deserunt officia reprehenderit maiores architecto! Asperiores, iste, doloribus eius commodi labore ipsum illum quia at suscipit natus sit aliquam aut.
                             </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Understood</button>
+                            <div class="modal-footer ">
+                                <button type="button " class="btn btn-secondary " data-bs-dismiss="modal ">Close</button>
+                                <button type="button " class="btn btn-primary ">Understood</button>
                             </div>
                         </div>
                     </div>
@@ -1611,23 +1615,23 @@
                 <p class="gardiuan_name my-2 ">Abdullah Khan<br><span class="text-muted ">Enginner</span></p>
                 <!-- model satrt -->
                 <!-- Button trigger modal -->
-                <button type="button " class="btn text-center read_more_btn text-light mb-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                <button type="button " class="btn text-center read_more_btn text-light mb-2 " data-bs-toggle="modal " data-bs-target="#staticBackdrop ">
                     
                     Read More
 
                 </button>
 
                 <!-- Modal -->
-                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-scrollable">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <p class="gardiuan_name my-2 my-2">Angelena Joly</p>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal fade " id="staticBackdrop " data-bs-backdrop="static " data-bs-keyboard="false " tabindex="-1 " aria-labelledby="staticBackdropLabel " aria-hidden="true ">
+                    <div class="modal-dialog modal-dialog-scrollable ">
+                        <div class="modal-content ">
+                            <div class="modal-header ">
+                                <p class="gardiuan_name my-2 my-2 ">Angelena Joly</p>
+                                <button type="button " class="btn-close " data-bs-dismiss="modal " aria-label="Close "></button>
                             </div>
-                            <div class="modal-body"> <img class="gardiuan_comment img-fluid shadow " src="images/p2-modified.png " alt=" ">
-                                <p class="gardiuan_name my-2 my-2 ">Angelena Joly<br><span class="text-muted">Actor</span></p>
-                                <hr> <span class="h4">L</span> orem, ipsum dolor sit amet consectetur adipisicing elit. Ab doloribus maiores repudiandae nobis praesentium temporibus quos corporis deserunt illum, accusantium minima ex inventore quod accusamus
+                            <div class="modal-body "> <img class="gardiuan_comment img-fluid shadow " src="images/p2-modified.png " alt=" ">
+                                <p class="gardiuan_name my-2 my-2 ">Angelena Joly<br><span class="text-muted ">Actor</span></p>
+                                <hr> <span class="h4 ">L</span> orem, ipsum dolor sit amet consectetur adipisicing elit. Ab doloribus maiores repudiandae nobis praesentium temporibus quos corporis deserunt illum, accusantium minima ex inventore quod accusamus
                                 sunt architecto suscipit explicabo! Adipisci sint maiores officiis porro ipsam. Perspiciatis, vel adipisci praesentium ipsa sit ipsam fuga harum ut debitis illum nam placeat accusantium laboriosam atque sunt pariatur ea
                                 quam optio, maiores officiis illo. Tempora vero excepturi quasi, aperiam enim iste atque, in tempore pariatur quae consequuntur sunt! Asperiores unde nostrum deleniti molestias sed, numquam placeat voluptatum quos beatae
                                 incidunt. Quisquam ex odit ipsa enim atque dicta. Accusantium, voluptatem sapiente, voluptates, vitae beatae omnis consectetur mollitia magnam sequi facilis esse quisquam illo. Voluptate eius quibusdam quo ab sint deleniti
@@ -1635,9 +1639,9 @@
                                 ullam! Doloribus eaque atque mollitia officia magnam porro minus nisi, facilis nostrum blanditiis beatae recusandae incidunt nam iste? Ipsum, maxime labore animi quod neque fugit aspernatur eius earum et iusto enim, voluptas
                                 quos necessitatibus facilis deserunt officia reprehenderit maiores architecto! Asperiores, iste, doloribus eius commodi labore ipsum illum quia at suscipit natus sit aliquam aut.
                             </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Understood</button>
+                            <div class="modal-footer ">
+                                <button type="button " class="btn btn-secondary " data-bs-dismiss="modal ">Close</button>
+                                <button type="button " class="btn btn-primary ">Understood</button>
                             </div>
                         </div>
                     </div>
@@ -1652,23 +1656,23 @@
                 <!-- Button trigger modal -->
                 <!-- model satrt -->
                 <!-- Button trigger modal -->
-                <button type="button " class="btn text-center read_more_btn text-light mb-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                <button type="button " class="btn text-center read_more_btn text-light mb-2 " data-bs-toggle="modal " data-bs-target="#staticBackdrop ">
                     
                     Read More
 
                 </button>
 
                 <!-- Modal -->
-                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-scrollable">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <p class="gardiuan_name my-2 my-2">Angelena Joly</p>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal fade " id="staticBackdrop " data-bs-backdrop="static " data-bs-keyboard="false " tabindex="-1 " aria-labelledby="staticBackdropLabel " aria-hidden="true ">
+                    <div class="modal-dialog modal-dialog-scrollable ">
+                        <div class="modal-content ">
+                            <div class="modal-header ">
+                                <p class="gardiuan_name my-2 my-2 ">Angelena Joly</p>
+                                <button type="button " class="btn-close " data-bs-dismiss="modal " aria-label="Close "></button>
                             </div>
-                            <div class="modal-body"> <img class="gardiuan_comment img-fluid shadow " src="images/p2-modified.png " alt=" ">
-                                <p class="gardiuan_name my-2 my-2 ">Angelena Joly<br><span class="text-muted">Actor</span></p>
-                                <hr> <span class="h4">L</span> orem, ipsum dolor sit amet consectetur adipisicing elit. Ab doloribus maiores repudiandae nobis praesentium temporibus quos corporis deserunt illum, accusantium minima ex inventore quod accusamus
+                            <div class="modal-body "> <img class="gardiuan_comment img-fluid shadow " src="images/p2-modified.png " alt=" ">
+                                <p class="gardiuan_name my-2 my-2 ">Angelena Joly<br><span class="text-muted ">Actor</span></p>
+                                <hr> <span class="h4 ">L</span> orem, ipsum dolor sit amet consectetur adipisicing elit. Ab doloribus maiores repudiandae nobis praesentium temporibus quos corporis deserunt illum, accusantium minima ex inventore quod accusamus
                                 sunt architecto suscipit explicabo! Adipisci sint maiores officiis porro ipsam. Perspiciatis, vel adipisci praesentium ipsa sit ipsam fuga harum ut debitis illum nam placeat accusantium laboriosam atque sunt pariatur ea
                                 quam optio, maiores officiis illo. Tempora vero excepturi quasi, aperiam enim iste atque, in tempore pariatur quae consequuntur sunt! Asperiores unde nostrum deleniti molestias sed, numquam placeat voluptatum quos beatae
                                 incidunt. Quisquam ex odit ipsa enim atque dicta. Accusantium, voluptatem sapiente, voluptates, vitae beatae omnis consectetur mollitia magnam sequi facilis esse quisquam illo. Voluptate eius quibusdam quo ab sint deleniti
@@ -1676,9 +1680,9 @@
                                 ullam! Doloribus eaque atque mollitia officia magnam porro minus nisi, facilis nostrum blanditiis beatae recusandae incidunt nam iste? Ipsum, maxime labore animi quod neque fugit aspernatur eius earum et iusto enim, voluptas
                                 quos necessitatibus facilis deserunt officia reprehenderit maiores architecto! Asperiores, iste, doloribus eius commodi labore ipsum illum quia at suscipit natus sit aliquam aut.
                             </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Understood</button>
+                            <div class="modal-footer ">
+                                <button type="button " class="btn btn-secondary " data-bs-dismiss="modal ">Close</button>
+                                <button type="button " class="btn btn-primary ">Understood</button>
                             </div>
                         </div>
                     </div>
@@ -1708,7 +1712,7 @@
 
         </div>
         <br>
-        <div class="row g-3 ">
+        <div id="address" class="row g-3 ">
             <div class="col-md-6 col-sm-6 ">
                 <div class="full_first_page text-center ">
                     <h3 class="fw-bold ">SHAISTANGANJ ISLAMI ACADEMY & HIGH SCHOOL</h3>
@@ -1723,16 +1727,16 @@
 
                         </div>
                     </div>
-                    <button class="read_more_btn text-light logo a  ">
-                        <a class="text-light" href="https://www.google.com/maps/dir/%E0%A6%B6%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%97%E0%A6%9E%E0%A7%8D%E0%A6%9C/%E0%A6%B6%E0%A6%BE%E0%A7%9F%E0%A7%87%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%97%E0%A6%9E%E0%A7%8D%E0%A6%9C+%E0%A6%87%E0%A6%B8%E0%A6%B2%E0%A6%BE%E0%A6%AE%E0%A7%80+%E0%A6%8F%E0%A6%95%E0%A6%BE%E0%A6%A1%E0%A7%87%E0%A6%AE%E0%A6%BF+%E0%A6%8F%E0%A6%A8%E0%A7%8D%E0%A6%A1+%E0%A6%B9%E0%A6%BE%E0%A6%87%E0%A6%B8%E0%A7%8D%E0%A6%95%E0%A7%81%E0%A6%B2,+Shaistaganj+Habiganj+Bypus+Road,+Shaistaganj+Municipality,+Kutuberchalk,+Shaistaganj,+Habiganj.,+Shiaistaganj+N2,+%E0%A6%B6%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%97%E0%A6%9E%E0%A7%8D%E0%A6%9C+3301/@24.2788585,91.4488506,16z/data=!4m8!4m7!1m2!1m1!1s0x37515c4522a33541:0xaf92bcdf59019563!1m2!1m1!1s0x37515b7f9491ff39:0x6774a88fa67ca986!3e0">Google map</a>
+                    <button class="read_more_btn text-light logo a ">
+                        <a class="text-light " href="https://www.google.com/maps/dir/%E0%A6%B6%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%97%E0%A6%9E%E0%A7%8D%E0%A6%9C/%E0%A6%B6%E0%A6%BE%E0%A7%9F%E0%A7%87%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%97%E0%A6%9E%E0%A7%8D%E0%A6%9C+%E0%A6%87%E0%A6%B8%E0%A6%B2%E0%A6%BE%E0%A6%AE%E0%A7%80+%E0%A6%8F%E0%A6%95%E0%A6%BE%E0%A6%A1%E0%A7%87%E0%A6%AE%E0%A6%BF+%E0%A6%8F%E0%A6%A8%E0%A7%8D%E0%A6%A1+%E0%A6%B9%E0%A6%BE%E0%A6%87%E0%A6%B8%E0%A7%8D%E0%A6%95%E0%A7%81%E0%A6%B2,+Shaistaganj+Habiganj+Bypus+Road,+Shaistaganj+Municipality,+Kutuberchalk,+Shaistaganj,+Habiganj.,+Shiaistaganj+N2,+%E0%A6%B6%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%97%E0%A6%9E%E0%A7%8D%E0%A6%9C+3301/@24.2788585,91.4488506,16z/data=!4m8!4m7!1m2!1m1!1s0x37515c4522a33541:0xaf92bcdf59019563!1m2!1m1!1s0x37515b7f9491ff39:0x6774a88fa67ca986!3e0 ">Google map</a>
                     </button>
 
                 </div>
             </div>
             <div class="col-md-6 col-sm-6 ">
 
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1818.437964413687!2d91.44108108081628!3d24.281063749149055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37515b7f9491ff39%3A0x6774a88fa67ca986!2z4Ka24Ka-4Kef4KeH4Ka44KeN4Kak4Ka-4KaX4Kae4KeN4KacIOCmh-CmuOCmsuCmvuCmruCngCDgpo_gppXgpr7gpqHgp4fgpq7gpr8g4KaP4Kao4KeN4KahIOCmueCmvuCmh-CmuOCnjeCmleCngeCmsg!5e0!3m2!1sbn!2sbd!4v1633492819702!5m2!1sbn!2sbd"
-                    width="100% " height="100% " style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1818.437964413687!2d91.44108108081628!3d24.281063749149055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37515b7f9491ff39%3A0x6774a88fa67ca986!2z4Ka24Ka-4Kef4KeH4Ka44KeN4Kak4Ka-4KaX4Kae4KeN4KacIOCmh-CmuOCmsuCmvuCmruCngCDgpo_gppXgpr7gpqHgp4fgpq7gpr8g4KaP4Kao4KeN4KahIOCmueCmvuCmh-CmuOCnjeCmleCngeCmsg!5e0!3m2!1sbn!2sbd!4v1633492819702!5m2!1sbn!2sbd "
+                    width="100% " height="100% " style="border:0; " allowfullscreen=" " loading="lazy "></iframe>
 
             </div>
         </div>
@@ -1786,15 +1790,12 @@
         </div>
     </div>
 
-
+    <!--  my js link-->
+    <script src="JavaScript/index.js "></script>
     <!--nine page end  -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM " crossorigin="anonymous "></script>
 
 </body>
-
-</html>
-
-</html>
 
 </html>
