@@ -53,6 +53,21 @@
                     color: #6c757d;
                     transition: 0.5s;
                     border-radius: 6px;
+                    background-color: #1110100e;
+                }
+                
+                .icons_firstpage i {
+                    text-decoration: none;
+                    color: #6c757d;
+                    transition: 0.5s;
+                    border-radius: 6px;
+                    background-color: #f8f9fad7;
+                    ;
+                }
+                
+                .icons_firstpage i:hover {
+                    color: rgb(206, 25, 55);
+                    transition: 0.5s;
                 }
                 
                 #sun_light {

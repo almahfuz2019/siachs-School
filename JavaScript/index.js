@@ -1,17 +1,30 @@
+function student_alert() {
+    alert("Hello! I am an alert box!");
+}
+
+
 function mainimage1() {
-    const mainimg = document.getElementById("main_img").src = "images/e1.jpg";
+    const mainimg = document.getElementById("main_img").src = "images/New Project (1).png";
 }
 
 function mainimage2() {
-    const mainimg1 = document.getElementById("main_img").src = "images/d.jpg";
+    const mainimg1 = document.getElementById("main_img").src = "images/New Project (2).png";
 }
 
 function mainimage3() {
-    const mainimg2 = document.getElementById("main_img").src = "images/f2.jpg";
+    const mainimg2 = document.getElementById("main_img").src = "images/New Project (3).png";
 }
 
 function mainimage4() {
-    const mainimg3 = document.getElementById("main_img").src = "images/s.jpg";
+    const mainimg3 = document.getElementById("main_img").src = "images/New Project.jpg";
+}
+
+function mainimage5() {
+    const mainimg3 = document.getElementById("main_img").src = "images/New Project.png";
+}
+
+function mainimage6() {
+    const mainimg3 = document.getElementById("main_img").src = "images/New Project1.png";
 }
 //event end
 //dark mode

@@ -1,15 +1,218 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- css link -->
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/contact.css">
+
+    <title>Hello, world!</title>
 </head>
 
 <body>
-    <h1>dfsadf</h1>
+    <!-- new navbar start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark ">
+        <div class="container-fluid all_ul_tag_and_phone_number">
+            <a class="navbar-brand" href="index.html">
+                <div class="logo ">
+                    <a class="text-light fw-bold " href="">
+                        <h3 class="fw-bolder"><span class="text-primary">SIA</span><span class="my_own_color">CHS</span></h3>
+                    </a>
+                </div>
+            </a>
+            <button class="navbar-toggler text-primary bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon text-light"></span>
+      </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <div class="all_ul_tag mx-auto text-center">
+                    <ul class="navbar-nav">
+                        <li class="nav-item ">
+                            <a class="nav-link active text-light Navbar_hover" aria-current="page " href="index.html"><span class="navbar_first_charecter">H</span>ome</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link text-light Navbar_hover" href="html/about.html"><span class="navbar_first_charecter">A</span>bout</a>
+                        </li>
+
+
+                        <!-- dropdown start -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-light dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="text-light Navbar_hover">I</span>nfo
+                            </a>
+                            <ul class="dropdown-menu text-center bg-dark" aria-labelledby="navbarDropdown">
+                                <li><a class="nav-link text-light Navbar_hover" href="# "><span class="navbar_first_charecter">S</span>tudent's</a></li>
+                                <li><a class="nav-link text-light Navbar_hover" href="# "><span class="navbar_first_charecter">T</span>eacher's</a></li>
+                                <li><a class="nav-link text-light Navbar_hover" href="# "><span class="navbar_first_charecter">S</span>taf's</a></li>
+
+
+                            </ul>
+                        </li>
+                        <!-- dropdown end -->
+                        <li class="nav-item ">
+                            <a class="nav-link text-light Navbar_hover" href="fasility.html "><span class="navbar_first_charecter">F</span>asility</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link text-light Navbar_hover" href="# "><span class="navbar_first_charecter">G</span>ellary</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link text-light Navbar_hover" href="#"><span class="navbar_first_charecter">A</span>dmision</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link text-light Navbar_hover" href="result.html "><span class="navbar_first_charecter">R</span>esult</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link text-light Navbar_hover" href="# "><span class="navbar_first_charecter">N</span>otic</a>
+                        </li>
+                        <li class="nav-item ">
+                            <li class="nav-item ">
+                                <a class="nav-link text-light Navbar_hover" href="result.html"><span class="navbar_first_charecter">C</span>ontact</a>
+                            </li>
+                        </li>
+
+
+
+                    </ul>
+                </div>
+                <div class="phone_number ">
+                    <a class="nav-link text-light text-center Navbar_hover" href="tel:01787878743"><span class="navbar_first_charecter">+880</span>1787878743</a>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- new navbar end -->
+    <section>
+        <div id="alert_email" class="alert alert-danger alert-dismissible fade show" role="alert">
+            <strong>Please</strong> enter your gmail Id.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    </section>
+    <section>
+        <div id="alert_profession" class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>Please</strong> select yor profession.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    </section>
+    <section>
+        <div id="alert_comment" class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>Please</strong> enter your comment.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    </section>
+
+    <h1 class="text-light fw-bold text-center"><span class="text-primary">Contact</span><span class="my_own_color"> Us</span>
+    </h1>
+
+
+
+    <section class="p-4" id="full">
+        <div class="form py-5 register-form bg-dark">
+            <div class="note ">
+            </div>
+            <div class="form-content mx-5" id="contact">
+                <div class="row gy-4">
+                    <div class="col-md-12">
+                        <label for="exampleFormControlInput1" class="form-label text-light">Gmail</label>
+                        <div class="form-group my-3">
+                            <input id="gmail" type="text" class="form-control" placeholder="*********@gmail.com" value="" />
+                        </div>
+                        <div class="col-md-12">
+
+                            <label class="form-label text-light">Profession</label>
+                            <select class="form-select bg-light" id="professions">
+                <option selected>Choose your profession...</option>
+                <option value="1">Doctor</option>
+                <option value="1">Engineer</option>
+                <option value="1">Teacher</option>
+                <option value="1">Student</option>
+                <option value="1">Others</option>
+               
+              </select>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+
+
+                        <div class="">
+                            <label class="form-label text-light">Comment</label>
+                            <textarea placeholder="why you choose our school?" class="form-control" id="comments" rows="3"></textarea>
+                        </div>
+
+                    </div>
+
+
+                    <!-- s -->
+
+                    <!-- s -->
+                </div>
+                <div onclick="validition()" class="text-center mt-4"><button type="button" class="btn btn-light btn3 px-5 py-2  fw-bold">Submit</button></div>
+                <br>
+            </div>
+        </div>
+    </section>
+    <input type="password" id="password" placeholder="Password">
+    <div id="password-err"></div>
+    <!--nine page start  -->
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container-fluid bg-dark ">
+        <div class="px-3 text-light pt-5 ">
+            <div class="row ">
+
+                <div class="col-md-3 ">
+                    <h2 class="fw-bolder"><span class="text-primary">SS</span><span class="my_own_color">DIX</span></h2>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+                <div class="col-md-3 ">
+                    <h4>MEMU</h4>
+                    <div>
+
+                        <a class="foter text-muted " href=" ">about me lorem</a><br>
+                        <a class="foter text-muted " href=" ">about me lorem</a><br>
+                        <a class="foter text-muted " href=" ">about me lorem</a><br>
+                        <a class="foter text-muted " href=" ">about me lorem</a><br>
+                        <a class="foter text-muted " href=" ">about me</a><br>
+                        <a class="foter text-muted " href=" ">about medfsdg sf</a><br>
+                    </div>
+                </div>
+                <div class="col-md-3 ">
+                    <h4>MEMU</h4>
+                    <a class="foter text-muted " href=" ">about me lorem</a><br>
+                    <a class="foter text-muted " href=" ">about me lorem</a><br>
+                    <a class="foter text-muted " href=" ">about me lorem</a><br>
+                    <a class="foter text-muted " href=" ">about me lorem</a><br>
+                    <a class="foter text-muted " href=" ">about me</a><br>
+                    <a class="foter text-muted " href=" ">about medfsdg sf</a><br></div>
+                <div class="col-md-3 ">
+                    <h4>MEMU</h4>
+                    <a class="foter text-muted " href=" ">about me lorem</a><br>
+                    <a class="foter text-muted " href=" ">about me lorem</a><br>
+                    <a class="foter text-muted " href=" ">about me lorem</a><br>
+                    <a class="foter text-muted " href=" ">about me lorem</a><br>
+                    <a class="foter text-muted " href=" ">about me</a><br>
+                    <a class="foter text-muted " href=" ">about medfsdg sf</a><br></div>
+
+                <p class="text-center mt-5 text-muted ">© 2021 resulave. All rights reserved</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!--nine page end  -->
+    <!-- js link -->
+    <script src="javascript/contact.js"></script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 </body>
 
 </html>

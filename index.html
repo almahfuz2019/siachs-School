@@ -57,7 +57,7 @@
                                     <span class="text-light Navbar_hover">I</span>nfo
                                 </a>
                                 <ul class="dropdown-menu text-center bg-dark" aria-labelledby="navbarDropdown">
-                                    <li><a class="nav-link text-light Navbar_hover" href="# "><span class="navbar_first_charecter">S</span>tudent's</a></li>
+                                    <li><a onclick="student_alert()" class="nav-link text-light Navbar_hover" href="# "><span class="navbar_first_charecter">S</span>tudent's</a></li>
                                     <li><a class="nav-link text-light Navbar_hover" href="#teachers"><span class="navbar_first_charecter">T</span>eacher's</a></li>
                                     <li><a class="nav-link text-light Navbar_hover" href="# "><span class="navbar_first_charecter">S</span>taff's</a></li>
 
@@ -113,7 +113,7 @@
             <h1>SHAISTANGANJ ISLAMI ACADEMY & HIGH SCHOOL</h1>
             <p>Post Office : Shaistaganj(3301), Upozilla : Habiganj Sadar, District : Habiganj <br>EIIN No : 129450, School Code : 1784, MPO Code : 1205111203</p>
             <div class=" mt-2 text-center">
-                <div class="">
+                <div class="icons_firstpage  mb-3">
 
                     <a class="icons" href="https://www.facebook.com/groups/853515681398192/?ref=share"> <i class=" fab fa-facebook-f p-2 "></i></a>
                     <a class="icons" href="mailto:siahs2010@gmail.com"> <i class="fas fa-envelope p-2"></i></a>
@@ -341,21 +341,21 @@
         <div class="row g-2 ">
 
             <div class="col-12 ">
-                <img onclick="mainimage() " id="main_img" class="img-fluid rounded " src="images/welpaper.png " alt=" ">
+                <img onclick="mainimage() " id="main_img" class="img-fluid rounded " src="images/New Project1.png" alt=" ">
                 <div class="row gx-2 mt-3 ">
 
 
-                    <div class="col-2 gellary_small_img rounded "> <img onclick="mainimage1() " class="img-fluid " src="images/e1.jpg " alt=" ">
+                    <div class="col-2 gellary_small_img rounded "> <img onclick="mainimage1() " class="img-fluid " src="images/New Project (1).png" alt=" ">
                     </div>
-                    <div class="col-2 gellary_small_img rounded "> <img onclick="mainimage2() " class="img-fluid " src="images/d.jpg " alt=" ">
+                    <div class="col-2 gellary_small_img rounded "> <img onclick="mainimage2() " class="img-fluid " src="images/New Project (2).png " alt=" ">
                     </div>
-                    <div class="col-2 gellary_small_img rounded "> <img onclick="mainimage3() " class="img-fluid " src="images/f2.jpg " alt=" ">
+                    <div class="col-2 gellary_small_img rounded "> <img onclick="mainimage3() " class="img-fluid " src="images/New Project (3).png" alt=" ">
                     </div>
-                    <div class="col-2 gellary_small_img rounded "> <img onclick="mainimage4() " class="img-fluid " src="images/h.jpg " alt=" ">
+                    <div class="col-2 gellary_small_img rounded "> <img onclick="mainimage4() " class="img-fluid " src="images/New Project.jpg " alt=" ">
                     </div>
-                    <div class="col-2 gellary_small_img rounded "> <img class="img-fluid " src="images/g7.jpg " alt=" ">
+                    <div class="col-2 gellary_small_img rounded "> <img onclick="mainimage5() " class="img-fluid " src="images/New Project.png " alt=" ">
                     </div>
-                    <div class="col-2 gellary_small_img rounded "> <img class="img-fluid " src="images/eb1.jpg " alt=" ">
+                    <div class="col-2 gellary_small_img rounded "> <img onclick="mainimage6() " class="img-fluid " src="images/New Project1.png " alt=" ">
                     </div>
 
                 </div>
@@ -1716,7 +1716,14 @@
         <br>
         <div id="address" class="row g-3 ">
             <div class="col-md-6 col-sm-6 ">
-                <div class="full_first_page text-center ">
+                <div class=" text-center ">
+                    <!-- start contact from -->
+                    <div class="container text-start">
+
+
+                    </div>
+                    <br>
+                    <!-- end contact from -->
                     <h3 class="fw-bold ">SHAISTANGANJ ISLAMI ACADEMY & HIGH SCHOOL</h3>
                     <p>Post Office : Shaistaganj(3301), Upozilla : Habiganj Sadar, District : Habiganj <br>EIIN No : 129450, School Code : 1784, MPO Code : 1205111203</p>
                     <div class=" mt-2 text-center ">
@@ -1740,6 +1747,49 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1818.437964413687!2d91.44108108081628!3d24.281063749149055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37515b7f9491ff39%3A0x6774a88fa67ca986!2z4Ka24Ka-4Kef4KeH4Ka44KeN4Kak4Ka-4KaX4Kae4KeN4KacIOCmh-CmuOCmsuCmvuCmruCngCDgpo_gppXgpr7gpqHgp4fgpq7gpr8g4KaP4Kao4KeN4KahIOCmueCmvuCmh-CmuOCnjeCmleCngeCmsg!5e0!3m2!1sbn!2sbd!4v1633492819702!5m2!1sbn!2sbd "
                     width="100% " height="100% " style="border:0; " allowfullscreen=" " loading="lazy "></iframe>
 
+            </div>
+            <div class="form py-5 register-form bg-dark">
+                <div class="note ">
+                </div>
+                <div class="form-content mx-5" id="contact">
+                    <div class="row gy-4">
+                        <div class="col-md-12">
+                            <label for="exampleFormControlInput1" class="form-label text-light">Gmail</label>
+                            <div class="form-group my-3">
+                                <input type="text" class="form-control" placeholder="ex-458239" value="" />
+                            </div>
+                            <div class="col-md-12">
+
+                                <label for="exampleFormControlInput1" class="form-label text-light">Profession</label>
+                                <select class="form-select bg-light" id="inputGroupSelect01">
+                    <option selected>Choose your profession...</option>
+                    <option value="1">Doctor</option>
+                    <option value="1">Engineer</option>
+                    <option value="1">Teacher</option>
+                    <option value="1">Student</option>
+                    <option value="1">Others</option>
+                   
+                  </select>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+
+
+                            <div class="">
+                                <label class="form-label text-light">Comment</label>
+                                <textarea placeholder="why you choose our school?" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+
+                        </div>
+
+
+                        <!-- s -->
+
+                        <!-- s -->
+                    </div>
+                    <div class="text-center mt-4"><button type="button" class="btn btn-light btn3 px-5 py-2  fw-bold">Submit</button></div>
+                    <br>
+                </div>
             </div>
         </div>
     </div>
