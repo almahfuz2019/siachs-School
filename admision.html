@@ -8,6 +8,8 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/result.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/admision.css">
 
     <title>Hello, world!</title>
 </head>
@@ -17,25 +19,26 @@
     <!-- new navbar start -->
     <nav class="navbar navbar-expand-lg navbar-light bg-dark ">
         <div class="container-fluid all_ul_tag_and_phone_number">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.html">
                 <div class="logo ">
-                    <a class="text-light fw-bold " href="# ">
+                    <a class="text-light fw-bold " href="">
                         <h3 class="fw-bolder"><span class="text-primary">SIA</span><span class="my_own_color">CHS</span></h3>
                     </a>
                 </div>
             </a>
             <button class="navbar-toggler text-primary bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon text-light"></span>
-          </button>
+    <span class="navbar-toggler-icon text-light"></span>
+  </button>
             <div class="collapse navbar-collapse " id="navbarNav">
                 <div class="all_ul_tag mx-auto text-center">
                     <ul class="navbar-nav">
                         <li class="nav-item ">
-                            <a class="nav-link active text-light Navbar_hover" aria-current="page " href="# "><span class="navbar_first_charecter">H</span>ome</a>
+                            <a class="nav-link active text-light Navbar_hover" aria-current="page " href="index.html"><span class="navbar_first_charecter">H</span>ome</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link text-light Navbar_hover" href="# "><span class="navbar_first_charecter">A</span>bout</a>
+                            <a class="nav-link text-light Navbar_hover" href="about.html"><span class="navbar_first_charecter">A</span>bout</a>
                         </li>
+
 
                         <!-- dropdown start -->
                         <li class="nav-item dropdown">
@@ -43,9 +46,11 @@
                                 <span class="text-light Navbar_hover">I</span>nfo
                             </a>
                             <ul class="dropdown-menu text-center bg-dark" aria-labelledby="navbarDropdown">
-                                <li><a class="nav-link text-light Navbar_hover" href="# "><span class="navbar_first_charecter">S</span>tudent's</a></li>
+                                <li><span onclick="student_link_validition()" class="nav-link text-light Navbar_hover" href="# "><span class="navbar_first_charecter">S</span>tudent's</span>
+                                </li>
                                 <li><a class="nav-link text-light Navbar_hover" href="# "><span class="navbar_first_charecter">T</span>eacher's</a></li>
-                                <li><a class="nav-link text-light Navbar_hover" href="# "><span class="navbar_first_charecter">S</span>taf's</a></li>
+                                <li><span onclick="staff_link_validition()" class="nav-link text-light Navbar_hover" href="# "><span class="navbar_first_charecter">S</span>taf's</span>
+                                </li>
 
 
                             </ul>
@@ -55,19 +60,21 @@
                             <a class="nav-link text-light Navbar_hover" href="fasility.html "><span class="navbar_first_charecter">F</span>asility</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link text-light Navbar_hover" href="# "><span class="navbar_first_charecter">G</span>ellary</a>
+                            <a class="nav-link text-light Navbar_hover" href="gellary.html"><span class="navbar_first_charecter">G</span>ellary</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link text-light Navbar_hover" href="admision.html "><span class="navbar_first_charecter">A</span>dmision</a>
+                            <span onclick="contact_link_validition()" id="contact_item" class="nav-link text-light Navbar_hover" href="admision.html"><span class="navbar_first_charecter">A</span>dmision</span>
                         </li>
                         <li class="nav-item ">
                             <a class="nav-link text-light Navbar_hover" href="result.html "><span class="navbar_first_charecter">R</span>esult</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link text-light Navbar_hover" href="# "><span class="navbar_first_charecter">N</span>otic</a>
+                            <a class="nav-link text-light Navbar_hover" href="notic.html"><span class="navbar_first_charecter">N</span>otic</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link text-light Navbar_hover" href="# "><span class="navbar_first_charecter">C</span>ontact</a>
+                            <li class="nav-item ">
+                                <a class="nav-link text-light Navbar_hover" href="contact.html"><span class="navbar_first_charecter">C</span>ontact</a>
+                            </li>
                         </li>
 
 
@@ -82,6 +89,44 @@
         </div>
     </nav>
     <!-- new navbar end -->
+    <!-- validition start -->
+    <section>
+        <div id="alert_email" class="alert alert-danger alert-dismissible fade show" role="alert">
+            <strong>Please</strong> enter your gmail Id.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    </section>
+    <section>
+        <div id="alert_profession" class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>Please</strong> select yor profession.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    </section>
+    <section>
+        <div id="alert_comment" class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>Please</strong> enter your comment.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    </section>
+    <section>
+        <div id="contact_click" class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>Sorry</strong> you are stay in Admission page.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    </section>
+    <section>
+        <div id="student_click" class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>Comming</strong> soon.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    </section>
+    <section>
+        <div id="staff_click" class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>Comming</strong> soon.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    </section>
+    <!-- validition end -->
     <div class="container ">
         <h1 class="text-center my-5"><span class="text-primary fw-bolder">Admi</span><span class="my_own_color fw-bolder">ssion</span></h1>
         <div class="form py-5 register-form bg-dark">
@@ -263,10 +308,13 @@
 
 
     <!--nine page end  -->
+    <script src="javascript/admition.js"></script>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </body>
+
+</html>
 
 </html>

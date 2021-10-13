@@ -12,6 +12,7 @@
     <!-- css link -->
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
 
 
     <title>SIACHS!</title>
@@ -57,28 +58,30 @@
                                     <span class="text-light Navbar_hover">I</span>nfo
                                 </a>
                                 <ul class="dropdown-menu text-center bg-dark" aria-labelledby="navbarDropdown">
-                                    <li><a onclick="student_alert()" class="nav-link text-light Navbar_hover" href="# "><span class="navbar_first_charecter">S</span>tudent's</a></li>
-                                    <li><a class="nav-link text-light Navbar_hover" href="#teachers"><span class="navbar_first_charecter">T</span>eacher's</a></li>
-                                    <li><a class="nav-link text-light Navbar_hover" href="# "><span class="navbar_first_charecter">S</span>taff's</a></li>
+                                    <li><span onclick="student_link_validition()" class="nav-link text-light Navbar_hover" href=""><span class="navbar_first_charecter">S</span>tudent's</span>
+                                    </li>
+                                    <li><a class="nav-link text-light Navbar_hover" href="# "><span class="navbar_first_charecter">T</span>eacher's</a></li>
+                                    <li><span onclick="staff_link_validition()" class="nav-link text-light Navbar_hover" href="# "><span class="navbar_first_charecter">S</span>taf's</span>
+                                    </li>
 
 
                                 </ul>
                             </li>
                             <!-- dropdown end -->
                             <li class="nav-item ">
-                                <a class="nav-link text-light Navbar_hover" href="fasility.html "><span class="navbar_first_charecter">F</span>asility</a>
+                                <a class="nav-link text-light Navbar_hover" href="fasility.html "><span class="navbar_first_charecter">F</span>acility</a>
                             </li>
                             <li class="nav-item ">
                                 <a class="nav-link text-light Navbar_hover" href="gellary.html"><span class="navbar_first_charecter">G</span>allery</a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link text-light Navbar_hover" href="#"><span class="navbar_first_charecter">A</span>dmission</a>
+                                <a class="nav-link text-light Navbar_hover" href="admision.html"><span class="navbar_first_charecter">A</span>dmission</a>
                             </li>
                             <li class="nav-item ">
                                 <a class="nav-link text-light Navbar_hover" href="result.html "><span class="navbar_first_charecter">R</span>esult</a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link text-light Navbar_hover" href="# "><span class="navbar_first_charecter">N</span>otice</a>
+                                <a class="nav-link text-light Navbar_hover" href="notic.html"><span class="navbar_first_charecter">N</span>otice</a>
                             </li>
                             <li class="nav-item ">
                                 <li class="nav-item ">
@@ -101,6 +104,7 @@
                 </div>
             </div>
         </nav>
+
         <!-- new navbar end -->
         <!-- marqury start -->
         <marquee class="my_own-bg_color text-white class_name_bold " behavior="" direction=""> "Shaistanganj Islami Academy & High School"<span class="ms-5"> "Regarded as one of the best institutions in Bangladesh due to its discipline, teaching technique and favorable teaching environment. In the meantime we achieved name and fame due to cent percent
@@ -108,6 +112,20 @@
 
         </marquee>
         <!-- marqury end -->
+        <!-- validition start -->
+        <section>
+            <div id="student_click" class="alert alert-warning alert-dismissible fade show" role="alert">
+                <strong>Comming</strong> soon.
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        </section>
+        <section>
+            <div id="staff_click" class="alert alert-warning alert-dismissible fade show" role="alert">
+                <strong>Comming</strong> soon.
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        </section>
+        <!-- validition end -->
 
         <div class="full_first_page text-light text-center ">
             <h1>SHAISTANGANJ ISLAMI ACADEMY & HIGH SCHOOL</h1>
@@ -125,7 +143,7 @@
             <!-- model start-->
             <!-- Button trigger modal -->
 
-            <button onclick="dark_mode()" class="read_more_btn text-light btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
+            <button class="read_more_btn text-light btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Read More</button>
 
 
 
@@ -398,50 +416,50 @@
 
         <h3 class="fw-bolder text-center mt-5 mb-5 "><span class="text-primary ">Our Teacher's</span><span class="my_own_color "> Information</span></h3>
         <div class="row g-5 ">
-
-            <div class="col-md-4 text-center ">
+            <!-- example start -->
+            <div class="col-md-4 text-center">
                 <div class="row ">
                     <div class="col-md-6 ">
                         <div class="row gx-4 ">
                             <div class="col-md-12 ">
-                                <img class="gardiuan_comment img-fluid shadow " src="images/user-1.png " alt=" ">
+                                <img class="gardiuan_comment img-fluid shadow" src="images/user-1.png " alt=" ">
                             </div>
                             <p></p>
 
                         </div>
                     </div>
                     <div class="col-md-6 ">
-                        <h5 class="demo fw-bolder ">MAHMUD HASAN</h5>
+                        <h5 class="demo fw-bolder">MAHMUD HASAN</h5>
                         <p class="text-muted ">M.A, L.L.B, B.ED <br>Mathmatics & Physics</p>
                         <div class="col-md-12 text-muted ">
                             <h5>
-                                <a class="icons " href="https://www.facebook.com/groups/853515681398192/?ref=share "> <i class=" fab fa-facebook-f p- "></i></a>
-                                <a class="icons " href="mailto:siahs2010@gmail.com "> <i class="fas fa-envelope p-1 "></i></a>
-                                <a class="icons " href="tel:01787878743 "> <i class=" fas fa-mobile-alt p-1 "></i></a>
+                                <a class="icons" href="https://www.facebook.com/groups/853515681398192/?ref=share"> <i class=" fab fa-facebook-f p- "></i></a>
+                                <a class="icons" href="mailto:siahs2010@gmail.com"> <i class="fas fa-envelope p-1"></i></a>
+                                <a class="icons" href="tel:01787878743"> <i class=" fas fa-mobile-alt p-1 "></i></a>
 
                                 <!-- model start -->
                                 <!-- Button trigger modal -->
 
-                                <a data-bs-toggle="modal " data-bs-target="#example " class="icons " href="tel:01787878743 "> <i class="fas fa-user-graduate p-1 "></i></a>
+                                <a data-bs-toggle="modal" data-bs-target="#example1" class="icons" href="tel:01787878743"> <i class="fas fa-user-graduate p-1 "></i></a>
 
                                 <!-- Modal -->
-                                <div class="modal fade modal-dialog-scrollable p-3 " id="example " tabindex="-1 " aria-labelledby="exampleModalLabel " aria-hidden="true ">
-                                    <div class="modal-dialog ">
-                                        <div class="modal-content ">
-                                            <div class="modal-header ">
-                                                <h5 class="modal-title text-center " id="exampleModalLabel ">Abdullah Al Mahfuz</h5>
-                                                <button type="button " class="btn-close " data-bs-dismiss="modal " aria-label="Close "></button>
+                                <div class="modal fade modal-dialog-scrollable  p-3" id="example1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title text-center" id="exampleModalLabel ">Abdullah Al Mahfuz</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                             </div>
-                                            <div class="modal-body ">
+                                            <div class="modal-body">
 
 
-                                                <img class="img-fluid gardiuan_comment img-fluid shadow " src="images/user-1.png " alt=" ">
+                                                <img class="img-fluid gardiuan_comment img-fluid shadow " src="images/user-1.png" alt="">
                                                 <br>
                                                 <br>
 
                                                 <div class="main_text text-center container mt- mb-2 ">
 
-                                                    <h3 class="fw-bolder "><span class="text-primary ">Abou</span><span class="my_own_color ">tme</span></h3>
+                                                    <h3 class="fw-bolder"><span class="text-primary">Abou</span><span class="my_own_color">tme</span></h3>
 
                                                 </div>
                                                 <br>
@@ -449,18 +467,18 @@
 
 
                                                 <!-- table -->
-                                                <table class="table table-dark table-hover h6 text-start ">
+                                                <table class="table table-dark table-hover h6 text-start">
 
 
 
                                                     <tbody>
                                                         <tr>
-                                                            <th scope="row ">
+                                                            <th scope="row">
                                                                 Name
                                                             </th>
                                                             <td>
 
-                                                                <p style="font-weight: 300 " ;> MAHMUD HASAN</p>
+                                                                <p style="font-weight: 300" ;> MAHMUD HASAN</p>
                                                             </td>
 
                                                         </tr>
@@ -543,9 +561,9 @@
 
                                                 </table>
                                                 <h5>
-                                                    <a class="icons " href="https://www.facebook.com/groups/853515681398192/?ref=share "> <i class=" fab fa-facebook-f p- "></i></a>
-                                                    <a class="icons " href="mailto:siahs2010@gmail.com "> <i class="fas fa-envelope p-1 "></i></a>
-                                                    <a class="icons " href="tel:01787878743 "> <i class=" fas fa-mobile-alt p-1 "></i></a>
+                                                    <a class="icons" href="https://www.facebook.com/groups/853515681398192/?ref=share"> <i class=" fab fa-facebook-f p- "></i></a>
+                                                    <a class="icons" href="mailto:siahs2010@gmail.com"> <i class="fas fa-envelope p-1"></i></a>
+                                                    <a class="icons" href="tel:01787878743"> <i class=" fas fa-mobile-alt p-1 "></i></a>
                                                 </h5>
                                                 <!-- <p>MD. LUTHFUR RAHMAN CHOWDHURY</p>
                                                         <p>Head Master</p>
@@ -567,52 +585,51 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 text-center ">
+            <!-- example end -->
+            <!-- example start -->
+            <div class="col-md-4 text-center">
                 <div class="row ">
                     <div class="col-md-6 ">
                         <div class="row gx-4 ">
                             <div class="col-md-12 ">
-                                <img class="gardiuan_comment img-fluid shadow " src="images/ti.png " alt=" ">
+                                <img class="gardiuan_comment img-fluid shadow " src="images/ti.png" alt=" ">
                             </div>
                             <p></p>
 
                         </div>
                     </div>
                     <div class="col-md-6 ">
-                        <h4 class="demo fw-bolder ">Al Mansur</h4>
-                        <p class="text-muted ">B.A(HONAR'S),MA <br>Senior Teacher <br>English Depertment</p>
+                        <h5 class="demo fw-bolder">MAHMUD HASAN</h5>
+                        <p class="text-muted ">M.A, L.L.B, B.ED <br>Mathmatics & Physics</p>
                         <div class="col-md-12 text-muted ">
                             <h5>
-                                <a class="icons " href="https://www.facebook.com/groups/853515681398192/?ref=share "> <i class=" fab fa-facebook-f p- "></i></a>
-                                <a class="icons " href="mailto:siahs2010@gmail.com "> <i class="fas fa-envelope p-1 "></i></a>
-                                <a class="icons " href="tel:01787878743 "> <i class=" fas fa-mobile-alt p-1 "></i></a>
+                                <a class="icons" href="https://www.facebook.com/groups/853515681398192/?ref=share"> <i class=" fab fa-facebook-f p- "></i></a>
+                                <a class="icons" href="mailto:siahs2010@gmail.com"> <i class="fas fa-envelope p-1"></i></a>
+                                <a class="icons" href="tel:01787878743"> <i class=" fas fa-mobile-alt p-1 "></i></a>
 
                                 <!-- model start -->
                                 <!-- Button trigger modal -->
 
-                                <a data-bs-toggle="modal " data-bs-target="#exampleModal11 " class="icons " href="tel:01787878743 ">
-                                    <i class="fas fa-user-graduate p-1 ">
-                                        
-                                    </i></a>
+                                <a data-bs-toggle="modal" data-bs-target="#example2fs" class="icons" href="tel:01787878743"> <i class="fas fa-user-graduate p-1 "></i></a>
 
                                 <!-- Modal -->
-                                <div class="modal fade modal-dialog-scrollable p-3 " id="exampleModal11 " tabindex="-1 " aria-labelledby="exampleModalLabel " aria-hidden="true ">
-                                    <div class="modal-dialog ">
-                                        <div class="modal-content ">
-                                            <div class="modal-header ">
-                                                <h5 class="modal-title text-center " id="exampleModalLabel ">Abdullah Al Mahfuz</h5>
-                                                <button type="button " class="btn-close " data-bs-dismiss="modal " aria-label="Close "></button>
+                                <div class="modal fade modal-dialog-scrollable  p-3" id="example2fs" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title text-center" id="exampleModalLabel ">Abdullah Al Mahfuz</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                             </div>
-                                            <div class="modal-body ">
+                                            <div class="modal-body">
 
 
-                                                <img class="img-fluid gardiuan_comment img-fluid shadow " src="images/ti.png " alt=" ">
+                                                <img class="img-fluid gardiuan_comment img-fluid shadow " src="images/ti.png" alt="">
                                                 <br>
                                                 <br>
 
                                                 <div class="main_text text-center container mt- mb-2 ">
 
-                                                    <h3 class="fw-bolder "><span class="text-primary ">Abou</span><span class="my_own_color ">t me</span></h3>
+                                                    <h3 class="fw-bolder"><span class="text-primary">Abou</span><span class="my_own_color">tme</span></h3>
 
                                                 </div>
                                                 <br>
@@ -620,18 +637,18 @@
 
 
                                                 <!-- table -->
-                                                <table class="table table-dark table-hover h6 text-start ">
+                                                <table class="table table-dark table-hover h6 text-start">
 
 
 
                                                     <tbody>
                                                         <tr>
-                                                            <th scope="row ">
+                                                            <th scope="row">
                                                                 Name
                                                             </th>
                                                             <td>
 
-                                                                <p style="font-weight: 300 " ;> MD. LUTHFUR RAHMAN CHOWDHUR</p>
+                                                                <p style="font-weight: 300" ;> MAHMUD HASAN</p>
                                                             </td>
 
                                                         </tr>
@@ -640,7 +657,7 @@
                                                                 DATE OF JOINING
                                                             </th>
                                                             <th>
-                                                                <p style="font-weight: 300; ">2010-01-01</p>
+                                                                <p style="font-weight: 300; ">2010-01-02</p>
                                                             </th>
 
                                                         </tr>
@@ -649,7 +666,7 @@
                                                                 DATE OF BIRTH
                                                             </th>
                                                             <td>
-                                                                <p style="font-weight: 300; ">1971-09-11</p>
+                                                                <p style="font-weight: 300; "> 1968-01-03</p>
                                                             </td>
 
                                                         </tr>
@@ -667,7 +684,7 @@
                                                                 QUALIFICATION
                                                             </th>
                                                             <td>
-                                                                <p style="font-weight: 300; ">B.A, B.ED, M.ED</p>
+                                                                <p style="font-weight: 300; ">M.A, L.L.B, B.ED</p>
                                                             </td>
 
                                                         </tr>
@@ -676,7 +693,7 @@
                                                                 EXPERIENCE
                                                             </th>
                                                             <td>
-                                                                <p style="font-weight: 300; ">NINE YEARS AS A HEAD TEACHER IN MUSLIMABAD IDEAL HIGH SCHOOL</p>
+                                                                <p style="font-weight: 300; ">12 YEARS</p>
                                                             </td>
 
                                                         </tr>
@@ -685,7 +702,7 @@
                                                                 INTEREST
                                                             </th>
                                                             <td>
-                                                                <p style="font-weight: 300; ">ENGLISH</p>
+                                                                <p style="font-weight: 300; ">MATHMATICS & PHYSICS</p>
                                                             </td>
 
                                                         </tr>
@@ -694,7 +711,7 @@
                                                                 PRESENT ADDRESS
                                                             </th>
                                                             <td>
-                                                                <p style="font-weight: 300; ">ROAD NO-22, BLOCK- D, HOUSE NO- 20, SHAHJALAL UPOSHAHAR, SYLHET</p>
+                                                                <p style="font-weight: 300; "> HOUSE# 70, ROAD# 3, BLOCK# E, SHAHJALAL UPOSHAHAR, SYLHET</p>
                                                             </td>
 
                                                         </tr>
@@ -703,7 +720,7 @@
                                                                 PERMANENT ADDRESS
                                                             </th>
                                                             <td>
-                                                                <p style="font-weight: 300; ">VILL: NIZ GHILACHARA, P.O: JUDHISTIRPUR, UPAZILA: FENCHUGONJ, DIST: SYLHET</p>
+                                                                <p style="font-weight: 300; "> VILL: SOUTH DOULATPUR, POST: HIRAGONJ BAZAR, P.S: NOBIGONJ, DIST: HOBIGONJ</p>
                                                             </td>
 
                                                         </tr>
@@ -714,9 +731,9 @@
 
                                                 </table>
                                                 <h5>
-                                                    <a class="icons " href="https://www.facebook.com/groups/853515681398192/?ref=share "> <i class=" fab fa-facebook-f p- "></i></a>
-                                                    <a class="icons " href="mailto:siahs2010@gmail.com "> <i class="fas fa-envelope p-1 "></i></a>
-                                                    <a class="icons " href="tel:01787878743 "> <i class=" fas fa-mobile-alt p-1 "></i></a>
+                                                    <a class="icons" href="https://www.facebook.com/groups/853515681398192/?ref=share"> <i class=" fab fa-facebook-f p- "></i></a>
+                                                    <a class="icons" href="mailto:siahs2010@gmail.com"> <i class="fas fa-envelope p-1"></i></a>
+                                                    <a class="icons" href="tel:01787878743"> <i class=" fas fa-mobile-alt p-1 "></i></a>
                                                 </h5>
                                                 <!-- <p>MD. LUTHFUR RAHMAN CHOWDHURY</p>
                                                         <p>Head Master</p>
@@ -725,10 +742,7 @@
 
 
                                             </div>
-                                            <div class="modal-footer ">
-                                                <button type="button " class="btn btn-secondary " data-bs-dismiss="modal ">Close</button>
 
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -741,49 +755,51 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 text-center ">
+            <!-- example end -->
+            <!-- example start -->
+            <div class="col-md-4 text-center">
                 <div class="row ">
                     <div class="col-md-6 ">
                         <div class="row gx-4 ">
                             <div class="col-md-12 ">
-                                <img class="gardiuan_comment img-fluid shadow " src="images/t3 (2).jpg " alt=" ">
+                                <img class="gardiuan_comment img-fluid shadow " src="images/t6-modified.png" alt=" ">
                             </div>
                             <p></p>
 
                         </div>
                     </div>
                     <div class="col-md-6 ">
-                        <h4 class="demo fw-bolder ">Al Mansur</h4>
-                        <p class="text-muted ">B.A(HONAR'S),MA <br>Senior Teacher <br>English Depertment</p>
+                        <h5 class="demo fw-bolder">MAHMUD HASAN</h5>
+                        <p class="text-muted ">M.A, L.L.B, B.ED <br>Mathmatics & Physics</p>
                         <div class="col-md-12 text-muted ">
                             <h5>
-                                <a class="icons " href="https://www.facebook.com/groups/853515681398192/?ref=share "> <i class=" fab fa-facebook-f p- "></i></a>
-                                <a class="icons " href="mailto:siahs2010@gmail.com "> <i class="fas fa-envelope p-1 "></i></a>
-                                <a class="icons " href="tel:01787878743 "> <i class=" fas fa-mobile-alt p-1 "></i></a>
+                                <a class="icons" href="https://www.facebook.com/groups/853515681398192/?ref=share"> <i class=" fab fa-facebook-f p- "></i></a>
+                                <a class="icons" href="mailto:siahs2010@gmail.com"> <i class="fas fa-envelope p-1"></i></a>
+                                <a class="icons" href="tel:01787878743"> <i class=" fas fa-mobile-alt p-1 "></i></a>
 
                                 <!-- model start -->
                                 <!-- Button trigger modal -->
 
-                                <a data-bs-toggle="modal " data-bs-target="#exampleModal " class="icons " href="tel:01787878743 "> <i class="fas fa-user-graduate p-1 "></i></a>
+                                <a data-bs-toggle="modal" data-bs-target="#exampleaa" class="icons" href="tel:01787878743"> <i class="fas fa-user-graduate p-1 "></i></a>
 
                                 <!-- Modal -->
-                                <div class="modal fade modal-dialog-scrollable p-3 " id="exampleModal " tabindex="-1 " aria-labelledby="exampleModalLabel " aria-hidden="true ">
-                                    <div class="modal-dialog ">
-                                        <div class="modal-content ">
-                                            <div class="modal-header ">
-                                                <h5 class="modal-title text-center " id="exampleModalLabel ">Abdullah Al Mahfuz</h5>
-                                                <button type="button " class="btn-close " data-bs-dismiss="modal " aria-label="Close "></button>
+                                <div class="modal fade modal-dialog-scrollable  p-3" id="exampleaa" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title text-center" id="exampleModalLabel ">Abdullah Al Mahfuz</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                             </div>
-                                            <div class="modal-body ">
+                                            <div class="modal-body">
 
 
-                                                <img class="img-fluid gardiuan_comment img-fluid shadow " src="images/p2-modified.png " alt=" ">
+                                                <img class="gardiuan_comment img-fluid shadow " src="images/t6-modified.png" alt=" ">
                                                 <br>
                                                 <br>
 
                                                 <div class="main_text text-center container mt- mb-2 ">
 
-                                                    <h3 class="fw-bolder "><span class="text-primary ">Abou</span><span class="my_own_color ">t me</span></h3>
+                                                    <h3 class="fw-bolder"><span class="text-primary">Abou</span><span class="my_own_color">tme</span></h3>
 
                                                 </div>
                                                 <br>
@@ -791,18 +807,18 @@
 
 
                                                 <!-- table -->
-                                                <table class="table table-dark table-hover h6 text-start ">
+                                                <table class="table table-dark table-hover h6 text-start">
 
 
 
                                                     <tbody>
                                                         <tr>
-                                                            <th scope="row ">
+                                                            <th scope="row">
                                                                 Name
                                                             </th>
                                                             <td>
 
-                                                                <p style="font-weight: 300 " ;> MD. LUTHFUR RAHMAN CHOWDHUR</p>
+                                                                <p style="font-weight: 300" ;> MAHMUD HASAN</p>
                                                             </td>
 
                                                         </tr>
@@ -811,7 +827,7 @@
                                                                 DATE OF JOINING
                                                             </th>
                                                             <th>
-                                                                <p style="font-weight: 300; ">2010-01-01</p>
+                                                                <p style="font-weight: 300; ">2010-01-02</p>
                                                             </th>
 
                                                         </tr>
@@ -820,7 +836,7 @@
                                                                 DATE OF BIRTH
                                                             </th>
                                                             <td>
-                                                                <p style="font-weight: 300; ">1971-09-11</p>
+                                                                <p style="font-weight: 300; "> 1968-01-03</p>
                                                             </td>
 
                                                         </tr>
@@ -838,7 +854,7 @@
                                                                 QUALIFICATION
                                                             </th>
                                                             <td>
-                                                                <p style="font-weight: 300; ">B.A, B.ED, M.ED</p>
+                                                                <p style="font-weight: 300; ">M.A, L.L.B, B.ED</p>
                                                             </td>
 
                                                         </tr>
@@ -847,7 +863,7 @@
                                                                 EXPERIENCE
                                                             </th>
                                                             <td>
-                                                                <p style="font-weight: 300; ">NINE YEARS AS A HEAD TEACHER IN MUSLIMABAD IDEAL HIGH SCHOOL</p>
+                                                                <p style="font-weight: 300; ">12 YEARS</p>
                                                             </td>
 
                                                         </tr>
@@ -856,7 +872,7 @@
                                                                 INTEREST
                                                             </th>
                                                             <td>
-                                                                <p style="font-weight: 300; ">ENGLISH</p>
+                                                                <p style="font-weight: 300; ">MATHMATICS & PHYSICS</p>
                                                             </td>
 
                                                         </tr>
@@ -865,7 +881,7 @@
                                                                 PRESENT ADDRESS
                                                             </th>
                                                             <td>
-                                                                <p style="font-weight: 300; ">ROAD NO-22, BLOCK- D, HOUSE NO- 20, SHAHJALAL UPOSHAHAR, SYLHET</p>
+                                                                <p style="font-weight: 300; "> HOUSE# 70, ROAD# 3, BLOCK# E, SHAHJALAL UPOSHAHAR, SYLHET</p>
                                                             </td>
 
                                                         </tr>
@@ -874,7 +890,7 @@
                                                                 PERMANENT ADDRESS
                                                             </th>
                                                             <td>
-                                                                <p style="font-weight: 300; ">VILL: NIZ GHILACHARA, P.O: JUDHISTIRPUR, UPAZILA: FENCHUGONJ, DIST: SYLHET</p>
+                                                                <p style="font-weight: 300; "> VILL: SOUTH DOULATPUR, POST: HIRAGONJ BAZAR, P.S: NOBIGONJ, DIST: HOBIGONJ</p>
                                                             </td>
 
                                                         </tr>
@@ -885,9 +901,9 @@
 
                                                 </table>
                                                 <h5>
-                                                    <a class="icons " href="https://www.facebook.com/groups/853515681398192/?ref=share "> <i class=" fab fa-facebook-f p- "></i></a>
-                                                    <a class="icons " href="mailto:siahs2010@gmail.com "> <i class="fas fa-envelope p-1 "></i></a>
-                                                    <a class="icons " href="tel:01787878743 "> <i class=" fas fa-mobile-alt p-1 "></i></a>
+                                                    <a class="icons" href="https://www.facebook.com/groups/853515681398192/?ref=share"> <i class=" fab fa-facebook-f p- "></i></a>
+                                                    <a class="icons" href="mailto:siahs2010@gmail.com"> <i class="fas fa-envelope p-1"></i></a>
+                                                    <a class="icons" href="tel:01787878743"> <i class=" fas fa-mobile-alt p-1 "></i></a>
                                                 </h5>
                                                 <!-- <p>MD. LUTHFUR RAHMAN CHOWDHURY</p>
                                                         <p>Head Master</p>
@@ -896,10 +912,7 @@
 
 
                                             </div>
-                                            <div class="modal-footer ">
-                                                <button type="button " class="btn btn-secondary " data-bs-dismiss="modal ">Close</button>
 
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -912,49 +925,51 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 text-center ">
+            <!-- example end -->
+            <!-- example start -->
+            <div class="col-md-4 text-center">
                 <div class="row ">
                     <div class="col-md-6 ">
                         <div class="row gx-4 ">
                             <div class="col-md-12 ">
-                                <img class="gardiuan_comment img-fluid shadow " src="images/t6-modified.png " alt=" ">
+                                <img class="gardiuan_comment img-fluid shadow " src="images/t3 (2).jpg" alt=" ">
                             </div>
                             <p></p>
 
                         </div>
                     </div>
                     <div class="col-md-6 ">
-                        <h4 class="demo fw-bolder ">Al Mansur</h4>
-                        <p class="text-muted ">B.A(HONAR'S),MA <br>Senior Teacher <br>English Depertment</p>
+                        <h5 class="demo fw-bolder">MAHMUD HASAN</h5>
+                        <p class="text-muted ">M.A, L.L.B, B.ED <br>Mathmatics & Physics</p>
                         <div class="col-md-12 text-muted ">
                             <h5>
-                                <a class="icons " href="https://www.facebook.com/groups/853515681398192/?ref=share "> <i class=" fab fa-facebook-f p- "></i></a>
-                                <a class="icons " href="mailto:siahs2010@gmail.com "> <i class="fas fa-envelope p-1 "></i></a>
-                                <a class="icons " href="tel:01787878743 "> <i class=" fas fa-mobile-alt p-1 "></i></a>
+                                <a class="icons" href="https://www.facebook.com/groups/853515681398192/?ref=share"> <i class=" fab fa-facebook-f p- "></i></a>
+                                <a class="icons" href="mailto:siahs2010@gmail.com"> <i class="fas fa-envelope p-1"></i></a>
+                                <a class="icons" href="tel:01787878743"> <i class=" fas fa-mobile-alt p-1 "></i></a>
 
                                 <!-- model start -->
                                 <!-- Button trigger modal -->
 
-                                <a data-bs-toggle="modal " data-bs-target="#exampleModal " class="icons " href="tel:01787878743 "> <i class="fas fa-user-graduate p-1 "></i></a>
+                                <a data-bs-toggle="modal" data-bs-target="#examplefs" class="icons" href="tel:01787878743"> <i class="fas fa-user-graduate p-1 "></i></a>
 
                                 <!-- Modal -->
-                                <div class="modal fade modal-dialog-scrollable p-3 " id="exampleModal " tabindex="-1 " aria-labelledby="exampleModalLabel " aria-hidden="true ">
-                                    <div class="modal-dialog ">
-                                        <div class="modal-content ">
-                                            <div class="modal-header ">
-                                                <h5 class="modal-title text-center " id="exampleModalLabel ">Abdullah Al Mahfuz</h5>
-                                                <button type="button " class="btn-close " data-bs-dismiss="modal " aria-label="Close "></button>
+                                <div class="modal fade modal-dialog-scrollable  p-3" id="examplefs" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title text-center" id="exampleModalLabel ">Abdullah Al Mahfuz</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                             </div>
-                                            <div class="modal-body ">
+                                            <div class="modal-body">
 
 
-                                                <img class="img-fluid gardiuan_comment img-fluid shadow " src="images/p2-modified.png " alt=" ">
+                                                <img class="gardiuan_comment img-fluid shadow " src="images/t3 (2).jpg" alt=" ">
                                                 <br>
                                                 <br>
 
                                                 <div class="main_text text-center container mt- mb-2 ">
 
-                                                    <h3 class="fw-bolder "><span class="text-primary ">Abou</span><span class="my_own_color ">t me</span></h3>
+                                                    <h3 class="fw-bolder"><span class="text-primary">Abou</span><span class="my_own_color">tme</span></h3>
 
                                                 </div>
                                                 <br>
@@ -962,18 +977,18 @@
 
 
                                                 <!-- table -->
-                                                <table class="table table-dark table-hover h6 text-start ">
+                                                <table class="table table-dark table-hover h6 text-start">
 
 
 
                                                     <tbody>
                                                         <tr>
-                                                            <th scope="row ">
+                                                            <th scope="row">
                                                                 Name
                                                             </th>
                                                             <td>
 
-                                                                <p style="font-weight: 300 " ;> MD. LUTHFUR RAHMAN CHOWDHUR</p>
+                                                                <p style="font-weight: 300" ;> MAHMUD HASAN</p>
                                                             </td>
 
                                                         </tr>
@@ -982,7 +997,7 @@
                                                                 DATE OF JOINING
                                                             </th>
                                                             <th>
-                                                                <p style="font-weight: 300; ">2010-01-01</p>
+                                                                <p style="font-weight: 300; ">2010-01-02</p>
                                                             </th>
 
                                                         </tr>
@@ -991,7 +1006,7 @@
                                                                 DATE OF BIRTH
                                                             </th>
                                                             <td>
-                                                                <p style="font-weight: 300; ">1971-09-11</p>
+                                                                <p style="font-weight: 300; "> 1968-01-03</p>
                                                             </td>
 
                                                         </tr>
@@ -1009,7 +1024,7 @@
                                                                 QUALIFICATION
                                                             </th>
                                                             <td>
-                                                                <p style="font-weight: 300; ">B.A, B.ED, M.ED</p>
+                                                                <p style="font-weight: 300; ">M.A, L.L.B, B.ED</p>
                                                             </td>
 
                                                         </tr>
@@ -1018,7 +1033,7 @@
                                                                 EXPERIENCE
                                                             </th>
                                                             <td>
-                                                                <p style="font-weight: 300; ">NINE YEARS AS A HEAD TEACHER IN MUSLIMABAD IDEAL HIGH SCHOOL</p>
+                                                                <p style="font-weight: 300; ">12 YEARS</p>
                                                             </td>
 
                                                         </tr>
@@ -1027,7 +1042,7 @@
                                                                 INTEREST
                                                             </th>
                                                             <td>
-                                                                <p style="font-weight: 300; ">ENGLISH</p>
+                                                                <p style="font-weight: 300; ">MATHMATICS & PHYSICS</p>
                                                             </td>
 
                                                         </tr>
@@ -1036,7 +1051,7 @@
                                                                 PRESENT ADDRESS
                                                             </th>
                                                             <td>
-                                                                <p style="font-weight: 300; ">ROAD NO-22, BLOCK- D, HOUSE NO- 20, SHAHJALAL UPOSHAHAR, SYLHET</p>
+                                                                <p style="font-weight: 300; "> HOUSE# 70, ROAD# 3, BLOCK# E, SHAHJALAL UPOSHAHAR, SYLHET</p>
                                                             </td>
 
                                                         </tr>
@@ -1045,7 +1060,7 @@
                                                                 PERMANENT ADDRESS
                                                             </th>
                                                             <td>
-                                                                <p style="font-weight: 300; ">VILL: NIZ GHILACHARA, P.O: JUDHISTIRPUR, UPAZILA: FENCHUGONJ, DIST: SYLHET</p>
+                                                                <p style="font-weight: 300; "> VILL: SOUTH DOULATPUR, POST: HIRAGONJ BAZAR, P.S: NOBIGONJ, DIST: HOBIGONJ</p>
                                                             </td>
 
                                                         </tr>
@@ -1056,9 +1071,9 @@
 
                                                 </table>
                                                 <h5>
-                                                    <a class="icons " href="https://www.facebook.com/groups/853515681398192/?ref=share "> <i class=" fab fa-facebook-f p- "></i></a>
-                                                    <a class="icons " href="mailto:siahs2010@gmail.com "> <i class="fas fa-envelope p-1 "></i></a>
-                                                    <a class="icons " href="tel:01787878743 "> <i class=" fas fa-mobile-alt p-1 "></i></a>
+                                                    <a class="icons" href="https://www.facebook.com/groups/853515681398192/?ref=share"> <i class=" fab fa-facebook-f p- "></i></a>
+                                                    <a class="icons" href="mailto:siahs2010@gmail.com"> <i class="fas fa-envelope p-1"></i></a>
+                                                    <a class="icons" href="tel:01787878743"> <i class=" fas fa-mobile-alt p-1 "></i></a>
                                                 </h5>
                                                 <!-- <p>MD. LUTHFUR RAHMAN CHOWDHURY</p>
                                                         <p>Head Master</p>
@@ -1067,10 +1082,7 @@
 
 
                                             </div>
-                                            <div class="modal-footer ">
-                                                <button type="button " class="btn btn-secondary " data-bs-dismiss="modal ">Close</button>
 
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1083,49 +1095,50 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 text-center ">
+            <!-- example end -->
+            <!-- example start -->
+            <div class="col-md-4 text-center">
                 <div class="row ">
                     <div class="col-md-6 ">
                         <div class="row gx-4 ">
                             <div class="col-md-12 ">
-                                <img class="gardiuan_comment img-fluid shadow " src="images/t4-modified.png " alt=" ">
+                                <img class="gardiuan_comment img-fluid shadow " src="images/t4-modified.png" alt=" ">
                             </div>
                             <p></p>
 
                         </div>
                     </div>
                     <div class="col-md-6 ">
-                        <h4 class="demo fw-bolder ">Al Mansur</h4>
-                        <p class="text-muted ">B.A(HONAR'S),MA <br>Senior Teacher <br>English Depertment</p>
+                        <h5 class="demo fw-bolder">MAHMUD HASAN</h5>
+                        <p class="text-muted ">M.A, L.L.B, B.ED <br>Mathmatics & Physics</p>
                         <div class="col-md-12 text-muted ">
                             <h5>
-                                <a class="icons " href="https://www.facebook.com/groups/853515681398192/?ref=share "> <i class=" fab fa-facebook-f p- "></i></a>
-                                <a class="icons " href="mailto:siahs2010@gmail.com "> <i class="fas fa-envelope p-1 "></i></a>
-                                <a class="icons " href="tel:01787878743 "> <i class=" fas fa-mobile-alt p-1 "></i></a>
+                                <a class="icons" href="https://www.facebook.com/groups/853515681398192/?ref=share"> <i class=" fab fa-facebook-f p- "></i></a>
+                                <a class="icons" href="mailto:siahs2010@gmail.com"> <i class="fas fa-envelope p-1"></i></a>
+                                <a class="icons" href="tel:01787878743"> <i class=" fas fa-mobile-alt p-1 "></i></a>
 
                                 <!-- model start -->
                                 <!-- Button trigger modal -->
 
-                                <a data-bs-toggle="modal " data-bs-target="#exampleModal " class="icons " href="tel:01787878743 "> <i class="fas fa-user-graduate p-1 "></i></a>
+                                <a data-bs-toggle="modal" data-bs-target="#example23" class="icons" href="tel:01787878743"> <i class="fas fa-user-graduate p-1 "></i></a>
 
                                 <!-- Modal -->
-                                <div class="modal fade modal-dialog-scrollable p-3 " id="exampleModal " tabindex="-1 " aria-labelledby="exampleModalLabel " aria-hidden="true ">
-                                    <div class="modal-dialog ">
-                                        <div class="modal-content ">
-                                            <div class="modal-header ">
-                                                <h5 class="modal-title text-center " id="exampleModalLabel ">Abdullah Al Mahfuz</h5>
-                                                <button type="button " class="btn-close " data-bs-dismiss="modal " aria-label="Close "></button>
+                                <div class="modal fade modal-dialog-scrollable  p-3" id="example23" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title text-center" id="exampleModalLabel ">Abdullah Al Mahfuz</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                             </div>
-                                            <div class="modal-body ">
+                                            <div class="modal-body">
 
-
-                                                <img class="img-fluid gardiuan_comment img-fluid shadow " src="images/p2-modified.png " alt=" ">
+                                                <img class="gardiuan_comment img-fluid shadow " src="images/t4-modified.png" alt=" ">
                                                 <br>
                                                 <br>
 
                                                 <div class="main_text text-center container mt- mb-2 ">
 
-                                                    <h3 class="fw-bolder "><span class="text-primary ">Abou</span><span class="my_own_color ">t me</span></h3>
+                                                    <h3 class="fw-bolder"><span class="text-primary">Abou</span><span class="my_own_color">tme</span></h3>
 
                                                 </div>
                                                 <br>
@@ -1133,18 +1146,18 @@
 
 
                                                 <!-- table -->
-                                                <table class="table table-dark table-hover h6 text-start ">
+                                                <table class="table table-dark table-hover h6 text-start">
 
 
 
                                                     <tbody>
                                                         <tr>
-                                                            <th scope="row ">
+                                                            <th scope="row">
                                                                 Name
                                                             </th>
                                                             <td>
 
-                                                                <p style="font-weight: 300 " ;> MD. LUTHFUR RAHMAN CHOWDHUR</p>
+                                                                <p style="font-weight: 300" ;> MAHMUD HASAN</p>
                                                             </td>
 
                                                         </tr>
@@ -1153,7 +1166,7 @@
                                                                 DATE OF JOINING
                                                             </th>
                                                             <th>
-                                                                <p style="font-weight: 300; ">2010-01-01</p>
+                                                                <p style="font-weight: 300; ">2010-01-02</p>
                                                             </th>
 
                                                         </tr>
@@ -1162,7 +1175,7 @@
                                                                 DATE OF BIRTH
                                                             </th>
                                                             <td>
-                                                                <p style="font-weight: 300; ">1971-09-11</p>
+                                                                <p style="font-weight: 300; "> 1968-01-03</p>
                                                             </td>
 
                                                         </tr>
@@ -1180,7 +1193,7 @@
                                                                 QUALIFICATION
                                                             </th>
                                                             <td>
-                                                                <p style="font-weight: 300; ">B.A, B.ED, M.ED</p>
+                                                                <p style="font-weight: 300; ">M.A, L.L.B, B.ED</p>
                                                             </td>
 
                                                         </tr>
@@ -1189,7 +1202,7 @@
                                                                 EXPERIENCE
                                                             </th>
                                                             <td>
-                                                                <p style="font-weight: 300; ">NINE YEARS AS A HEAD TEACHER IN MUSLIMABAD IDEAL HIGH SCHOOL</p>
+                                                                <p style="font-weight: 300; ">12 YEARS</p>
                                                             </td>
 
                                                         </tr>
@@ -1198,7 +1211,7 @@
                                                                 INTEREST
                                                             </th>
                                                             <td>
-                                                                <p style="font-weight: 300; ">ENGLISH</p>
+                                                                <p style="font-weight: 300; ">MATHMATICS & PHYSICS</p>
                                                             </td>
 
                                                         </tr>
@@ -1207,7 +1220,7 @@
                                                                 PRESENT ADDRESS
                                                             </th>
                                                             <td>
-                                                                <p style="font-weight: 300; ">ROAD NO-22, BLOCK- D, HOUSE NO- 20, SHAHJALAL UPOSHAHAR, SYLHET</p>
+                                                                <p style="font-weight: 300; "> HOUSE# 70, ROAD# 3, BLOCK# E, SHAHJALAL UPOSHAHAR, SYLHET</p>
                                                             </td>
 
                                                         </tr>
@@ -1216,7 +1229,7 @@
                                                                 PERMANENT ADDRESS
                                                             </th>
                                                             <td>
-                                                                <p style="font-weight: 300; ">VILL: NIZ GHILACHARA, P.O: JUDHISTIRPUR, UPAZILA: FENCHUGONJ, DIST: SYLHET</p>
+                                                                <p style="font-weight: 300; "> VILL: SOUTH DOULATPUR, POST: HIRAGONJ BAZAR, P.S: NOBIGONJ, DIST: HOBIGONJ</p>
                                                             </td>
 
                                                         </tr>
@@ -1227,9 +1240,9 @@
 
                                                 </table>
                                                 <h5>
-                                                    <a class="icons " href="https://www.facebook.com/groups/853515681398192/?ref=share "> <i class=" fab fa-facebook-f p- "></i></a>
-                                                    <a class="icons " href="mailto:siahs2010@gmail.com "> <i class="fas fa-envelope p-1 "></i></a>
-                                                    <a class="icons " href="tel:01787878743 "> <i class=" fas fa-mobile-alt p-1 "></i></a>
+                                                    <a class="icons" href="https://www.facebook.com/groups/853515681398192/?ref=share"> <i class=" fab fa-facebook-f p- "></i></a>
+                                                    <a class="icons" href="mailto:siahs2010@gmail.com"> <i class="fas fa-envelope p-1"></i></a>
+                                                    <a class="icons" href="tel:01787878743"> <i class=" fas fa-mobile-alt p-1 "></i></a>
                                                 </h5>
                                                 <!-- <p>MD. LUTHFUR RAHMAN CHOWDHURY</p>
                                                         <p>Head Master</p>
@@ -1238,10 +1251,7 @@
 
 
                                             </div>
-                                            <div class="modal-footer ">
-                                                <button type="button " class="btn btn-secondary " data-bs-dismiss="modal ">Close</button>
 
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1254,49 +1264,51 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 text-center ">
+            <!-- example end -->
+            <!-- example start -->
+            <div class="col-md-4 text-center">
                 <div class="row ">
                     <div class="col-md-6 ">
                         <div class="row gx-4 ">
                             <div class="col-md-12 ">
-                                <img class="gardiuan_comment img-fluid shadow " src="images/t6-modified.png " alt=" ">
+                                <img class="gardiuan_comment img-fluid shadow " src="images/t4-modified.png" alt=" ">
                             </div>
                             <p></p>
 
                         </div>
                     </div>
                     <div class="col-md-6 ">
-                        <h4 class="demo fw-bolder ">Al Mansur</h4>
-                        <p class="text-muted ">B.A(HONAR'S),MA <br>Senior Teacher <br>English Depertment</p>
+                        <h5 class="demo fw-bolder">MAHMUD HASAN</h5>
+                        <p class="text-muted ">M.A, L.L.B, B.ED <br>Mathmatics & Physics</p>
                         <div class="col-md-12 text-muted ">
                             <h5>
-                                <a class="icons " href="https://www.facebook.com/groups/853515681398192/?ref=share "> <i class=" fab fa-facebook-f p- "></i></a>
-                                <a class="icons " href="mailto:siahs2010@gmail.com "> <i class="fas fa-envelope p-1 "></i></a>
-                                <a class="icons " href="tel:01787878743 "> <i class=" fas fa-mobile-alt p-1 "></i></a>
+                                <a class="icons" href="https://www.facebook.com/groups/853515681398192/?ref=share"> <i class=" fab fa-facebook-f p- "></i></a>
+                                <a class="icons" href="mailto:siahs2010@gmail.com"> <i class="fas fa-envelope p-1"></i></a>
+                                <a class="icons" href="tel:01787878743"> <i class=" fas fa-mobile-alt p-1 "></i></a>
 
                                 <!-- model start -->
                                 <!-- Button trigger modal -->
 
-                                <a data-bs-toggle="modal " data-bs-target="#exampleModal " class="icons " href="tel:01787878743 "> <i class="fas fa-user-graduate p-1 "></i></a>
+                                <a data-bs-toggle="modal" data-bs-target="#exampless" class="icons" href="tel:01787878743"> <i class="fas fa-user-graduate p-1 "></i></a>
 
                                 <!-- Modal -->
-                                <div class="modal fade modal-dialog-scrollable p-3 " id="exampleModal " tabindex="-1 " aria-labelledby="exampleModalLabel " aria-hidden="true ">
-                                    <div class="modal-dialog ">
-                                        <div class="modal-content ">
-                                            <div class="modal-header ">
-                                                <h5 class="modal-title text-center " id="exampleModalLabel ">Abdullah Al Mahfuz</h5>
-                                                <button type="button " class="btn-close " data-bs-dismiss="modal " aria-label="Close "></button>
+                                <div class="modal fade modal-dialog-scrollable  p-3" id="exampless" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title text-center" id="exampleModalLabel ">Abdullah Al Mahfuz</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                             </div>
-                                            <div class="modal-body ">
+                                            <div class="modal-body">
+                                                <img class="gardiuan_comment img-fluid shadow " src="images/t4-modified.png" alt=" ">
 
-
-                                                <img class="img-fluid gardiuan_comment img-fluid shadow " src="images/p2-modified.png " alt=" ">
+                                                <!-- <img class="img-fluid gardiuan_comment img-fluid p-5 shadow " src="images/user-1.png" alt=""> -->
                                                 <br>
                                                 <br>
 
                                                 <div class="main_text text-center container mt- mb-2 ">
 
-                                                    <h3 class="fw-bolder "><span class="text-primary ">Abou</span><span class="my_own_color ">t me</span></h3>
+                                                    <h3 class="fw-bolder"><span class="text-primary">Abou</span><span class="my_own_color">tme</span></h3>
 
                                                 </div>
                                                 <br>
@@ -1304,18 +1316,18 @@
 
 
                                                 <!-- table -->
-                                                <table class="table table-dark table-hover h6 text-start ">
+                                                <table class="table table-dark table-hover h6 text-start">
 
 
 
                                                     <tbody>
                                                         <tr>
-                                                            <th scope="row ">
+                                                            <th scope="row">
                                                                 Name
                                                             </th>
                                                             <td>
 
-                                                                <p style="font-weight: 300 " ;> MD. LUTHFUR RAHMAN CHOWDHUR</p>
+                                                                <p style="font-weight: 300" ;> MAHMUD HASAN</p>
                                                             </td>
 
                                                         </tr>
@@ -1324,7 +1336,7 @@
                                                                 DATE OF JOINING
                                                             </th>
                                                             <th>
-                                                                <p style="font-weight: 300; ">2010-01-01</p>
+                                                                <p style="font-weight: 300; ">2010-01-02</p>
                                                             </th>
 
                                                         </tr>
@@ -1333,7 +1345,7 @@
                                                                 DATE OF BIRTH
                                                             </th>
                                                             <td>
-                                                                <p style="font-weight: 300; ">1971-09-11</p>
+                                                                <p style="font-weight: 300; "> 1968-01-03</p>
                                                             </td>
 
                                                         </tr>
@@ -1351,7 +1363,7 @@
                                                                 QUALIFICATION
                                                             </th>
                                                             <td>
-                                                                <p style="font-weight: 300; ">B.A, B.ED, M.ED</p>
+                                                                <p style="font-weight: 300; ">M.A, L.L.B, B.ED</p>
                                                             </td>
 
                                                         </tr>
@@ -1360,7 +1372,7 @@
                                                                 EXPERIENCE
                                                             </th>
                                                             <td>
-                                                                <p style="font-weight: 300; ">NINE YEARS AS A HEAD TEACHER IN MUSLIMABAD IDEAL HIGH SCHOOL</p>
+                                                                <p style="font-weight: 300; ">12 YEARS</p>
                                                             </td>
 
                                                         </tr>
@@ -1369,7 +1381,7 @@
                                                                 INTEREST
                                                             </th>
                                                             <td>
-                                                                <p style="font-weight: 300; ">ENGLISH</p>
+                                                                <p style="font-weight: 300; ">MATHMATICS & PHYSICS</p>
                                                             </td>
 
                                                         </tr>
@@ -1378,7 +1390,7 @@
                                                                 PRESENT ADDRESS
                                                             </th>
                                                             <td>
-                                                                <p style="font-weight: 300; ">ROAD NO-22, BLOCK- D, HOUSE NO- 20, SHAHJALAL UPOSHAHAR, SYLHET</p>
+                                                                <p style="font-weight: 300; "> HOUSE# 70, ROAD# 3, BLOCK# E, SHAHJALAL UPOSHAHAR, SYLHET</p>
                                                             </td>
 
                                                         </tr>
@@ -1387,7 +1399,7 @@
                                                                 PERMANENT ADDRESS
                                                             </th>
                                                             <td>
-                                                                <p style="font-weight: 300; ">VILL: NIZ GHILACHARA, P.O: JUDHISTIRPUR, UPAZILA: FENCHUGONJ, DIST: SYLHET</p>
+                                                                <p style="font-weight: 300; "> VILL: SOUTH DOULATPUR, POST: HIRAGONJ BAZAR, P.S: NOBIGONJ, DIST: HOBIGONJ</p>
                                                             </td>
 
                                                         </tr>
@@ -1398,9 +1410,9 @@
 
                                                 </table>
                                                 <h5>
-                                                    <a class="icons " href="https://www.facebook.com/groups/853515681398192/?ref=share "> <i class=" fab fa-facebook-f p- "></i></a>
-                                                    <a class="icons " href="mailto:siahs2010@gmail.com "> <i class="fas fa-envelope p-1 "></i></a>
-                                                    <a class="icons " href="tel:01787878743 "> <i class=" fas fa-mobile-alt p-1 "></i></a>
+                                                    <a class="icons" href="https://www.facebook.com/groups/853515681398192/?ref=share"> <i class=" fab fa-facebook-f p- "></i></a>
+                                                    <a class="icons" href="mailto:siahs2010@gmail.com"> <i class="fas fa-envelope p-1"></i></a>
+                                                    <a class="icons" href="tel:01787878743"> <i class=" fas fa-mobile-alt p-1 "></i></a>
                                                 </h5>
                                                 <!-- <p>MD. LUTHFUR RAHMAN CHOWDHURY</p>
                                                         <p>Head Master</p>
@@ -1409,10 +1421,7 @@
 
 
                                             </div>
-                                            <div class="modal-footer ">
-                                                <button type="button " class="btn btn-secondary " data-bs-dismiss="modal ">Close</button>
 
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1425,6 +1434,14 @@
                     </div>
                 </div>
             </div>
+            <!-- example end -->
+
+
+
+
+
+
+
 
 
 
@@ -1654,23 +1671,20 @@
             <div class="col-md-4 col-lg-2 col-sm-6 p-4 text-center ">
                 <img class="gardiuan_comment img-fluid shadow " src="images/p4-modified.png " alt=" ">
                 <p class="gardiuan_name my-2 ">Hasan Khan<br><span class="text-muted ">D.C</span></p>
-                <!-- model satrt -->
-                <!-- Button trigger modal -->
-                <!-- model satrt -->
-                <!-- Button trigger modal -->
-                <button type="button " class="btn text-center read_more_btn text-light mb-2 " data-bs-toggle="modal " data-bs-target="#staticBackdrop ">
+
+                <button type="button" class="btn text-center read_more_btn text-light mb-2 " data-bs-toggle="modal" data-bs-target="#m">
                     
                     Read More
 
                 </button>
 
                 <!-- Modal -->
-                <div class="modal fade " id="staticBackdrop " data-bs-backdrop="static " data-bs-keyboard="false " tabindex="-1 " aria-labelledby="staticBackdropLabel " aria-hidden="true ">
+                <div class="modal fade " id="m" data-bs-backdrop="static " data-bs-keyboard="false " tabindex="-1 " aria-labelledby="staticBackdropLabel " aria-hidden="true ">
                     <div class="modal-dialog modal-dialog-scrollable ">
                         <div class="modal-content ">
                             <div class="modal-header ">
-                                <p class="gardiuan_name my-2 my-2 ">Angelena Joly</p>
-                                <button type="button " class="btn-close " data-bs-dismiss="modal " aria-label="Close "></button>
+                                <p class="gardiuan_name my-2 my-2">Angelena Joly</p>
+                                <button type="button " class="btn-close " data-bs-dismiss="modal" aria-label="Close "></button>
                             </div>
                             <div class="modal-body "> <img class="gardiuan_comment img-fluid shadow " src="images/p2-modified.png " alt=" ">
                                 <p class="gardiuan_name my-2 my-2 ">Angelena Joly<br><span class="text-muted ">Actor</span></p>
@@ -1844,6 +1858,7 @@
 
     <!--  my js link-->
     <script src="JavaScript/index.js "></script>
+    <script src="JavaScript/result.js "></script>
     <!--nine page end  -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM " crossorigin="anonymous "></script>

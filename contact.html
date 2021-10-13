@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/contact.css">
 
-    <title>Hello, world!</title>
+    <title>contact</title>
 </head>
 
 <body>
@@ -36,7 +36,7 @@
                             <a class="nav-link active text-light Navbar_hover" aria-current="page " href="index.html"><span class="navbar_first_charecter">H</span>ome</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link text-light Navbar_hover" href="html/about.html"><span class="navbar_first_charecter">A</span>bout</a>
+                            <a class="nav-link text-light Navbar_hover" href="about.html"><span class="navbar_first_charecter">A</span>bout</a>
                         </li>
 
 
@@ -46,9 +46,11 @@
                                 <span class="text-light Navbar_hover">I</span>nfo
                             </a>
                             <ul class="dropdown-menu text-center bg-dark" aria-labelledby="navbarDropdown">
-                                <li><a class="nav-link text-light Navbar_hover" href="# "><span class="navbar_first_charecter">S</span>tudent's</a></li>
+                                <li><span onclick="student_link_validition()" class="nav-link text-light Navbar_hover" href="# "><span class="navbar_first_charecter">S</span>tudent's</span>
+                                </li>
                                 <li><a class="nav-link text-light Navbar_hover" href="# "><span class="navbar_first_charecter">T</span>eacher's</a></li>
-                                <li><a class="nav-link text-light Navbar_hover" href="# "><span class="navbar_first_charecter">S</span>taf's</a></li>
+                                <li><span onclick="staff_link_validition()" class="nav-link text-light Navbar_hover" href="# "><span class="navbar_first_charecter">S</span>taf's</span>
+                                </li>
 
 
                             </ul>
@@ -58,20 +60,20 @@
                             <a class="nav-link text-light Navbar_hover" href="fasility.html "><span class="navbar_first_charecter">F</span>asility</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link text-light Navbar_hover" href="# "><span class="navbar_first_charecter">G</span>ellary</a>
+                            <a class="nav-link text-light Navbar_hover" href="gellary.html"><span class="navbar_first_charecter">G</span>ellary</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link text-light Navbar_hover" href="#"><span class="navbar_first_charecter">A</span>dmision</a>
+                            <a class="nav-link text-light Navbar_hover" href="admision.html"><span class="navbar_first_charecter">A</span>dmision</a>
                         </li>
                         <li class="nav-item ">
                             <a class="nav-link text-light Navbar_hover" href="result.html "><span class="navbar_first_charecter">R</span>esult</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link text-light Navbar_hover" href="# "><span class="navbar_first_charecter">N</span>otic</a>
+                            <a class="nav-link text-light Navbar_hover" href="notic.html"><span class="navbar_first_charecter">N</span>otic</a>
                         </li>
                         <li class="nav-item ">
                             <li class="nav-item ">
-                                <a class="nav-link text-light Navbar_hover" href="result.html"><span class="navbar_first_charecter">C</span>ontact</a>
+                                <span id="contact_item" class="nav-link text-light Navbar_hover" onclick="contact_link_validition()" href=""><span class="navbar_first_charecter">C</span>ontact</span>
                             </li>
                         </li>
 
@@ -102,6 +104,24 @@
     <section>
         <div id="alert_comment" class="alert alert-warning alert-dismissible fade show" role="alert">
             <strong>Please</strong> enter your comment.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    </section>
+    <section>
+        <div id="contact_click" class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>Sorry</strong> you are stay in contact page.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    </section>
+    <section>
+        <div id="student_click" class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>Comming</strong> soon.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    </section>
+    <section>
+        <div id="staff_click" class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>Comming</strong> soon.
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div>
     </section>
@@ -141,7 +161,7 @@
 
                         <div class="">
                             <label class="form-label text-light">Comment</label>
-                            <textarea placeholder="why you choose our school?" class="form-control" id="comments" rows="3"></textarea>
+                            <textarea placeholder="Please enter your comment." class="form-control" id="comments" rows="3"></textarea>
                         </div>
 
                     </div>
@@ -156,8 +176,7 @@
             </div>
         </div>
     </section>
-    <input type="password" id="password" placeholder="Password">
-    <div id="password-err"></div>
+
     <!--nine page start  -->
     <br>
     <br>

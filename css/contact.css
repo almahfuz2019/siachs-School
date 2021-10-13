@@ -9,3 +9,21 @@
 #alert_comment {
     display: none;
 }
+
+#contact_click {
+    display: none;
+}
+
+#contact_item {
+    cursor: pointer;
+}
+
+#student_click {
+    cursor: pointer;
+    display: none;
+}
+
+#staff_click {
+    cursor: pointer;
+    display: none;
+}

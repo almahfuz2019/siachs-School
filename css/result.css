@@ -37,3 +37,16 @@
     text-decoration: none;
     font-weight: 700;
 }
+
+#result_click {
+    display: none;
+    cursor: pointer;
+}
+
+#alert_id {
+    display: none;
+}
+
+#alert_class {
+    display: none;
+}
