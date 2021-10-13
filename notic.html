@@ -8,8 +8,12 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- font awsum -->
+    <script src="https://kit.fontawesome.com/10ee6dd9dd.js" crossorigin="anonymous"></script>
     <!-- css link -->
     <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/notic.css">
 
     <title>notic</title>
 </head>
@@ -35,7 +39,7 @@
                             <a class="nav-link active text-light Navbar_hover" aria-current="page " href="index.html"><span class="navbar_first_charecter">H</span>ome</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link text-light Navbar_hover" href="html/about.html"><span class="navbar_first_charecter">A</span>bout</a>
+                            <a class="nav-link text-light Navbar_hover" href="about.html"><span class="navbar_first_charecter">A</span>bout</a>
                         </li>
 
 
@@ -45,9 +49,11 @@
                                 <span class="text-light Navbar_hover">I</span>nfo
                             </a>
                             <ul class="dropdown-menu text-center bg-dark" aria-labelledby="navbarDropdown">
-                                <li><a class="nav-link text-light Navbar_hover" href="# "><span class="navbar_first_charecter">S</span>tudent's</a></li>
+                                <li><span onclick="student_link_validition()" class="nav-link text-light Navbar_hover" href="# "><span class="navbar_first_charecter">S</span>tudent's</span>
+                                </li>
                                 <li><a class="nav-link text-light Navbar_hover" href="# "><span class="navbar_first_charecter">T</span>eacher's</a></li>
-                                <li><a class="nav-link text-light Navbar_hover" href="# "><span class="navbar_first_charecter">S</span>taf's</a></li>
+                                <li><span onclick="staff_link_validition()" class="nav-link text-light Navbar_hover" href="# "><span class="navbar_first_charecter">S</span>taf's</span>
+                                </li>
 
 
                             </ul>
@@ -57,20 +63,20 @@
                             <a class="nav-link text-light Navbar_hover" href="fasility.html "><span class="navbar_first_charecter">F</span>asility</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link text-light Navbar_hover" href="# "><span class="navbar_first_charecter">G</span>ellary</a>
+                            <a class="nav-link text-light Navbar_hover" href="gellary.html"><span class="navbar_first_charecter">G</span>ellary</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link text-light Navbar_hover" href="#"><span class="navbar_first_charecter">A</span>dmision</a>
+                            <a class="nav-link text-light Navbar_hover" href="admision.html"><span class="navbar_first_charecter">A</span>dmision</a>
                         </li>
                         <li class="nav-item ">
                             <a class="nav-link text-light Navbar_hover" href="result.html "><span class="navbar_first_charecter">R</span>esult</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link text-light Navbar_hover" href="# "><span class="navbar_first_charecter">N</span>otic</a>
+                            <span id="contact_item" onclick="contact_link_validition()" class="nav-link text-light Navbar_hover" href="notic.html"><span class="navbar_first_charecter">N</span>otic</span>
                         </li>
                         <li class="nav-item ">
                             <li class="nav-item ">
-                                <a class="nav-link text-light Navbar_hover" href="result.html"><span class="navbar_first_charecter">C</span>ontact</a>
+                                <a class="nav-link text-light Navbar_hover" href="contact.html"><span class="navbar_first_charecter">C</span>ontact</a>
                             </li>
                         </li>
 
@@ -86,6 +92,83 @@
         </div>
     </nav>
     <!-- new navbar end -->
+    <section>
+        <div id="alert_email" class="alert alert-danger alert-dismissible fade show" role="alert">
+            <strong>Please</strong> enter your gmail Id.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    </section>
+    <section>
+        <div id="alert_profession" class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>Please</strong> select yor profession.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    </section>
+    <section>
+        <div id="alert_comment" class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>Please</strong> enter your comment.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    </section>
+    <section>
+        <div id="contact_click" class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>Sorry</strong> you are stay in notic page.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    </section>
+    <section>
+        <div id="student_click" class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>Comming</strong> soon.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    </section>
+    <section>
+        <div id="staff_click" class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>Comming</strong> soon.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    </section>
+    <!-- main page start -->
+    <section class="container my-5">
+        <div class="row g-3 full_notic" style="align-items: center">
+            <div class="col-3">
+                <img class="img-fluid" src="https://mbgc.gov.bd/assets/images/notice.gif" alt="">
+            </div>
+            <div class="col-9">
+                <h3 class="text-primary fw-bold">Notification regarding cancellation of duplicate ...</h3>
+                <p class="text-muted ">Published: Tue, Sep 21, 2021 1:55 PM | Last Modified: Tue, Sep 21, 2021 1:55 PM</p>
+                <button class="dawnload_btn bg-dark  text-light btn" data-bs-toggle="modal" data-bs-target="#exampleModal"><a href="images/3692_3.pdf"  download>Download<i class="fas fa-file-pdf ms-2"></i></a></button>
+
+            </div>
+        </div>
+    </section>
+    <section class="container my-5">
+        <div class="row g-3 full_notic" style="align-items: center">
+            <div class="col-3">
+                <img class="img-fluid" src="https://mbgc.gov.bd/assets/images/notice.gif" alt="">
+            </div>
+            <div class="col-9">
+                <h3 class="text-primary fw-bold">In the context of submission of deficit papers ...</h3>
+                <p class="text-muted ">Published: Sat, Jan 23, 2021 1:13 PM | Last Modified: Sat, Jan 23, 2021 1:13 PM</p>
+                <button class="dawnload_btn bg-dark  text-light btn" data-bs-toggle="modal" data-bs-target="#exampleModal"><a href="images/3692_3.pdf"  download>Download<i class="fas fa-file-pdf ms-2"></i></a></button>
+
+            </div>
+        </div>
+    </section>
+    <section class="container my-5">
+        <div class="row g-3 full_notic" style="align-items: center">
+            <div class="col-3">
+                <img class="img-fluid" src="https://mbgc.gov.bd/assets/images/notice.gif" alt="">
+            </div>
+            <div class="col-9">
+                <h3 class="text-primary fw-bold">Notification of increase in the schedule of registration activities ...</h3>
+                <p class="text-muted ">Published: Tue, Sep 21, 2021 1:55 PM | Last Modified: Tue, Sep 21, 2021 1:55 PM</p>
+                <button class="dawnload_btn bg-dark  text-light btn" data-bs-toggle="modal" data-bs-target="#exampleModal"><a href="images/3692_3.pdf"  download>Download<i class="fas fa-file-pdf ms-2"></i></a></button>
+
+            </div>
+        </div>
+    </section>
+    <!-- main page end -->
     <!--nine page start  -->
     <br>
     <br>
@@ -142,6 +225,8 @@
 
 
     <!--nine page end  -->
+    <!-- js link -->
+    <script src="javascript/contact.js"></script>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
