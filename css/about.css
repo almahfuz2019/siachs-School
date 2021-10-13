@@ -41,3 +41,14 @@
 .class_name_bold {
     font-weight: 500;
 }
+
+.footer_nav:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    margin-left: 3px;
+}
+
+.footer_nav {
+    cursor: pointer;
+    transition: 0.5s;
+}
