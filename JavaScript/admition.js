@@ -1,15 +1,17 @@
 function validition() {
-    const gmail = document.getElementById("gmail").value;
-    const gmail2 = document.getElementById("professions").value;
-    const gmail3 = document.getElementById("comments").value;
-    if (gmail == "") {
+    const gmail = document.getElementById("gmail");
+    const gmail2 = document.getElementById("professions");
+    const gmail3 = document.getElementById("comments");
+    if (gmail.value == "") {
         const eiir = document.getElementById('alert_email').style.display = 'block';
 
-    } else if (gmail2 == "") {
+    }
+    if (gmail2.value == "") {
         const eiirs = document.getElementById('alert_profession').style.display = 'block';
-    } else if (gmail3 == "") {
+    }
+    if (gmail3.value == "") {
         const eiirss = document.getElementById('alert_comment').style.display = 'block';
-    } else {}
+    }
 }
 
 function contact_link_validition() {
@@ -27,26 +29,27 @@ function staff_link_validition() {
 
 
 
-function submit_btn(){
-	const aa1=document.getElementById("a1").value;
-	const aa2=document.getElementById("a2").value;
-	const aa3=document.getElementById("a3").value;
-	const aa4=document.getElementById("a4");
-	const aa5=document.getElementById("a5");
-	const aa6=document.getElementById("a6");
-	const aa7=document.getElementById("a7");
-	const aa8=document.getElementById("a8");
-	const aa9=document.getElementById("a9");
-	const aa10=document.getElementById("a10");
-	const aa11=document.getElementById("a11");
-	const all=aa1 || aa2 || aa3;
-	if(all==""){
-		const error = document.getElementById('alert_fulladdmisston').style.display = 'block';
-		console.log('fad');
-	} 
+function submit_btn() {
+    const aa1 = document.getElementById("a1");
+    const aa2 = document.getElementById("a2");
+    const aa3 = document.getElementById("a3");
+    const aa4 = document.getElementById("a4");
+    const aa5 = document.getElementById("a5");
+    const aa6 = document.getElementById("a6");
+    const aa7 = document.getElementById("a7");
+    const aa8 = document.getElementById("a8");
+    const aa9 = document.getElementById("a9");
+    const aa10 = document.getElementById("a10");
+    const aa11 = document.getElementById("a11");
+
+    if (aa1.value == "" || aa2.value == "" || aa3.value == "" || aa4.value == "" || aa5.value == "" || aa6.value == "" || aa7.value == "" || aa8.value == "" || aa9.value == "" || aa10.value == "" || aa11.value == "") {
+        document.getElementById('alert_fulladdmisston').style.display = 'block';
+        console.log('fad');
+    }
+
 }
-	/* || aa3.value=="" || aa4.value=="" || aa5.value=="" || aa6.value=="" || aa7.value=="" || aa8.value=="" || aa9.value=="" || aa10.value=="" || aa11.value==""      else(aa2.value==""){
+/* || aa3.value=="" || aa4.value=="" || aa5.value=="" || aa6.value=="" || aa7.value=="" || aa8.value=="" || aa9.value=="" || aa10.value=="" || aa11.value==""      else(aa2.value==""){
 
 	
-	console.log("f");
-	}*/
+console.log("f");
+}*/

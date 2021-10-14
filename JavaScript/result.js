@@ -14,16 +14,17 @@ function validition() {
     const gmail5 = document.getElementById("your_id");
     const gmail2 = document.getElementById("classes");
     const gmail3 = document.getElementById("comments");
+	console.log(gmail2.select);
     if (gmail5.value == "") {
-        const eiir = document.getElementById('alert_id').style.display = 'block';
+        document.getElementById('alert_id').style.display = 'block';
 	
 
     } 
 	
-	else if (gmail2.value == "") {
-        const eiirs = document.getElementById('alert_class').style.display = 'block';
+	if (gmail2.value == "") {
+        document.getElementById('alert_class').style.display = 'block';
 		console.log(eiir);
-    } else if (gmail3.value == "") {
-        const eiirss = document.getElementById('alert_comment').style.display = 'block';
-    } else {}
+    } if (gmail3.value == "") {
+        document.getElementById('alert_comment').style.display = 'block';
+    } 
 }
