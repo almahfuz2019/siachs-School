@@ -11,15 +11,19 @@ function staff_link_validition() {
 }
 
 function validition() {
-    const gmail5 = document.getElementById("your_id").value;
-    const gmail2 = document.getElementById("classes").value;
-    const gmail3 = document.getElementById("comments").value;
-    if (gmail5 == "") {
+    const gmail5 = document.getElementById("your_id");
+    const gmail2 = document.getElementById("classes");
+    const gmail3 = document.getElementById("comments");
+    if (gmail5.value == "") {
         const eiir = document.getElementById('alert_id').style.display = 'block';
+	
 
-    } else if (gmail2 == "") {
+    } 
+	
+	else if (gmail2.value == "") {
         const eiirs = document.getElementById('alert_class').style.display = 'block';
-    } else if (gmail3 == "") {
+		console.log(eiir);
+    } else if (gmail3.value == "") {
         const eiirss = document.getElementById('alert_comment').style.display = 'block';
     } else {}
 }

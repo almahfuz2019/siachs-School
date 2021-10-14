@@ -124,6 +124,15 @@
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div>
     </section>
+	
+	<section>
+        <div id="alert_fulladdmisston" class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>Please</strong> fill up the from.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    </section>
+	
+	
     <!-- validition end -->
     <div class="container ">
         <h1 class="text-center my-5"><span class="text-primary fw-bolder blockquote-footer">Admi</span><span class="my_own_color fw-bolder">ssion</span></h1>
@@ -137,25 +146,25 @@
                     <div class="">
                         <label for="exampleFormControlInput1" class="form-label text-light">First and last name</label>
 
-                        <input type="email" class="form-control my-1" id="exampleFormControlInput1" placeholder="Abdullah Al Mahfuz">
+                        <input id="a1" type="email" class="form-control my-1" placeholder="Abdullah Al Mahfuz">
 
                     </div>
                     <div class="">
                         <label for="exampleFormControlInput1" class="form-label text-light">Father's name</label>
 
-                        <input type="Mother's name" class="form-control my-1" id="exampleFormControlInput1" placeholder="Bushra Jahan">
+                        <input type="Mother's name" class="form-control my-1"  id="a2"  placeholder="Bushra Jahan">
 
                     </div>
                     <div class="">
                         <label for="exampleFormControlInput1" class="form-label text-light">Present address</label>
 
-                        <input type="email" class="form-control my-1" id="exampleFormControlInput1" placeholder="Village, Post office, Sub district, District">
+                        <input type="email" class="form-control my-1"  id="a3"  placeholder="Village, Post office, Sub district, District">
 
                     </div>
                     <div class="">
                         <label for="exampleFormControlInput1" class="form-label text-light">Permanent address</label>
 
-                        <input type="email" class="form-control my-1" id="exampleFormControlInput1" placeholder="Village, Post office, Sub district, District">
+                        <input  type="email" class="form-control my-1"  id="a4"  placeholder="Village, Post office, Sub district, District">
 
                     </div>
                     <div class="">
@@ -205,7 +214,7 @@
 
                         <div class="input-group mb-3">
 
-                            <input type="file" class="form-control" id="inputGroupFile01">
+                            <input type="file" class="form-control"  id="a5" >
                         </div>
 
                     </div>
@@ -214,7 +223,7 @@
 
                         <div class="input-group mb-3">
 
-                            <input type="file" class="form-control" id="inputGroupFile01">
+                            <input  type="file" class="form-control"  id="a6" >
                         </div>
 
                     </div>
@@ -223,35 +232,35 @@
 
                         <div class="input-group mb-3">
 
-                            <input type="file" class="form-control" id="inputGroupFile01">
+                            <input type="file" class="form-control"  id="a7" >
                         </div>
 
                     </div>
                     <div class="">
                         <label for="exampleFormControlInput1" class="form-label text-light">Email id (optional)</label>
 
-                        <input type="Mother's name" class="form-control my-1" id="exampleFormControlInput1" placeholder="almahfuz2019@gmail.com">
+                        <input type="Mother's name" class="form-control my-1"  id="a8"  placeholder="almahfuz2019@gmail.com">
 
                     </div>
                     <div class="">
                         <label for="exampleFormControlInput1" class="form-label text-light">Phone number</label>
 
-                        <input type="Mother's name" class="form-control my-1" id="exampleFormControlInput1" placeholder="01787878743">
+                        <input type="Mother's name" class="form-control my-1"  id="a9"  placeholder="01787878743">
 
                     </div>
                     <div class="">
                         <label for="exampleFormControlInput1" class="form-label text-light">Gardiuan phone number</label>
 
-                        <input placeholder="01787878743" type="Mother's name" class="form-control my-1" id="exampleFormControlInput1">
+                        <input placeholder="01787878743" type="Mother's name" class="form-control my-1"  id="a10" >
 
                     </div>
                     <div class="">
                         <label for="exampleFormControlInput1" class="form-label text-light">Comment</label>
-                        <textarea placeholder="why you choose our school?" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <textarea placeholder="why you choose our school?" class="form-control" id="a11"  rows="3"></textarea>
                     </div>
                     <!-- s -->
                 </div>
-                <div class="text-center mt-4"><button type="button" class="btn btn-light btn3 px-5 py-2  fw-bold">Submit</button></div>
+                <div onclick="submit_btn()" class="text-center mt-4"><button type="button" class="btn btn-light btn3 px-5 py-2  fw-bold">Submit</button></div>
                 <br>
             </div>
         </div>
