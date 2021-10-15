@@ -61,3 +61,9 @@
     cursor: pointer;
     transition: 0.5s;
 }
+
+.logo {
+    /* transition: all 0.5s; */
+    /* transform: rotateY(180deg); */
+    background-color: burlywood;
+}

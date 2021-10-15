@@ -6,3 +6,9 @@
     text-decoration: none;
     color: white;
 }
+
+.logo {
+    /* transition: all 0.5s; */
+    /* transform: rotateY(180deg); */
+    background-color: burlywood;
+}

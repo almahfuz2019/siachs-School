@@ -13,7 +13,7 @@
     align-items: flex-end
 }
 
-.logo a {
+.logoo a {
     text-decoration: none;
 }
 
@@ -43,7 +43,39 @@
 }
 
 .gallery_img:hover {
+    -moz-transform: scale(2) rotate(0deg);
+    -webkit-transform: scale(2) rotate(0deg);
+    -o-transform: scale(2) rotate(0deg);
+    -ms-transform: scale(2) rotate(0deg);
+    transform: scale(2) rotate(0deg);
+    -webkit-transition: 0.8s;
+    -moz-transition: 0.8s;
+    -o-transition: 0.8s;
+    -ms-transition: 0.8s;
     transition: 0.8s;
+}
+
+.zoom-eff {
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.gallery_img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    -webkit-transition: 0.8s;
+    -moz-transition: 0.8s;
+    -o-transition: 0.8s;
+    -ms-transition: 0.8s;
+    transition: 0.8s;
+}
+
+.logo {
+    /* transition: all 0.5s; */
+    /* transform: rotateY(180deg); */
+    background-color: burlywood;
+    text-decoration: none;
 }
 
 .footer_nav:hover {

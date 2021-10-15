@@ -13,7 +13,7 @@
     align-items: flex-end
 }
 
-.logo a {
+.logoo a {
     text-decoration: none;
 }
 
@@ -40,6 +40,12 @@
 
 .class_name_bold {
     font-weight: 500;
+}
+
+.logo {
+    /* transition: all 0.5s; */
+    /* transform: rotateY(180deg); */
+    background-color: burlywood;
 }
 
 .footer_nav:hover {

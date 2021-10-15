@@ -42,6 +42,12 @@
     font-weight: 500;
 }
 
+.logo {
+    /* transition: all 0.5s; */
+    /* transform: rotateY(180deg); */
+    background-color: burlywood;
+}
+
 .footer_nav:hover {
     cursor: pointer;
     transition: 0.5s;
@@ -52,4 +58,7 @@
     cursor: pointer;
     transition: 0.5s;
 }
-#alert_fulladdmisston{display:none;}
+
+#alert_fulladdmisston {
+    display: none;
+}

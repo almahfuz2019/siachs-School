@@ -22,6 +22,9 @@
                             /* width: 100%; */
                             background-size: cover;
                             background-repeat: no-repeat;
+                            background-attachment: fixed;
+                            background-position: center;
+                            background-repeat: no-repeat;
                         }
                         
                         .read_more_btn {
@@ -30,6 +33,7 @@
                             background-color: rgb(209, 21, 84);
                             padding: 10px 30px;
                             transition: 0.5s;
+                            text-decoration: none;
                         }
                         
                         .read_more_btn:hover {
@@ -125,6 +129,10 @@
                             color: rgb(209, 21, 84);
                         }
                         
+                        .map_btn a {
+                            text-decoration: none;
+                        }
+                        
                         .my_own-bg_color {
                             background-color: rgb(209, 21, 84);
                         }
@@ -165,4 +173,10 @@
                         .footer_nav {
                             cursor: pointer;
                             transition: 0.5s;
+                        }
+                        
+                        .logo:hover {
+                            /* transition: all 0.5s; */
+                            /* transform: rotateY(180deg); */
+                            background-color: burlywood;
                         }
